@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 42" width="195" height="39">
+  <defs>
+    <linearGradient id="g_ocean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F6FC"/>
+      <stop offset="100%" stop-color="#E2EEF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="206" height="38" rx="10" fill="url(#g_ocean)" stroke="#0F4C81" stroke-width="2"/>
+  <rect x="10" y="9" width="26" height="24" rx="6" fill="#0F4C81" opacity="0.14"/>
+  <text x="23" y="26" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14">🌊</text>
+  <text x="118" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13.5" font-weight="800" fill="#0F172A">洄瀾太平洋</text>
+</svg>

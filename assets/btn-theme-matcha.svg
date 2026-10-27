@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 42" width="195" height="39">
   <defs>
-    <linearGradient id="g_matcha" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F4FCE3"/>
-      <stop offset="100%" stop-color="#ECFCCB"/>
+    <linearGradient id="g_pine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F7F4"/>
+      <stop offset="100%" stop-color="#E6F0EA"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="206" height="38" rx="19" fill="url(#g_matcha)" stroke="#65A30D" stroke-width="2"/>
-  <circle cx="26" cy="21" r="12" fill="#65A30D" opacity="0.2"/>
-  <text x="26" y="26" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15">🌿</text>
-  <text x="114" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="800" fill="#1A2E05">森系抹茶拿鐵</text>
+  <rect x="2" y="2" width="206" height="38" rx="10" fill="url(#g_pine)" stroke="#1B4332" stroke-width="2"/>
+  <rect x="10" y="9" width="26" height="24" rx="6" fill="#1B4332" opacity="0.14"/>
+  <text x="23" y="26" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14">🌿</text>
+  <text x="118" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13.5" font-weight="800" fill="#14281D">縱谷松針森系</text>
 </svg>

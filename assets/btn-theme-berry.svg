@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 42" width="195" height="39">
   <defs>
-    <linearGradient id="g_berry" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFBEB"/>
-      <stop offset="100%" stop-color="#FFE4E6"/>
+    <linearGradient id="g_zine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#F5EFE6"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="206" height="38" rx="19" fill="url(#g_berry)" stroke="#F43F5E" stroke-width="2"/>
-  <circle cx="26" cy="21" r="12" fill="#F43F5E" opacity="0.2"/>
-  <text x="26" y="26" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15">🍓</text>
-  <text x="114" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="800" fill="#4C1D24">奶油莓果手札</text>
+  <rect x="2" y="2" width="206" height="38" rx="10" fill="url(#g_zine)" stroke="#9A3412" stroke-width="2"/>
+  <rect x="10" y="9" width="26" height="24" rx="6" fill="#9A3412" opacity="0.14"/>
+  <text x="23" y="26" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14">📖</text>
+  <text x="118" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13.5" font-weight="800" fill="#1C1917">文青獨立雜誌</text>
 </svg>

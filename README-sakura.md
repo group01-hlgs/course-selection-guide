@@ -2,31 +2,90 @@
 
 <!-- 動態深淺色自適應 SVG 主題橫幅 (100% 本地創作 SVG，零外部圖源) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-sakura-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-sakura.svg" />
-  <img alt="國立花蓮女子高級中學 115學年度選課輔導手冊 — 🌸 洄瀾櫻花粉漾 (Sakura Soda)" src="assets/banner-sakura.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-ocean-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-ocean.svg" />
+  <img alt="國立花蓮女子高級中學 115學年度選課輔導手冊 — 🌊 洄瀾太平洋 (Pacific Horizon)" src="assets/banner-ocean.svg" width="100%" />
 </picture>
 
 <br/>
 
-<!-- 6 種多風格手冊切換器 + 互動網頁版入口 (全部使用自創本地 SVG 膠囊按鈕) -->
+<!-- 6 種現代無刻板印象視覺風格切換器 + 互動網頁版入口 (全部使用自創本地 SVG 按鈕) -->
 <p align="center">
-  <b>🎨 點擊下方按鈕切換《花女選課輔導手冊》視覺風格（5 款青春少女風 ＋ 1 款 1684 遊戲圖鑑生存手冊風）：</b><br/><br/>
-  <a href="README.md"><img src="assets/btn-theme-sakura.svg" alt="🌸 洄瀾櫻花粉漾" height="36" /></a>
+  <b>🎨 點擊下方按鈕切換《花女選課輔導手冊》視覺主題（6 款現代質感風格：太平洋海岸、1684 遊戲圖鑑、Y2K 丹寧、文青雜誌、縱谷森系、極簡黑白）：</b><br/><br/>
+  <a href="README.md"><img src="assets/btn-theme-ocean.svg" alt="🌊 洄瀾太平洋" height="36" /></a>
   <a href="README-1684.md"><img src="assets/btn-theme-1684.svg" alt="🧭 1684 生存手冊 (遊戲風)" height="36" /></a>
-  <a href="README-mint.md"><img src="assets/btn-theme-mint.svg" alt="🫧 太平洋薄荷蘇打" height="36" /></a>
-  <a href="README-berry.md"><img src="assets/btn-theme-berry.svg" alt="🍓 奶油莓果手札" height="36" /></a>
-  <a href="README-lavender.md"><img src="assets/btn-theme-lavender.svg" alt="🔮 星夜薰衣草" height="36" /></a>
-  <a href="README-matcha.md"><img src="assets/btn-theme-matcha.svg" alt="🌿 森系抹茶拿鐵" height="36" /></a>
+  <a href="README-denim.md"><img src="assets/btn-theme-denim.svg" alt="🎧 Y2K 丹寧銀灰" height="36" /></a>
+  <a href="README-zine.md"><img src="assets/btn-theme-zine.svg" alt="📖 文青獨立雜誌" height="36" /></a>
+  <a href="README-pine.md"><img src="assets/btn-theme-pine.svg" alt="🌿 縱谷松針森系" height="36" /></a>
+  <a href="README-mono.md"><img src="assets/btn-theme-mono.svg" alt="⚡ 極簡黑白モノ" height="36" /></a>
   <br/><br/>
-  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=sakura"><img src="assets/btn-interactive-web.svg" alt="✨ 開啟互動美型網頁版" height="40" /></a>
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean"><img src="assets/btn-interactive-web.svg" alt="🌐 開啟互動網頁版（右側章節導覽＋6大風格切換）" height="40" /></a>
 </p>
 
-| 🏫 學校校徽与精神 | 🌸 目前檢視風格 | 📚 資料基準（跨屆完整整合） | 🛠️ 互動功能與檢核工具 |
-| :---: | :---: | :---: | :---: |
-| <img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="68" /><br/><b>國立花蓮女子高級中學</b><br/><sub>1927 創校 ‧ 洄瀾之光</sub> | **🌸 洄瀾櫻花粉漾 (Sakura Soda)**<br/><sub>支援亮色/暗色自適應與 6 大主題切換</sub> | **《115 選課輔導手冊-全一冊》**<br/>＋ **113(高三) / 114(高二) / 115(高一)**<br/><sub>三份最新報部課程計畫書完整核對</sub> | **[🌐 啟動 `index.html` 互動網頁版](https://group01-hlgs.github.io/course-selection-guide/?theme=sakura)**<br/><sub>含年級分流過濾、即時搜尋、畢業學分試算儀表板</sub> |
-
 </div>
+
+<!-- 左側三屆選課重點快篩 ＋ 右側章節條目導覽（雙欄對照佈局，章節條目固定於右側） -->
+<table>
+  <thead>
+    <tr>
+      <th width="50%" align="left">⚡ 115 學年度三屆選課快篩 ＆ 互動工具入口</th>
+      <th width="50%" align="left">📑 章節條目導覽（右側快速跳轉目錄）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <p>
+          <img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="48" align="left" style="margin-right:12px;" />
+          <b>國立花蓮女子高級中學 ‧ 115 選課輔導手冊</b><br/>
+          <sub>目前風格：<b>🌊 洄瀾太平洋 (Pacific Horizon)</b> ｜ 整合 113/114/115 三份最新報部課程計畫書</sub>
+        </p>
+        <hr/>
+        <p><b>🎯 依入學屆別一鍵定位當學期與未來學期重點：</b></p>
+        <ul>
+          <li>🎒 <b><a href="#g1-radar">我是高一（115 入學新生）</a></b>：本土語改 <code>1+1</code> 學年課、彈學每週完整 2 節、每學期固定 31 學分、高一多元選修新增 6 門課。</li>
+          <li>🧭 <b><a href="#g2-radar">我是高二（114 入學高二）</a></b>：校訂必修《洄瀾之欣》(2) 與《職業探究與報導》(2) 對開、自然 A 公民/選生對開、社會 B 先修家政(2)。</li>
+          <li>🎓 <b><a href="#g3-radar">我是高三（113 入學高三）</a></b>：高三下無部定必修國英（全轉加深加廣）、週四下午 25 門跑班多元選修、150 學分畢業檢核。</li>
+          <li>📊 <b><a href="#cross-cohort-diff">113 vs 114 vs 115 跨屆 10 大關鍵變動總表</a></b></li>
+        </ul>
+        <hr/>
+        <p>
+          🌐 <b><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean">啟動 GitHub Pages 互動網頁版（含右側固定章節欄）</a></b><br/>
+          <sub>提供「<b>右側常駐章節條目導覽列</b>」、「6 大主題即時切換」、「年級分流快篩」與「182 應修 / 150 及格畢業學分即時試算儀表板」！</sub>
+        </p>
+      </td>
+      <td valign="top">
+        <p><b>🧭 點擊右側章節條目直接跳轉至對應段落：</b></p>
+        <ul>
+          <li><b>🌟 <a href="#radar">卷首｜115 三個年級選課速查雷達</a></b><br/>
+            <sub><a href="#g1-radar">115高一</a> ‧ <a href="#g2-radar">114高二</a> ‧ <a href="#g3-radar">113高三</a> ‧ <a href="#cross-cohort-diff">跨屆變動總表</a></sub>
+          </li>
+          <li><b>壹、<a href="#ch1">關於花女 — 願景、花女五力與校訂必修</a></b><br/>
+            <sub><a href="#ch1-1">一、學校願景</a> ‧ <a href="#ch1-2">二、花女五力</a> ‧ <a href="#ch1-3">三、校訂必修(普/資/美)</a></sub>
+          </li>
+          <li><b>貳、<a href="#ch2">三年將會走過的痕跡 — 課程地圖與畢業檢核</a></b><br/>
+            <sub><a href="#ch2-1">一、課程介紹</a> ‧ <a href="#ch2-2">二、課程架構</a> ‧ <a href="#ch2-3">三、班群介紹</a> ‧ <a href="#ch2-4">四、各班群課程地圖</a> ‧ <a href="#ch2-5">五、轉組學分對照</a> ‧ <a href="#ch2-6">六、畢業條件檢核表</a></sub>
+          </li>
+          <li><b>參、<a href="#ch3">決定自己的課程 — 選組、數A/數B、多元與社團</a></b><br/>
+            <sub><a href="#ch3-1">一、自然/社會與數A/B</a> ‧ <a href="#ch3-2">二、多元選修清單</a> ‧ <a href="#ch3-3">三、彈性與自主學習</a> ‧ <a href="#ch3-4">四、34個社團一覽</a></sub>
+          </li>
+          <li><b>肆、<a href="#ch4">對於未來的想像 — 生涯規劃與十八學群</a></b><br/>
+            <sub><a href="#ch4-0">生涯金三角</a> ‧ <a href="#ch4-1">一、性向與興趣測驗</a> ‧ <a href="#ch4-2">二、環境因素</a> ‧ <a href="#ch4-3">三、十八學群對應</a></sub>
+          </li>
+          <li><b>伍、<a href="#ch5">築夢踏實 — 學習歷程檔案與多元升學管道</a></b><br/>
+            <sub><a href="#ch5-1">一、學習歷程認證7步驟</a> ‧ <a href="#ch5-2">二、學測X/分科Y範圍與四大升學管道</a></sub>
+          </li>
+          <li><b>陸、<a href="#ch6">一路上有人陪我 — 課程諮詢與重要期程</a></b><br/>
+            <sub><a href="#ch6-1">一、課諮金三角</a> ‧ <a href="#ch6-2">二、找對人</a> ‧ <a href="#ch6-3">三、三年規劃</a> ‧ <a href="#ch6-4">四、選課期程</a> ‧ <a href="#ch6-5">五、選組轉組</a> ‧ <a href="#ch6-6">六、預約課諮</a></sub>
+          </li>
+          <li><b>柒、<a href="#ch7">原來不是只有我不懂 — 學長姐 Q&amp;A 二十三問</a></b><br/>
+            <sub><a href="#ch7-1">課程疑惑篇</a> ‧ <a href="#ch7-2">學習歷程篇</a> ‧ <a href="#ch7-3">課程諮詢篇</a> ‧ <a href="#ch7-4">升學進路篇</a> ‧ <a href="#ch7-5">手冊發行資訊</a></sub>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 <details>
@@ -39,24 +98,7 @@
 
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
-</p>
-
-## 📑 快速導覽目錄（Table of Contents）
-
-| 篇章 | 核心主題 | 快速跳轉錨點 | 適用對象 |
-| :---: | :--- | :--- | :---: |
-| **🌟 卷首** | **115 學年度三個年級「當學期 ＆ 未來學期」選課速查雷達** | [115高一](#g1-radar) ‧ [114高二](#g2-radar) ‧ [113高三](#g3-radar) ‧ [跨屆關鍵變動總表](#cross-cohort-diff) | **全校必看** |
-| **壹** | **關於花女 — 學校願景、花女五力學生圖像、校訂必修** | [一、學校願景](#ch1-1) ‧ [二、學生圖像(花女五力)](#ch1-2) ‧ [三、校訂必修(普通班/資優班/美術班)](#ch1-3) | 高一～高三 |
-| **貳** | **三年將會走過的痕跡 — 花女為我擘劃的課程地圖** | [一、課程介紹](#ch2-1) ‧ [二、課程架構](#ch2-2) ‧ [三、班群介紹](#ch2-3) ‧ [四、各班群課程地圖](#ch2-4) ‧ [五、各班群差異與轉組](#ch2-5) ‧ [六、畢業條件與學分檢核表](#ch2-6) | **選課/轉組/畢業檢核** |
-| **參** | **決定自己的課程 — 選組分流、數A/數B、多元選修、彈學與社團** | [一、自然/社會組與數A/數B](#ch3-1) ‧ [二、多元選修清單(115高一/高三)](#ch3-2) ‧ [三、彈性學習與自主學習](#ch3-3) ‧ [四、團體活動與34個社團](#ch3-4) | **高一選組 / 高二高三選課** |
-| **肆** | **對於未來的想像 — 生涯規劃、性向興趣測驗與十八學群** | [Swain生涯金三角](#ch4-0) ‧ [一、自我認識(性向+Holland興趣)](#ch4-1) ‧ [二、社會環境因素](#ch4-2) ‧ [三、認識十八學群與班群對應](#ch4-3) | 生涯探索 / 選填志願 |
-| **伍** | **築夢踏實 — 學習歷程檔案認證與大學多元升學管道** | [一、紀錄學習歷程(認證7步驟)](#ch5-1) ‧ [二、升學管道時間表、學測X與分科Y範圍、四大管道與警大/軍校/旅外](#ch5-2) | 高一～高三升學準備 |
-| **陸** | **一路上有人陪我 — 課程諮詢服務、選課轉組期程與預約表單** | [一、課諮金三角](#ch6-1) ‧ [二、找對人解決問題](#ch6-2) ‧ [三、三年課諮規劃](#ch6-3) ‧ [四、選課期程](#ch6-4) ‧ [五、選組轉組期程](#ch6-5) ‧ [六、課諮團隊預約連結](#ch6-6) | 課業/選課/生涯諮詢 |
-| **柒** | **原來不是只有我不懂 — 學長姐 Q&A 二十三問與編輯團隊** | [課程疑惑篇(Q1-Q5)](#ch7-1) ‧ [學習歷程篇(Q1-Q7)](#ch7-2) ‧ [課程諮詢篇(Q1-Q7)](#ch7-3) ‧ [升學進路篇(Q1-Q4)](#ch7-4) ‧ [手冊發行資訊](#ch7-5) | 常見迷思全解惑 |
-
-<p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="radar"></a>
@@ -65,7 +107,7 @@
 </div>
 
 > 💡 **為什麼要先看這一區？**
-> 在 **115 學年度**同時在校的三個年級，分別適用 **115 學年度入學（現高一）**、**114 學年度入學（現高二）**、**113 學年度入學（現高三）** 三份報部核定課程計畫書。為避免同學誤看不同屆別的學分配置，下方以自創圖卡與對照表為妳整理好「**當學期（115-1 / 115-2）**」與「**未來學期**」的所有關鍵重點！
+> 在 **115 學年度**同時在校的三個年級，分別適用 **115 學年度入學（現高一）**、**114 學年度入學（現高二）**、**113 學年度入學（現高三）** 三份報部核定課程計畫書。為避免同學誤看不同屆別的學分配置，下方以自創圖卡與對照表整理「**當學期（115-1 / 115-2）**」與「**未來學期**」的所有關鍵重點！
 
 <a id="g1-radar"></a>
 ### 🎒 【高一專區】115 學年度入學新生（Class of 115）
@@ -105,7 +147,7 @@
 | **高一多元選修新增／調整課程** | 含《ZINE 小誌創作》等 | 含《ZINE 小誌創作》等 | **新增 6 門**：《愛(AI)客共鄉》《生活實用繩結與實作》《刑法世界的秩序與權益》《地景描繪x模型x地形》《初級瑜珈》《科技輔助設計思考於花女熊設計》（停開 ZINE 小誌創作） | 高一上學期由學校分發或選填，高一下學期不得重複修習同門課 |
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch1"></a>
@@ -114,7 +156,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/handbook-media/image2.png" alt="花漾女孩手冊扉頁插圖" width="52%" />
+  <img src="assets/handbook-media/image2.png" alt="國立花蓮女中選課輔導手冊扉頁插圖" width="52%" />
 </div>
 
 <a id="ch1-1"></a>
@@ -127,7 +169,7 @@
 | 🌟 **卓越** | **培育具備全人發展、全能啟發、全德涵養的新世紀優質公民** | 激發多元潛能，兼具學術涵養與公民素養 |
 | 🚀 **突破** | **建構具備教師專業、教學創新、行政效能的活力團隊** | 跨領域社群共備、PBL 專題探究與數位創新教學 |
 | 🌈 **多元** | **以資源分享、社區意識、共存共榮理念整合多元化的文教資源** | 結合在地海洋、人文、大學與國際姊妹校資源 |
-| 💎 **三品** | **推動行為有品德、教學有品質、生活有品味的「三品」教育** | 實踐溫柔敦厚、知行合一的花漾女孩風範 |
+| 💎 **三品** | **推動行為有品德、教學有品質、生活有品味的「三品」教育** | 實踐行為有品德、教學有品質、生活有品味的現代公民素養 |
 
 <div align="center">
   <img src="assets/handbook-media/image19.jpeg" alt="國立花蓮女中學校願景架構圖" width="68%" />
@@ -141,7 +183,7 @@
 本校依循十二年國教總綱「自發、互動、共好」理念，結合學校願景，擘劃出花女學生的五大核心能力——**「思考力、心美力、溝通力、實踐力、超越力」（花女五力）**：
 
 <div align="center">
-  <img src="assets/svg-5powers-girl.svg" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
+  <img src="assets/svg-5powers.svg" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
 </div>
 
 <details>
@@ -197,7 +239,7 @@
 | **美術資優班**<br/>*(特殊需求領域)* | **8 學分**<br/>*(另加藝才專長必修 60 學分)* | 書法1(1) | 書法2(1) | 造形藝術(1) | — | 書法3(1)<br/>彩繪技法1(2) | 彩繪技法2(2) | 藝術才能專長領域必修 60 學分詳見下方美術班課程地圖 |
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch2"></a>
@@ -428,7 +470,7 @@
 > 請開啟本倉庫隨附的 **[`index.html` 互動式網頁版手冊](index.html)**，內建「**🎓 畢業學分互動檢核計算機**」，輸入目前學分即可即時顯示進度條與差額提醒！
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch3"></a>
@@ -572,7 +614,7 @@
 </details>
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch4"></a>
@@ -697,7 +739,7 @@
 | **15. UCAN 大專校院就業職能平台** | https://ucan.moe.edu.tw/ | 教育部職能診斷與 16 職涯類型探索參考 |
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch5"></a>
@@ -828,7 +870,7 @@
 | **✈️ 海外大學申請** | **香港／日本／新加坡** | **臺灣學測成績（X）或日本留學試驗（EJU）** ＋ 外語能力檢定（TOEFL/IELTS/JLPT） | 多數香港與日本頂尖大學英語學程可直接憑學測頂標成績與英文面試申請（多於高三上 10～12 月截止首輪） |
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch6"></a>
@@ -913,7 +955,7 @@
 - 📝 **預約個別課程諮詢方式**：同學可於每學期選課前或平時，至**教務處教學組**、**輔導室**或透過校網「課程諮詢服務站」線上表單預約課諮老師進行一對一或小團體諮詢！
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch7"></a>
@@ -1045,9 +1087,9 @@
 | **排版整理** | **張家誠**（數位多主題 README 與 1684 生存手冊版協作升級） | **GitHub 專案** | https://github.com/group01-hlgs/course-selection-guide |
 
 <p align="center">
-  <img src="assets/divider-sakura.svg" alt="divider" width="100%" />
+  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
 </p>
 
 <div align="center">
-  <sub>💖 <b>國立花蓮女子高級中學 教務處教學組 ‧ 課程諮詢教師團隊 敬編</b> ｜ 點擊頂部按鈕可隨時切換 <b>🌸 櫻花粉漾 / 🧭 1684 生存手冊(遊戲風) / 🫧 薄荷蘇打 / 🍓 奶油莓果 / 🔮 星夜薰衣草 / 🌿 森系抹茶</b> 六大風格！</sub>
+  <sub>🌊 <b>國立花蓮女子高級中學 教務處教學組 ‧ 課程諮詢教師團隊 敬編</b> ｜ 點擊頂部按鈕可隨時切換 <b>🌊 洄瀾太平洋 / 🧭 1684 生存手冊(遊戲風) / 🎧 Y2K 丹寧銀灰 / 📖 文青獨立雜誌 / 🌿 縱谷松針森系 / ⚡ 極簡黑白モノ</b> 六大現代風格！</sub>
 </div>

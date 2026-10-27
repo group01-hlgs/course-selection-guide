@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
-  <rect x="4" y="6" width="1192" height="92" rx="20" fill="#FFF0F5" stroke="#FF6B9D" stroke-width="2" stroke-opacity="0.45"/>
-  <rect x="20" y="22" width="8" height="60" rx="4" fill="#FF6B9D"/>
-  <circle cx="1140" cy="52" r="32" fill="#FF6B9D" opacity="0.1"/>
-  <circle cx="1090" cy="28" r="14" fill="#FF6B9D" opacity="0.15"/>
-  <text x="44" y="48" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="23" font-weight="900" fill="#1E293B">🌟 115 學年度三個年級「當學期 ＆ 未來學期」選課速查雷達</text>
-  <text x="44" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14.5" font-weight="600" fill="#475569">Grade 10 (115入學) ‧ Grade 11 (114入學) ‧ Grade 12 (113入學) 跨屆變動與畢業檢核總整理</text>
+  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#F0F6FC" stroke="#0F4C81" stroke-width="2" stroke-opacity="0.45"/>
+  <rect x="18" y="22" width="8" height="60" rx="4" fill="#0F4C81"/>
+  <circle cx="1140" cy="52" r="30" fill="#0F4C81" opacity="0.08"/>
+  <circle cx="1090" cy="28" r="12" fill="#0F4C81" opacity="0.12"/>
+  <text x="42" y="48" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22.5" font-weight="900" fill="#0F172A">🧭 115 學年度三個年級「當學期 ＆ 未來學期」選課速查雷達</text>
+  <text x="42" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14.5" font-weight="600" fill="#475569">Grade 10 (115入學) ‧ Grade 11 (114入學) ‧ Grade 12 (113入學) 跨屆變動與畢業檢核總整理</text>
 </svg>

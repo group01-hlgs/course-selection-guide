@@ -1,69 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
   <defs>
     <linearGradient id="bg5p" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFF0F5"/>
-      <stop offset="50%" stop-color="#F5F3FF"/>
-      <stop offset="100%" stop-color="#ECFDF5"/>
+      <stop offset="0%" stop-color="#F0F6FC"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F0FDFA"/>
     </linearGradient>
   </defs>
-  <rect x="4" y="4" width="1192" height="312" rx="24" fill="url(#bg5p)" stroke="#FFC2D4" stroke-width="2"/>
-  <text x="600" y="42" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" font-weight="900" fill="#4A2535">
-    🌸 國立花蓮女中「花女五力」學生圖像 × 四大願景（卓越 ‧ 突破 ‧ 多元 ‧ 三品）
+  <rect x="4" y="4" width="1192" height="312" rx="18" fill="url(#bg5p)" stroke="#BAE6FD" stroke-width="2"/>
+  <text x="600" y="42" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" font-weight="900" fill="#0F172A">
+    🧭 國立花蓮女中「花女五力」學生圖像 × 四大願景（卓越 ‧ 突破 ‧ 多元 ‧ 三品）
   </text>
-  <text x="600" y="68" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="600" fill="#8C536B">
+  <text x="600" y="68" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="600" fill="#475569">
     建構「學習型學校」 ➔ 邁向「全是贏家的學校」（行為有品德 ‧ 教學有品質 ‧ 生活有品味）
   </text>
 
   <!-- 5 Cards for Five Powers -->
   <g transform="translate(26, 88)">
     <!-- 1. 思考力 -->
-    <rect x="0" y="0" width="218" height="200" rx="18" fill="#FFFFFF" stroke="#FF6B9D" stroke-width="2"/>
-    <circle cx="109" cy="40" r="22" fill="#FFE4EC"/>
+    <rect x="0" y="0" width="218" height="200" rx="14" fill="#FFFFFF" stroke="#0F4C81" stroke-width="2"/>
+    <circle cx="109" cy="40" r="22" fill="#E0F2FE"/>
     <text x="109" y="47" text-anchor="middle" font-family="sans-serif" font-size="20">💡</text>
-    <text x="109" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#E11D48">1. 思考力</text>
-    <text x="109" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">理性系統思考 ‧ 解決問題</text>
-    <text x="109" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">規劃執行 ‧ 創新應變</text>
-    <rect x="24" y="154" width="170" height="28" rx="14" fill="#FFF0F5"/>
-    <text x="109" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#E11D48">對應：自主學習 ‧ 探究實作</text>
+    <text x="109" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#0F4C81">1. 思考力</text>
+    <text x="109" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">理性系統思考 ‧ 解決問題</text>
+    <text x="109" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">規劃執行 ‧ 創新應變</text>
+    <rect x="20" y="154" width="178" height="28" rx="8" fill="#F0F6FC"/>
+    <text x="109" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#0F4C81">對應：自主學習 ‧ 探究實作</text>
 
     <!-- 2. 心美力 -->
-    <rect x="232" y="0" width="218" height="200" rx="18" fill="#FFFFFF" stroke="#F43F5E" stroke-width="2"/>
-    <circle cx="341" cy="40" r="22" fill="#FFE4E6"/>
+    <rect x="232" y="0" width="218" height="200" rx="14" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+    <circle cx="341" cy="40" r="22" fill="#E0F2FE"/>
     <text x="341" y="47" text-anchor="middle" font-family="sans-serif" font-size="20">🎨</text>
-    <text x="341" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#F43F5E">2. 心美力</text>
-    <text x="341" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">理性思考融入藝術涵養</text>
-    <text x="341" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">提升美感 ‧ 和諧人際關係</text>
-    <rect x="256" y="154" width="170" height="28" rx="14" fill="#FFF1F2"/>
-    <text x="341" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#F43F5E">對應：藝能領域 ‧ 生命教育</text>
+    <text x="341" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#0284C7">2. 心美力</text>
+    <text x="341" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">理性思考融入藝術涵養</text>
+    <text x="341" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">提升美感 ‧ 和諧人際關係</text>
+    <rect x="252" y="154" width="178" height="28" rx="8" fill="#F0F9FF"/>
+    <text x="341" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#0284C7">對應：藝能領域 ‧ 生命教育</text>
 
     <!-- 3. 溝通力 -->
-    <rect x="464" y="0" width="218" height="200" rx="18" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2"/>
-    <circle cx="573" cy="40" r="22" fill="#EDE9FE"/>
+    <rect x="464" y="0" width="218" height="200" rx="14" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+    <circle cx="573" cy="40" r="22" fill="#DBEAFE"/>
     <text x="573" y="47" text-anchor="middle" font-family="sans-serif" font-size="20">💬</text>
-    <text x="573" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#7C3AED">3. 溝通力</text>
-    <text x="573" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">結合感性與理性思考</text>
-    <text x="573" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">善用符號、科技、媒體素養</text>
-    <rect x="488" y="154" width="170" height="28" rx="14" fill="#F5F3FF"/>
-    <text x="573" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#7C3AED">對應：語文表達 ‧ 職業報導</text>
+    <text x="573" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#2563EB">3. 溝通力</text>
+    <text x="573" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">結合感性與理性思考</text>
+    <text x="573" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">善用符號、科技、媒體素養</text>
+    <rect x="484" y="154" width="178" height="28" rx="8" fill="#EFF6FF"/>
+    <text x="573" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#2563EB">對應：語文表達 ‧ 職業報導</text>
 
     <!-- 4. 實踐力 -->
-    <rect x="696" y="0" width="218" height="200" rx="18" fill="#FFFFFF" stroke="#14B8A6" stroke-width="2"/>
+    <rect x="696" y="0" width="218" height="200" rx="14" fill="#FFFFFF" stroke="#0D9488" stroke-width="2"/>
     <circle cx="805" cy="40" r="22" fill="#CCFBF1"/>
     <text x="805" y="47" text-anchor="middle" font-family="sans-serif" font-size="20">🌏</text>
     <text x="805" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#0D9488">4. 實踐力</text>
-    <text x="805" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">知行合一 ‧ 凝聚公民意識</text>
-    <text x="805" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">關懷多元文化 ‧ 國際理解</text>
-    <rect x="720" y="154" width="170" height="28" rx="14" fill="#F0FDFA"/>
+    <text x="805" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">知行合一 ‧ 凝聚公民意識</text>
+    <text x="805" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">關懷多元文化 ‧ 國際理解</text>
+    <rect x="716" y="154" width="178" height="28" rx="8" fill="#F0FDFA"/>
     <text x="805" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#0D9488">對應：洄瀾之欣 ‧ 二外選修</text>
 
     <!-- 5. 超越力 -->
-    <rect x="928" y="0" width="218" height="200" rx="18" fill="#FFFFFF" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="928" y="0" width="218" height="200" rx="14" fill="#FFFFFF" stroke="#B45309" stroke-width="2"/>
     <circle cx="1037" cy="40" r="22" fill="#FEF3C7"/>
     <text x="1037" y="47" text-anchor="middle" font-family="sans-serif" font-size="20">🚀</text>
-    <text x="1037" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#D97706">5. 超越力</text>
-    <text x="1037" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">統整能力提升多元素養</text>
-    <text x="1037" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#475569">身心精進 ‧ 團隊合作超越</text>
-    <rect x="952" y="154" width="170" height="28" rx="14" fill="#FFFBEB"/>
-    <text x="1037" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#D97706">對應：社團活動 ‧ 專題研究</text>
+    <text x="1037" y="84" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="18" font-weight="900" fill="#B45309">5. 超越力</text>
+    <text x="1037" y="112" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">統整能力提升多元素養</text>
+    <text x="1037" y="134" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">身心精進 ‧ 團隊合作超越</text>
+    <rect x="948" y="154" width="178" height="28" rx="8" fill="#FFFBEB"/>
+    <text x="1037" y="173" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="700" fill="#B45309">對應：社團活動 ‧ 專題研究</text>
   </g>
 </svg>
