@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="100%" height="100%">
+  <defs>
+    <linearGradient id="xuan-paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F2E8"/>
+      <stop offset="55%" stop-color="#F2ECE0"/>
+      <stop offset="100%" stop-color="#EAE1D0"/>
+    </linearGradient>
+    <linearGradient id="bronze-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#846032"/>
+      <stop offset="100%" stop-color="#6B4B23"/>
+    </linearGradient>
+    <pattern id="paper-grain" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 0 20 Q 10 18 20 20 T 40 20" fill="none" stroke="#8C6D46" stroke-width="0.4" opacity="0.12"/>
+      <path d="M 20 0 Q 18 10 20 20 T 20 40" fill="none" stroke="#8C6D46" stroke-width="0.4" opacity="0.09"/>
+    </pattern>
+  </defs>
+
+  <!-- Warm Rice-Paper Base -->
+  <rect x="4" y="4" width="1192" height="382" rx="12" fill="url(#xuan-paper)" stroke="#B8A68E" stroke-width="2"/>
+  <rect x="4" y="4" width="1192" height="382" rx="12" fill="url(#paper-grain)"/>
+
+  <!-- Subtle Faded Bird-and-Flower Botanical Watermark in Background (like《古籍之美》DM) -->
+  <g opacity="0.22" transform="translate(740, 20)">
+    <!-- Soft branch -->
+    <path d="M 420 60 C 330 95 250 150 140 240 C 90 280 40 310 -20 340" fill="none" stroke="#5C4938" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 260 145 C 210 120 160 115 110 130" fill="none" stroke="#5C4938" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 190 198 C 220 230 260 250 310 260" fill="none" stroke="#5C4938" stroke-width="2" stroke-linecap="round"/>
+    <!-- Muted Sage Leaves -->
+    <ellipse cx="155" cy="120" rx="18" ry="8" transform="rotate(-20 155 120)" fill="#6E8B74"/>
+    <ellipse cx="120" cy="128" rx="16" ry="7" transform="rotate(15 120 128)" fill="#7A9A82"/>
+    <ellipse cx="235" cy="235" rx="19" ry="8" transform="rotate(30 235 235)" fill="#6E8B74"/>
+    <ellipse cx="275" cy="252" rx="16" ry="7" transform="rotate(10 275 252)" fill="#88A38E"/>
+    <ellipse cx="85" cy="278" rx="18" ry="7" transform="rotate(-25 85 278)" fill="#6E8B74"/>
+    <!-- Warm Ochre & Pale Peach Berries/Blossoms -->
+    <circle cx="105" cy="132" r="6" fill="#C87A65"/>
+    <circle cx="114" cy="140" r="5" fill="#D99B82"/>
+    <circle cx="308" cy="260" r="6" fill="#C87A65"/>
+    <circle cx="298" cy="268" r="5" fill="#D49A6A"/>
+    <!-- perched classical songbird silhouette -->
+    <path d="M 205 152 C 215 132 238 130 248 144 C 256 154 252 170 236 176 L 266 196 L 254 202 L 226 180 C 212 180 202 168 205 152 Z" fill="#5A6B5C"/>
+    <circle cx="236" cy="144" r="2.2" fill="#2A211B"/>
+    <path d="M 248 144 L 258 141 L 249 148 Z" fill="#8C6230"/>
+  </g>
+
+  <!-- Signature Geometric L-Shaped Thin Frame Lines (from《古籍之美》DM) -->
+  <polyline points="36,285 36,34 860,34" fill="none" stroke="#4A3728" stroke-width="1.8"/>
+  <polyline points="1164,105 1164,356 340,356" fill="none" stroke="#4A3728" stroke-width="1.5"/>
+  <line x1="36" y1="332" x2="290" y2="332" stroke="#7C582B" stroke-width="1.2"/>
+
+  <!-- Left Classic Editorial Column & Thread-Bound Book Illustration -->
+  <g transform="translate(64, 58)">
+    <!-- Small Seal Stamp -->
+    <rect x="0" y="0" width="96" height="28" rx="3" fill="#9E3B24"/>
+    <text x="48" y="19" text-anchor="middle" fill="#FAF6ED" font-size="13" font-weight="800" font-family="'Noto Serif TC', serif" letter-spacing="2">洄瀾典藏</text>
+    <text x="112" y="20" fill="#655243" font-size="14" font-weight="700" font-family="'Noto Serif TC', serif" letter-spacing="2">一九二七創校・一一五學年</text>
+
+    <!-- Main Calligraphic / Songti Title -->
+    <text x="0" y="78" fill="#2A211B" font-size="44" font-weight="900" font-family="'Noto Serif TC', 'Songti TC', 'PMingLiU', serif" letter-spacing="4">
+      花女選課圖鑑・古籍之美
+    </text>
+    <text x="2" y="112" fill="#5C4328" font-size="16.5" font-weight="700" font-family="'Noto Serif TC', serif" letter-spacing="1.5">
+      國立花蓮女子高級中學 ── 三年修業課程地圖、學分檢核與十八學群典藏手冊
+    </text>
+
+    <!-- 3 Grade Archive Cards on Rice Paper -->
+    <g transform="translate(0, 134)">
+      <rect x="0" y="0" width="242" height="112" rx="6" fill="#FAF6ED" stroke="#C8B99E" stroke-width="1.5"/>
+      <rect x="0" y="0" width="6" height="112" rx="3" fill="#7C582B"/>
+      <text x="18" y="28" font-family="'Noto Serif TC', serif" font-size="15.5" font-weight="900" fill="#7C582B">卷一｜115 入學高一新生</text>
+      <text x="18" y="52" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 本土語改 1+1 學年課新制</text>
+      <text x="18" y="74" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 彈性學習每週完整 2 節</text>
+      <text x="18" y="96" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#655243">• 每學期 31 學分・30 門多元</text>
+
+      <rect x="258" y="0" width="242" height="112" rx="6" fill="#FAF6ED" stroke="#C8B99E" stroke-width="1.5"/>
+      <rect x="258" y="0" width="6" height="112" rx="3" fill="#5E6B52"/>
+      <text x="276" y="28" font-family="'Noto Serif TC', serif" font-size="15.5" font-weight="900" fill="#46543C">卷二｜114 入學高二分流</text>
+      <text x="276" y="52" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 自然組 A / 社會組 B 適性分流</text>
+      <text x="276" y="74" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 校訂必修洄瀾/職探兩門對開</text>
+      <text x="276" y="96" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#655243">• 社會組高二上先修畢家政(2)</text>
+
+      <rect x="516" y="0" width="242" height="112" rx="6" fill="#FAF6ED" stroke="#C8B99E" stroke-width="1.5"/>
+      <rect x="516" y="0" width="6" height="112" rx="3" fill="#8C4A27"/>
+      <text x="534" y="28" font-family="'Noto Serif TC', serif" font-size="15.5" font-weight="900" fill="#8C4A27">卷三｜113 入學高三專精</text>
+      <text x="534" y="52" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 高三下無部定國英全轉選修</text>
+      <text x="534" y="74" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#2A211B">• 週四下午 25 門跨班多元選修</text>
+      <text x="534" y="96" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#655243">• 應修 182 學分・及格 ≥ 150</text>
+    </g>
+
+    <text x="2" y="294" font-family="'Noto Serif TC', serif" font-size="14" font-weight="700" fill="#5C4328" letter-spacing="1">
+      國立花蓮女中教務處教學組 ‧ 課程諮詢教師團隊 編纂典藏（整合 113 / 114 / 115 三屆報部課程計畫書）
+    </text>
+  </g>
+
+  <!-- Right Side: Bronze-Ochre Vertical Bookmark Bar + Thread-Bound Ancient Books Illustration (Directly inspired by《古籍之美》DM) -->
+  <g transform="translate(866, 34)">
+    <!-- Bronze-Ochre Bookmark Strip -->
+    <rect x="172" y="0" width="54" height="260" fill="url(#bronze-bar)"/>
+    <text x="199" y="28" text-anchor="middle" fill="#FAF6ED" font-size="16" font-weight="800" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="3">
+      選課文獻典藏與修業圖鑑
+    </text>
+
+    <!-- Large Vertical Calligraphic Title on Far Right -->
+    <text x="262" y="42" text-anchor="middle" fill="#2A211B" font-size="38" font-weight="900" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="8">
+      經典圖鑑
+    </text>
+
+    <!-- Thread-Bound Books Stack (線裝書典藏插畫) -->
+    <g transform="translate(8, 135)">
+      <!-- Closed Thread-Bound Book Stack -->
+      <polygon points="10,95 115,65 165,92 60,122" fill="#B57C4A" stroke="#4A3728" stroke-width="1.5"/>
+      <polygon points="10,95 60,122 60,136 10,109" fill="#8C5828" stroke="#4A3728" stroke-width="1.5"/>
+      <polygon points="60,122 165,92 165,106 60,136" fill="#F5EFE2" stroke="#4A3728" stroke-width="1.5"/>
+      <!-- Orange-Red Binding Threads -->
+      <line x1="22" y1="101" x2="30" y2="92" stroke="#C84B31" stroke-width="2"/>
+      <line x1="36" y1="109" x2="44" y2="100" stroke="#C84B31" stroke-width="2"/>
+      <line x1="50" y1="116" x2="58" y2="107" stroke="#C84B31" stroke-width="2"/>
+
+      <!-- Open Classical Book in Foreground -->
+      <path d="M 35 148 Q 85 132 130 146 L 130 198 Q 85 184 35 200 Z" fill="#FAF6ED" stroke="#5C4328" stroke-width="1.8"/>
+      <path d="M 130 146 Q 175 132 225 148 L 225 200 Q 175 184 130 198 Z" fill="#F3ECE0" stroke="#5C4328" stroke-width="1.8"/>
+      <line x1="130" y1="146" x2="130" y2="198" stroke="#7C582B" stroke-width="2"/>
+      <!-- Vertical Classical Text Lines on Open Pages -->
+      <line x1="58" y1="154" x2="58" y2="186" stroke="#655243" stroke-width="1.4"/>
+      <line x1="76" y1="151" x2="76" y2="183" stroke="#655243" stroke-width="1.4"/>
+      <line x1="94" y1="149" x2="94" y2="181" stroke="#9E3B24" stroke-width="1.4"/>
+      <line x1="112" y1="150" x2="112" y2="182" stroke="#655243" stroke-width="1.4"/>
+      <line x1="150" y1="150" x2="150" y2="182" stroke="#655243" stroke-width="1.4"/>
+      <line x1="168" y1="149" x2="168" y2="181" stroke="#655243" stroke-width="1.4"/>
+      <line x1="186" y1="151" x2="186" y2="183" stroke="#9E3B24" stroke-width="1.4"/>
+      <line x1="204" y1="154" x2="204" y2="186" stroke="#655243" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

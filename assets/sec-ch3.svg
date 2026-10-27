@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
-  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2" stroke-opacity="0.45"/>
-  <rect x="18" y="22" width="8" height="60" rx="4" fill="#2563EB"/>
-  <circle cx="1140" cy="52" r="30" fill="#2563EB" opacity="0.08"/>
-  <circle cx="1090" cy="28" r="12" fill="#2563EB" opacity="0.12"/>
-  <text x="42" y="48" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22.5" font-weight="900" fill="#0F172A">參、決定自己的課程 — 選組分流與多元選課</text>
-  <text x="42" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14.5" font-weight="600" fill="#475569">自然組 vs 社會組加深加廣 ‧ 數學 A vs 數學 B 採計分析 ‧ 115 高一與高三多元選修 ‧ 彈性學習 18 節自主學習與 34 個社團</text>
+  <rect x="4" y="6" width="1192" height="92" rx="12" fill="#F0F7FF" stroke="#0F4C81" stroke-width="2"/>
+  <rect x="20" y="22" width="10" height="60" rx="5" fill="#0284C7"/>
+  <text x="44" y="49" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" font-weight="900" fill="#0C2D48">參、決定自己的課程 — 選組分流 ‧ 多元選修 ‧ 34個社團</text>
+  <text x="44" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#3B6998">自然組(A) vs 社會組(B) ‧ 數A vs 數B 採計 ‧ 高一30門/高三25門多元選修 ‧ 彈性18節自主學習</text>
 </svg>

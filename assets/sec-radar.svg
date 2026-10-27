@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
-  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#F0F6FC" stroke="#0F4C81" stroke-width="2" stroke-opacity="0.45"/>
-  <rect x="18" y="22" width="8" height="60" rx="4" fill="#0F4C81"/>
-  <circle cx="1140" cy="52" r="30" fill="#0F4C81" opacity="0.08"/>
-  <circle cx="1090" cy="28" r="12" fill="#0F4C81" opacity="0.12"/>
-  <text x="42" y="48" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22.5" font-weight="900" fill="#0F172A">🧭 115 學年度三個年級「當學期 ＆ 未來學期」選課速查雷達</text>
-  <text x="42" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14.5" font-weight="600" fill="#475569">Grade 10 (115入學) ‧ Grade 11 (114入學) ‧ Grade 12 (113入學) 跨屆變動與畢業檢核總整理</text>
+  <rect x="4" y="6" width="1192" height="92" rx="12" fill="#F0F7FF" stroke="#0F4C81" stroke-width="2"/>
+  <rect x="20" y="22" width="10" height="60" rx="5" fill="#0284C7"/>
+  <text x="44" y="49" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="22" font-weight="900" fill="#0C2D48">115 學年度三個年級選課速查雷達（當學期 ＆ 未來學期）</text>
+  <text x="44" y="78" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#3B6998">115入學高一 ‧ 114入學高二 ‧ 113入學高三 跨屆變動與畢業檢核總整理</text>
 </svg>
