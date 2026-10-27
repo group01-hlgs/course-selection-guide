@@ -379,17 +379,17 @@
       display: none;
       position: fixed;
       left: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      bottom: 0;
       z-index: 1150;
       background: var(--accent-primary);
       color: var(--text-table-head);
       border: 1.5px solid var(--border-color);
       border-left: none;
-      border-radius: 0 12px 12px 0;
+      border-bottom: none;
+      border-radius: 0 12px 0 0;
       padding: 12px 8px;
       cursor: pointer;
-      box-shadow: 3px 4px 14px rgba(0,0,0,0.18);
+      box-shadow: 3px -2px 14px rgba(0,0,0,0.18);
       writing-mode: vertical-rl;
       text-orientation: upright;
       font-size: 13px;
@@ -421,7 +421,7 @@
         padding: 0 12px;
       }
       .mobile-toc-btn {
-        display: inline-flex;
+        display: none;
       }
       .left-edge-toc-tab {
         display: flex;
@@ -901,10 +901,6 @@
   <header class="top-bar">
     <div class="top-bar-inner">
       <div class="brand-group">
-        <button type="button" class="mobile-toc-btn" id="mobile-toc-open" aria-label="開啟左側章節條目導覽">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>
-          <span>章節條目</span>
-        </button>
         <a href="#" class="brand-title">
           <span class="brand-badge">115學年度</span>
           <span>國立花蓮女中・選課輔導手冊</span>
@@ -914,7 +910,7 @@
             <div class="edition-switch-bar" aria-label="切換簡要版">
         <a href="lite.html" class="edition-pill preserve-theme-link" title="切換至三分鐘文青極簡速讀版">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-          <span>文青簡要版 (3分鐘速讀)</span>
+          <span>文青簡要版</span>
         </a>
       </div>
 
@@ -924,12 +920,12 @@
           <span>風格選擇：</span>
         </label>
         <select id="theme-select" class="theme-select" aria-label="選擇手冊視覺風格">
-          <option value="zine">文青獨立雜誌（暖調紙感・預設）</option>
-          <option value="ocean">洄瀾太平洋（現代海岸）</option>
-          <option value="atlas">經典圖鑑風（古籍典藏・宣紙米白）</option>
-          <option value="denim">Y2K 丹寧銀灰（冷調金屬）</option>
-          <option value="pine">縱谷松針森系（自然極簡）</option>
-          <option value="mono">極簡黑白（高對比）</option>
+          <option value="zine">文青獨立雜誌</option>
+          <option value="ocean">洄瀾太平洋</option>
+          <option value="atlas">經典圖鑑風</option>
+          <option value="denim">Y2K 丹寧銀灰</option>
+          <option value="pine">縱谷松針森系</option>
+          <option value="mono">極簡黑白</option>
         </select>
       </div>
     </div>
@@ -959,7 +955,7 @@
         <div class="hero-edition-links">
           <a href="lite.html" class="edition-pill preserve-theme-link" style="background:var(--accent-primary); color:var(--text-table-head);">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-            <span>切換至：文青簡要版 (3分鐘速讀) →</span>
+            <span>切換至：文青簡要版 →</span>
           </a>
         </div>
       </div>
