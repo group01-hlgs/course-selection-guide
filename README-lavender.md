@@ -19,12 +19,12 @@
   <a href="README-lavender.md"><img src="assets/btn-theme-lavender.svg" alt="🔮 星夜薰衣草" height="36" /></a>
   <a href="README-matcha.md"><img src="assets/btn-theme-matcha.svg" alt="🌿 森系抹茶拿鐵" height="36" /></a>
   <br/><br/>
-  <a href="index.html?theme=lavender"><img src="assets/btn-interactive-web.svg" alt="✨ 開啟互動美型網頁版" height="40" /></a>
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=lavender"><img src="assets/btn-interactive-web.svg" alt="✨ 開啟互動美型網頁版" height="40" /></a>
 </p>
 
 | 🏫 學校校徽与精神 | 🌸 目前檢視風格 | 📚 資料基準（跨屆完整整合） | 🛠️ 互動功能與檢核工具 |
 | :---: | :---: | :---: | :---: |
-| <img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="68" /><br/><b>國立花蓮女子高級中學</b><br/><sub>1927 創校 ‧ 洄瀾之光</sub> | **🔮 星夜薰衣草 (Lavender Dream)**<br/><sub>支援亮色/暗色自適應與 6 大主題切換</sub> | **《115 選課輔導手冊-全一冊》**<br/>＋ **113(高三) / 114(高二) / 115(高一)**<br/><sub>三份最新報部課程計畫書完整核對</sub> | **[🌐 啟動 `index.html` 互動網頁版](index.html?theme=lavender)**<br/><sub>含年級分流過濾、即時搜尋、畢業學分試算儀表板</sub> |
+| <img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="68" /><br/><b>國立花蓮女子高級中學</b><br/><sub>1927 創校 ‧ 洄瀾之光</sub> | **🔮 星夜薰衣草 (Lavender Dream)**<br/><sub>支援亮色/暗色自適應與 6 大主題切換</sub> | **《115 選課輔導手冊-全一冊》**<br/>＋ **113(高三) / 114(高二) / 115(高一)**<br/><sub>三份最新報部課程計畫書完整核對</sub> | **[🌐 啟動 `index.html` 互動網頁版](https://group01-hlgs.github.io/course-selection-guide/?theme=lavender)**<br/><sub>含年級分流過濾、即時搜尋、畢業學分試算儀表板</sub> |
 
 </div>
 
