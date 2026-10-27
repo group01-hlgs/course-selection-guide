@@ -761,21 +761,21 @@
 <h3>【高一專區】115 學年度入學新生（Class of 115）</h3>
 
 <div align="center">
-  <img src="assets/card-g1-115.svg?v=4" alt="高一專區 115入學新生速查卡" width="100%" />
+  <img class="theme-sec-img" data-sec="card-g1-115" src="assets/card-g1-115-zine.svg?v=6" alt="高一專區 115入學新生速查卡" width="100%" />
 </div>
 
 <a id="g2-radar"></a>
 <h3>【高二專區】114 學年度入學高二（Class of 114）</h3>
 
 <div align="center">
-  <img src="assets/card-g2-114.svg?v=4" alt="高二專區 114入學高二速查卡" width="100%" />
+  <img class="theme-sec-img" data-sec="card-g2-114" src="assets/card-g2-114-zine.svg?v=6" alt="高二專區 114入學高二速查卡" width="100%" />
 </div>
 
 <a id="g3-radar"></a>
 <h3>【高三專區】113 學年度入學高三（Class of 113）</h3>
 
 <div align="center">
-  <img src="assets/card-g3-113.svg?v=4" alt="高三專區 113入學高三速查卡" width="100%" />
+  <img class="theme-sec-img" data-sec="card-g3-113" src="assets/card-g3-113-zine.svg?v=6" alt="高三專區 113入學高三速查卡" width="100%" />
 </div>
 
 <a id="cross-cohort-diff"></a>
@@ -814,7 +814,7 @@
 <p>本校依循十二年國教總綱「自發、互動、共好」理念，結合學校願景，擘劃出花女學生的五大核心能力——<b>「思考力、心美力、溝通力、實踐力、超越力」（花女五力）</b>：</p>
 
 <div align="center">
-  <img src="assets/svg-5powers.svg" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
+  <img class="theme-sec-img" data-sec="svg-5powers" src="assets/svg-5powers-zine.svg?v=6" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
 </div>
 
 <details>
@@ -852,7 +852,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/svg-curriculum-timeline.svg" alt="花女三年課程架構與選課分流全覽" width="100%" />
+  <img class="theme-sec-img" data-sec="svg-curriculum-timeline" src="assets/svg-curriculum-timeline-zine.svg?v=6" alt="花女三年課程架構與選課分流全覽" width="100%" />
 </div>
 
 <a id="ch2-1"></a>
@@ -1347,7 +1347,7 @@
       document.querySelectorAll('.theme-sec-img').forEach(img => {
         const sec = img.getAttribute('data-sec');
         if (sec) {
-          img.src = 'assets/' + sec + '-' + theme + '.svg';
+          img.src = 'assets/' + sec + '-' + theme + '.svg?v=6';
         }
       });
       try { localStorage.setItem('hlgs-handbook-theme-v4', theme); } catch(e) {}

@@ -157,21 +157,21 @@
 ### 【高一專區】115 學年度入學新生（Class of 115）
 
 <div align="center">
-  <img src="assets/card-g1-115.svg" alt="高一專區 115入學新生速查卡" width="100%" />
+  <img src="assets/card-g1-115-zine.svg" alt="高一專區 115入學新生速查卡" width="100%" />
 </div>
 
 <a id="g2-radar"></a>
 ### 【高二專區】114 學年度入學高二（Class of 114）
 
 <div align="center">
-  <img src="assets/card-g2-114.svg" alt="高二專區 114入學高二速查卡" width="100%" />
+  <img src="assets/card-g2-114-zine.svg" alt="高二專區 114入學高二速查卡" width="100%" />
 </div>
 
 <a id="g3-radar"></a>
 ### 【高三專區】113 學年度入學高三（Class of 113）
 
 <div align="center">
-  <img src="assets/card-g3-113.svg" alt="高三專區 113入學高三速查卡" width="100%" />
+  <img src="assets/card-g3-113-zine.svg" alt="高三專區 113入學高三速查卡" width="100%" />
 </div>
 
 <a id="cross-cohort-diff"></a>
@@ -225,7 +225,7 @@
 本校依循十二年國教總綱「自發、互動、共好」理念，結合學校願景，擘劃出花女學生的五大核心能力——**「思考力、心美力、溝通力、實踐力、超越力」（花女五力）**：
 
 <div align="center">
-  <img src="assets/svg-5powers.svg" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
+  <img src="assets/svg-5powers-zine.svg" alt="花女五力學生圖像自創SVG圖卡" width="100%" />
 </div>
 
 <details>
@@ -287,7 +287,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/svg-curriculum-timeline.svg" alt="花女三年課程架構與選課分流全覽" width="100%" />
+  <img src="assets/svg-curriculum-timeline-zine.svg" alt="花女三年課程架構與選課分流全覽" width="100%" />
 </div>
 
 <a id="ch2-1"></a>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 295" width="100%" height="100%">
+  <rect x="4" y="4" width="1192" height="287" rx="16" fill="#F1F5F9" stroke="#1E293B" stroke-width="2"/>
+  <rect x="28" y="18" width="460" height="34" rx="8" fill="#1E293B"/>
+  <circle cx="48" cy="35" r="5" fill="#FFFFFF"/>
+  <text x="62" y="40" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="15.5" font-weight="800" fill="#FFFFFF">高一專區（115 學年度入學新生適用）</text>
+  <rect x="28" y="58" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <circle cx="44" cy="76" r="4.5" fill="#1E293B"/>
+  <text x="58" y="81" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.4" font-weight="600" fill="#0F172A">【115 重大變革】本土語文/臺灣手語改為「高一上 1 學分 ＋ 高一下 1 學分」，不再佔用彈性學習時間！</text>
+  <rect x="28" y="102" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <circle cx="44" cy="120" r="4.5" fill="#1E293B"/>
+  <text x="58" y="125" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.4" font-weight="600" fill="#0F172A">【彈性學習時間】高一上下學期皆享有完整「每週 2 節彈性學習時間」（三年共 12 節，畢業前自主學習須滿 18 節）。</text>
+  <rect x="28" y="146" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <circle cx="44" cy="164" r="4.5" fill="#1E293B"/>
+  <text x="58" y="169" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.2" font-weight="600" fill="#0F172A">【學分與對開】高一上、下學期皆固定為 31 學分（部定必修 29 + 多元選修 2），團體活動每週 2 節。物理(2)/生物(2)、美術(2)/資科(2)、化學/化學探究B 上下學期對開。</text>
+  <rect x="28" y="190" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <circle cx="44" cy="208" r="4.5" fill="#1E293B"/>
+  <text x="58" y="213" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.0" font-weight="600" fill="#0F172A">【115 多元新課】《愛(AI)客共鄉》《生活實用繩結與實作》《刑法世界的秩序與權益》《地景描繪x模型x地形》《初級瑜珈》《科技輔助設計思考於花女熊設計》（原 ZINE 小誌創作停開）。</text>
+  <rect x="28" y="234" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <circle cx="44" cy="252" r="4.5" fill="#1E293B"/>
+  <text x="58" y="257" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.2" font-weight="600" fill="#0F172A">【未來學期預告】高一下（5 月中旬）進行自然組(班群A)／社會組(班群B)選組及數A／數B分流；115 計畫中社會組高三下歷史、地理補強提高為各 2 學分。</text>
+</svg>

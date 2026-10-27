@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 295" width="100%" height="100%">
+  <rect x="4" y="4" width="1192" height="287" rx="16" fill="#F6F8F5" stroke="#3A5A40" stroke-width="2"/>
+  <rect x="28" y="18" width="460" height="34" rx="8" fill="#3A5A40"/>
+  <circle cx="48" cy="35" r="5" fill="#FFFFFF"/>
+  <text x="62" y="40" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="15.5" font-weight="800" fill="#FFFFFF">高三專區（113 學年度入學高三適用）</text>
+  <rect x="28" y="58" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#C2D5C4" stroke-width="1.5"/>
+  <circle cx="44" cy="76" r="4.5" fill="#3A5A40"/>
+  <text x="58" y="81" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.4" font-weight="600" fill="#1C2826">【高三下必修配置】高三下（115-2）沒有部定必修國文、英文！僅剩體育(2)與藝術生活/家政/全民國防教育對開，其餘 25～26 學分全為加深加廣與多元選修。</text>
+  <rect x="28" y="102" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#C2D5C4" stroke-width="1.5"/>
+  <circle cx="44" cy="120" r="4.5" fill="#3A5A40"/>
+  <text x="58" y="125" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.6" font-weight="600" fill="#1C2826">【高三加深加廣】自然組修數甲(4+4)、選物(4+4)、選化(3+3)、選生(3+3)、英作/聽講/讀寫、語表/文選及《工程設計專題》(1+1)；社會組修數乙(4+4)、選歷/地/公(各3+3)與《健康與休閒生活》(1+1)。</text>
+  <rect x="28" y="146" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#C2D5C4" stroke-width="1.5"/>
+  <circle cx="44" cy="164" r="4.5" fill="#3A5A40"/>
+  <text x="58" y="169" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.2" font-weight="600" fill="#1C2826">【25 門跑班多元】每週四下午跑班，涵蓋日/法/德/西/越/韓/俄七國二外、AI客共鄉、花女熊設計、電影配樂賞析、肌膚保養、料理科學、趣味民法、SDG行動等。</text>
+  <rect x="28" y="190" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#C2D5C4" stroke-width="1.5"/>
+  <circle cx="44" cy="208" r="4.5" fill="#3A5A40"/>
+  <text x="58" y="213" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.5" font-weight="600" fill="#1C2826">【資優班學分提醒】113 入學數資班高二《獨立研究》為 8 學分；語資班高三校訂必修《書報討論》為 4 學分（2+2）、加深加廣《數學乙》為 8 學分（4+4），校訂必修總計 30 學分（85%及格為 26 學分）。</text>
+  <rect x="28" y="234" width="1144" height="36" rx="8" fill="#FFFFFF" stroke="#C2D5C4" stroke-width="1.5"/>
+  <circle cx="44" cy="252" r="4.5" fill="#3A5A40"/>
+  <text x="58" y="257" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.3" font-weight="600" fill="#1C2826">【畢業學分檢核】總修習 182 學分，及格至少 150 學分：普通班【部定+校訂 ≥ 102、選修 ≥ 40】｜語資班【部定 ≥ 90、校訂 ≥ 26、選修 ≥ 28】｜數資班【部定 ≥ 87、校訂 ≥ 21、選修 ≥ 35】｜美術班【部定+校訂 ≥ 128、選修 ≥ 14】。</text>
+</svg>
