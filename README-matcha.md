@@ -60,9 +60,9 @@
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine">開啟網頁版</a></td>
       </tr>
       <tr>
-        <td><b>06. 極簡黑白モノ (Mono Studio)</b></td>
+        <td><b>06. 極簡黑白</b></td>
         <td>建築感純粹黑白 × 高對比現代資訊設計</td>
-        <td align="center"><a href="README-mono.md"><img src="assets/btn-theme-mono.svg" alt="極簡黑白モノ" height="30" /></a></td>
+        <td align="center"><a href="README-mono.md"><img src="assets/btn-theme-mono.svg" alt="極簡黑白" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=mono">開啟網頁版</a></td>
       </tr>
     </tbody>
@@ -75,32 +75,14 @@
 <table>
   <thead>
     <tr>
-      <th width="50%" align="left"><img src="assets/icon-compass.svg" width="15" height="15" alt="icon" /> 115 學年度三屆選課快篩 ＆ 互動工具入口</th>
-      <th width="50%" align="left"><img src="assets/icon-list.svg" width="15" height="15" alt="icon" /> 章節條目導覽（右側快速跳轉目錄）</th>
+      <th width="46%" align="left"><img src="assets/icon-list.svg" width="15" height="15" alt="icon" /> 章節條目導覽（左側快速跳轉目錄）</th>
+      <th width="54%" align="left"><img src="assets/icon-compass.svg" width="15" height="15" alt="icon" /> 115 學年度三屆選課快篩 ＆ 互動工具入口</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td valign="top">
-        <p><img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="48" align="left" style="margin-right:12px;" />
-          <b>國立花蓮女子高級中學 ‧ 115 選課輔導手冊</b><br/>
-          <sub>目前風格：<b>縱谷松針森系 (Valley Pine)</b> ｜ 整合 113/114/115 三份最新報部課程計畫書</sub>
-        </p>
-        <hr/>
-        <p><b>依入學屆別一鍵定位當學期與未來學期重點：</b></p>
-        <ul>
-          <li><b><a href="#g1-radar">我是高一（115 入學新生）</a></b>：本土語改 <code>1+1</code> 學年課、彈學每週完整 2 節、每學期固定 31 學分、高一多元選修新增 6 門課。</li>
-          <li><b><a href="#g2-radar">我是高二（114 入學高二）</a></b>：校訂必修《洄瀾之欣》(2) 與《職業探究與報導》(2) 對開、自然 A 公民/選生對開、社會 B 先修家政(2)。</li>
-          <li><b><a href="#g3-radar">我是高三（113 入學高三）</a></b>：高三下無部定必修國英（全轉加深加廣）、週四下午 25 門跑班多元選修、150 學分畢業檢核。</li>
-          <li><b><a href="#cross-cohort-diff">113 vs 114 vs 115 跨屆 10 大關鍵變動總表</a></b></li>
-        </ul>
-        <hr/>
-        <p><b><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine">啟動 GitHub Pages 響應式互動網頁版</a></b><br/>
-          <sub>支援「<b>風格下拉選單</b>」、「<b>桌機右側常駐章節欄／小螢幕左邊界滑出章節抽屜</b>」、「年級快篩」與「182 應修 / 150 及格畢業學分即時試算儀表板」。</sub>
-        </p>
-      </td>
-      <td valign="top">
-        <p><b>點擊右側章節條目直接跳轉至對應段落：</b></p>
+        <p><b>點擊左側章節條目直接跳轉至對應段落：</b></p>
         <ul>
           <li><b><a href="#radar">卷首｜115 三個年級選課速查雷達</a></b><br/>
             <sub><a href="#g1-radar">115高一</a> ‧ <a href="#g2-radar">114高二</a> ‧ <a href="#g3-radar">113高三</a> ‧ <a href="#cross-cohort-diff">跨屆變動總表</a></sub>
@@ -127,6 +109,24 @@
             <sub><a href="#ch7-1">課程疑惑篇</a> ‧ <a href="#ch7-2">學習歷程篇</a> ‧ <a href="#ch7-3">課程諮詢篇</a> ‧ <a href="#ch7-4">升學進路篇</a> ‧ <a href="#ch7-5">手冊發行資訊</a></sub>
           </li>
         </ul>
+      </td>
+      <td valign="top">
+        <p><img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="48" align="left" style="margin-right:12px;" />
+          <b>國立花蓮女子高級中學 ‧ 115 選課輔導手冊</b><br/>
+          <sub>目前風格：<b>縱谷松針森系 (Valley Pine)</b> ｜ 整合 113/114/115 三份最新報部課程計畫書</sub>
+        </p>
+        <hr/>
+        <p><b>依入學屆別一鍵定位當學期與未來學期重點：</b></p>
+        <ul>
+          <li><b><a href="#g1-radar">我是高一（115 入學新生）</a></b>：本土語改 <code>1+1</code> 學年課、彈學每週完整 2 節、每學期固定 31 學分、高一多元選修新增 6 門課。</li>
+          <li><b><a href="#g2-radar">我是高二（114 入學高二）</a></b>：校訂必修《洄瀾之欣》(2) 與《職業探究與報導》(2) 對開、自然 A 公民/選生對開、社會 B 先修家政(2)。</li>
+          <li><b><a href="#g3-radar">我是高三（113 入學高三）</a></b>：高三下無部定必修國英（全轉加深加廣）、週四下午 25 門跑班多元選修、150 學分畢業檢核。</li>
+          <li><b><a href="#cross-cohort-diff">113 vs 114 vs 115 跨屆 10 大關鍵變動總表</a></b></li>
+        </ul>
+        <hr/>
+        <p><b><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine">啟動 GitHub Pages 響應式互動網頁版</a></b><br/>
+          <sub>支援「<b>風格下拉選單</b>」、「<b>桌機左側常駐章節欄／小螢幕左邊界滑出章節抽屜</b>」、「年級快篩」與「182 應修 / 150 及格畢業學分即時試算儀表板」。</sub>
+        </p>
       </td>
     </tr>
   </tbody>
@@ -1102,5 +1102,5 @@
 </p>
 
 <div align="center">
-  <sub> <b>國立花蓮女子高級中學 教務處教學組 ‧ 課程諮詢教師團隊 敬編</b> ｜ 點擊頂部按鈕可隨時切換 <b> 洄瀾太平洋 /  經典圖鑑風(古籍典藏) /  Y2K 丹寧銀灰 /  文青獨立雜誌 /  縱谷松針森系 /  極簡黑白モノ</b> 六大現代風格！</sub>
+  <sub> <b>國立花蓮女子高級中學 教務處教學組 ‧ 課程諮詢教師團隊 敬編</b> ｜ 點擊頂部按鈕可隨時切換 <b> 洄瀾太平洋 /  經典圖鑑風(古籍典藏) /  Y2K 丹寧銀灰 /  文青獨立雜誌 /  縱谷松針森系 /  極簡黑白</b> 六大現代風格！</sub>
 </div>

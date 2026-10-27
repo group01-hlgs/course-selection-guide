@@ -34,7 +34,7 @@
   <rect x="82" y="62" width="365" height="34" rx="8" fill="url(#pillGrad_denim_True)"/>
   <circle cx="100" cy="79" r="5" fill="#FFFFFF"/>
   <text x="114" y="84" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14.5" font-weight="700" fill="#FFFFFF">
-    國立花蓮女子高級中學 ‧ Y2K 丹寧銀灰 (Cyber Denim)
+    國立花蓮女子高級中學 ‧ Y2K 丹寧銀灰
   </text>
 
   <rect x="460" y="62" width="188" height="34" rx="8" fill="#E0E7FF" stroke="#2563EB" stroke-width="1.5"/>
@@ -54,19 +54,19 @@
     <rect x="12" y="11" width="28" height="16" rx="4" fill="#2563EB"/>
     <text x="26" y="22.5" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="800" fill="#FFFFFF">G10</text>
     <text x="46" y="24" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#2563EB">115 入學高一（現高一）</text>
-    <text x="14" y="45" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">本土語 1+1 ‧ 彈性每週 2 節 ‧ 31 學分</text>
+    <text x="14" y="45" font-family="'Noto Sans TC', sans-serif" font-size="11.8" font-weight="600" fill="#F8FAFC">本土語 1+1 ‧ 彈學 2 節 ‧ 31 學分</text>
 
     <rect x="238" y="0" width="224" height="58" rx="10" fill="#1E1B4B" stroke="#4F46E5" stroke-width="1.5"/>
     <rect x="250" y="11" width="28" height="16" rx="4" fill="#4F46E5"/>
     <text x="264" y="22.5" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="800" fill="#FFFFFF">G11</text>
     <text x="284" y="24" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#F8FAFC">114 入學高二（現高二）</text>
-    <text x="252" y="45" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">自然 A / 社會 B 分流 ‧ 校訂必修對開</text>
+    <text x="252" y="45" font-family="'Noto Sans TC', sans-serif" font-size="11.8" font-weight="600" fill="#F8FAFC">自然 A / 社會 B ‧ 校訂必修對開</text>
 
     <rect x="476" y="0" width="224" height="58" rx="10" fill="#1E293B" stroke="#06B6D4" stroke-width="1.5"/>
     <rect x="488" y="11" width="28" height="16" rx="4" fill="#06B6D4"/>
     <text x="502" y="22.5" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="800" fill="#FFFFFF">G12</text>
     <text x="522" y="24" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#F8FAFC">113 入學高三（現高三）</text>
-    <text x="490" y="45" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="600" fill="#F8FAFC">加深加廣衝刺 ‧ 25 門多元 ‧ 150 學分</text>
+    <text x="490" y="45" font-family="'Noto Sans TC', sans-serif" font-size="11.8" font-weight="600" fill="#F8FAFC">加深加廣 ‧ 25 門多元 ‧ 150 學分</text>
   </g>
 
   <circle cx="88" cy="313" r="4" fill="#2563EB"/>
