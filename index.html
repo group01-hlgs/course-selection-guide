@@ -8,33 +8,60 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
   <style>
-    /* ==========================================================================
-       6 Themes (Default: 洄瀾太平洋 + 《古籍之美》經典圖鑑風宣紙米白底色 + 4 Stylish Themes)
+        /* ==========================================================================
+       6 Themes (Default: 01. 文青獨立雜誌 zine + 02. 洄瀾太平洋 ocean +
+                 03. 經典圖鑑風 atlas + 04. 丹寧藍調 denim +
+                 05. 森系松針綠 pine + 06. 極簡黑白 mono)
+       IMPORTANT: :root is defined FIRST as fallback, and each html[data-theme="..."]
+       uses higher specificity (0,1,1) so every theme cleanly overrides :root!
        ========================================================================== */
-    [data-theme="ocean"] {
-      --bg-main: #f4f7fa;
+    :root,
+    html[data-theme="zine"] {
+      --bg-main: #faf7f2;
+      --bg-card: #fffefb;
+      --bg-accent: #f3ede2;
+      --text-main: #292524;
+      --text-muted: #57534e;
+      --accent-primary: #9a3412;
+      --accent-secondary: #b45309;
+      --border-color: #d6c7b2;
+      --bg-table-head: linear-gradient(135deg, #7c2d12, #9a3412);
+      --text-table-head: #fffbeb;
+      --bg-table-stripe: #faf5ef;
+      --badge-bg: #ffedd5;
+      --badge-text: #9a3412;
+      --shadow-card: 0 6px 20px -4px rgba(124, 45, 18, 0.10);
+      --radius-card: 10px;
+      --font-body: "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-title: "Noto Serif TC", Georgia, serif;
+      --quote-bg: #fef3c7;
+      --quote-border: #9a3412;
+    }
+
+    html[data-theme="ocean"] {
+      --bg-main: #f0f6fc;
       --bg-card: #ffffff;
       --bg-accent: #e0f2fe;
       --text-main: #0f172a;
       --text-muted: #475569;
       --accent-primary: #0f4c81;
       --accent-secondary: #0284c7;
-      --border-color: #cbd5e1;
+      --border-color: #bae6fd;
       --bg-table-head: linear-gradient(135deg, #0f4c81, #0284c7);
       --text-table-head: #ffffff;
-      --bg-table-stripe: #f8fafc;
+      --bg-table-stripe: #f0f9ff;
       --badge-bg: #e0f2fe;
       --badge-text: #0f4c81;
-      --shadow-card: 0 8px 24px -4px rgba(15, 76, 129, 0.08);
+      --shadow-card: 0 8px 24px -4px rgba(15, 76, 129, 0.10);
       --radius-card: 16px;
       --font-body: "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
       --font-title: "Noto Sans TC", sans-serif;
-      --quote-bg: #f0f9ff;
+      --quote-bg: #e0f2fe;
       --quote-border: #0284c7;
     }
 
     /* 經典圖鑑風（古籍典藏）— 依《古籍之美：古籍文獻典藏與管理》宣紙溫潤米白底色與古銅棕書籤設計 */
-    [data-theme="atlas"] {
+    html[data-theme="atlas"] {
       --bg-main: #f4efe3;
       --bg-card: #faf6ed;
       --bg-accent: #ebe3d2;
@@ -48,7 +75,7 @@
       --bg-table-stripe: #f5efe2;
       --badge-bg: #efe6d5;
       --badge-text: #5c4328;
-      --shadow-card: 0 8px 24px -4px rgba(92, 67, 40, 0.10);
+      --shadow-card: 0 8px 24px -4px rgba(92, 67, 40, 0.12);
       --radius-card: 8px;
       --font-body: "Noto Sans TC", -apple-system, sans-serif;
       --font-title: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
@@ -57,7 +84,8 @@
     }
 
     /*《古籍之美》直角細框裝飾線 (L-Frame subtle border treatment) */
-    [data-theme="atlas"] .card-section {
+    html[data-theme="atlas"] .card-section,
+    html[data-theme="atlas"] .zine-spread {
       position: relative;
       border: 1.5px solid #c8b99e;
       background-image:
@@ -68,21 +96,21 @@
       background-repeat: no-repeat;
     }
 
-    [data-theme="denim"] {
-      --bg-main: #f1f5f9;
+    html[data-theme="denim"] {
+      --bg-main: #eef2f6;
       --bg-card: #ffffff;
       --bg-accent: #e0e7ff;
       --text-main: #0f172a;
       --text-muted: #475569;
-      --accent-primary: #1e293b;
+      --accent-primary: #1e3a8a;
       --accent-secondary: #2563eb;
-      --border-color: #cbd5e1;
+      --border-color: #c7d2fe;
       --bg-table-head: linear-gradient(135deg, #1e293b, #2563eb);
       --text-table-head: #ffffff;
-      --bg-table-stripe: #f8fafc;
+      --bg-table-stripe: #f1f5f9;
       --badge-bg: #e0e7ff;
       --badge-text: #1e40af;
-      --shadow-card: 0 8px 24px -4px rgba(30, 41, 59, 0.09);
+      --shadow-card: 0 8px 24px -4px rgba(30, 58, 138, 0.10);
       --radius-card: 14px;
       --font-body: "Noto Sans TC", sans-serif;
       --font-title: "Noto Sans TC", sans-serif;
@@ -90,51 +118,29 @@
       --quote-border: #2563eb;
     }
 
-    :root, [data-theme="zine"] {
-      --bg-main: #faf7f2;
-      --bg-card: #fffefb;
-      --bg-accent: #f3ede2;
-      --text-main: #292524;
-      --text-muted: #57534e;
-      --accent-primary: #9a3412;
-      --accent-secondary: #b45309;
-      --border-color: #d6d3d1;
-      --bg-table-head: linear-gradient(135deg, #7c2d12, #9a3412);
-      --text-table-head: #fffbeb;
-      --bg-table-stripe: #faf8f5;
-      --badge-bg: #ffedd5;
-      --badge-text: #9a3412;
-      --shadow-card: 0 6px 20px -4px rgba(124, 45, 18, 0.08);
-      --radius-card: 10px;
-      --font-body: "Noto Sans TC", sans-serif;
-      --font-title: "Noto Serif TC", Georgia, serif;
-      --quote-bg: #fef3c7;
-      --quote-border: #9a3412;
-    }
-
-    [data-theme="pine"] {
-      --bg-main: #f4f7f4;
+    html[data-theme="pine"] {
+      --bg-main: #f0f6f2;
       --bg-card: #ffffff;
-      --bg-accent: #e6f0ea;
-      --text-main: #1c2826;
-      --text-muted: #4a5d54;
+      --bg-accent: #dcfce7;
+      --text-main: #14281d;
+      --text-muted: #3f6250;
       --accent-primary: #1b4332;
       --accent-secondary: #2d6a4f;
-      --border-color: #cce0d4;
+      --border-color: #b7e4c7;
       --bg-table-head: linear-gradient(135deg, #1b4332, #2d6a4f);
       --text-table-head: #ffffff;
-      --bg-table-stripe: #f7faf8;
+      --bg-table-stripe: #f4faf6;
       --badge-bg: #d8f3dc;
       --badge-text: #1b4332;
-      --shadow-card: 0 8px 24px -4px rgba(27, 67, 50, 0.08);
+      --shadow-card: 0 8px 24px -4px rgba(27, 67, 50, 0.10);
       --radius-card: 16px;
       --font-body: "Noto Sans TC", sans-serif;
       --font-title: "Noto Sans TC", sans-serif;
-      --quote-bg: #edf6f0;
+      --quote-bg: #e6f4ea;
       --quote-border: #2d6a4f;
     }
 
-    [data-theme="mono"] {
+    html[data-theme="mono"] {
       --bg-main: #f3f4f6;
       --bg-card: #ffffff;
       --bg-accent: #e5e7eb;
@@ -484,7 +490,7 @@
       border: 2px solid var(--accent-primary);
       background: var(--bg-card);
     }
-    [data-theme="atlas"] .atlas-showcase-box {
+    html[data-theme="atlas"] .atlas-showcase-box {
       display: block;
     }
     .atlas-showcase-box img {
@@ -941,7 +947,7 @@
     <main class="main-column">
       <!-- Dynamic SVG Hero Banner -->
       <div class="hero-banner">
-        <img id="hero-banner-img" src="assets/banner-zine.svg?v=7" alt="國立花蓮女中 115學年度選課輔導手冊橫幅" />
+        <img id="hero-banner-img" src="assets/banner-zine.svg?v=9" alt="國立花蓮女中 115學年度選課輔導手冊橫幅" />
       </div>
 
             <!-- Dual-Edition & Cross-Platform Quick Portal Bar -->
@@ -1821,12 +1827,12 @@
       }
       const bannerImg = document.getElementById('hero-banner-img');
       if (bannerImg) {
-        bannerImg.src = 'assets/banner-' + theme + '.svg?v=7';
+        bannerImg.src = 'assets/banner-' + theme + '.svg?v=9';
       }
       document.querySelectorAll('.theme-sec-img').forEach(img => {
         const sec = img.getAttribute('data-sec');
         if (sec) {
-          img.src = 'assets/' + sec + '-' + theme + '.svg?v=7';
+          img.src = 'assets/' + sec + '-' + theme + '.svg?v=9';
         }
       });
       try { localStorage.setItem('hlgs-handbook-theme-v5', theme); } catch(e) {}
