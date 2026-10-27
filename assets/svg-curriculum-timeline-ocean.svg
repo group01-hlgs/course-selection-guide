@@ -5,39 +5,39 @@
   </text>
 
   <g transform="translate(28, 58)">
-    <rect x="0" y="0" width="362" height="196" rx="14" fill="#F0F6FC" stroke="#0F4C81" stroke-width="2"/>
+    <rect x="0" y="0" width="362" height="196" rx="14" fill="#EAF4FC" stroke="#0F4C81" stroke-width="2"/>
     <rect x="16" y="14" width="330" height="32" rx="8" fill="#0F4C81"/>
     <text x="181" y="35" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">高一（115 入學）：統整試探 ‧ 不分班群</text>
     <text x="20" y="68" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="700" fill="#0F4C81">• 每學期固定 31 學分（部定必修 29 + 多元選修 2）</text>
-    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 本土語/手語：一上 1 學分 ＋ 一下 1 學分（115 新制）</text>
-    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 對開：物理/生物、美術/資科、化學/化學探究B</text>
-    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 彈性學習：每週五第3-4節（2節/週，自主學習規畫）</text>
+    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 本土語/手語：一上 1 學分 ＋ 一下 1 學分（115 新制）</text>
+    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 對開：物理/生物、美術/資科、化學/化學探究B</text>
+    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 彈性學習：每週五第3-4節（2節/週，自主學習規畫）</text>
     <text x="20" y="164" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#0F4C81">• 關鍵決策：5月中旬選組（自然A / 社會B）與數A/數B</text>
   </g>
 
   <path d="M 396 156 L 414 156" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
 
   <g transform="translate(419, 58)">
-    <rect x="0" y="0" width="362" height="196" rx="14" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+    <rect x="0" y="0" width="362" height="196" rx="14" fill="#E6FAF5" stroke="#0D9488" stroke-width="2"/>
     <rect x="16" y="14" width="330" height="32" rx="8" fill="#0D9488"/>
     <text x="181" y="35" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">高二（114 入學）：自然A / 社會B 適性分流</text>
     <text x="20" y="68" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="700" fill="#0D9488">• 校訂必修 4 學分：《洄瀾之欣》(2) 與《職業探究》(2)對開</text>
-    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 自然組(A)：數A(8) ‧ 選化(2+2)/選物(2)/選生(2)/選地(2)</text>
-    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 社會組(B)：數B或數A(8) ‧ 二上先修家政(2) ‧ 歷地公探究</text>
-    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 特殊對開：A組公民/選生對開；B組地理/地理探究對開</text>
+    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 自然組(A)：數A(8) ‧ 選化(2+2)/選物(2)/選生(2)/選地(2)</text>
+    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 社會組(B)：數B或數A(8) ‧ 二上先修家政(2) ‧ 歷地公探究</text>
+    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 特殊對開：A組公民/選生對開；B組地理/地理探究對開</text>
     <text x="20" y="164" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#0D9488">• 關鍵決策：5月高三加深加廣跑班選課＆轉組申請</text>
   </g>
 
   <path d="M 787 156 L 805 156" stroke="#64748B" stroke-width="3" stroke-linecap="round"/>
 
   <g transform="translate(810, 58)">
-    <rect x="0" y="0" width="362" height="196" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
-    <rect x="16" y="14" width="330" height="32" rx="8" fill="#2563EB"/>
+    <rect x="0" y="0" width="362" height="196" rx="14" fill="#EBF1FF" stroke="#1D4ED8" stroke-width="2"/>
+    <rect x="16" y="14" width="330" height="32" rx="8" fill="#1D4ED8"/>
     <text x="181" y="35" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">高三（113 入學）：加深加廣 ‧ 升學衝刺</text>
-    <text x="20" y="68" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="700" fill="#2563EB">• 高三下無部定國英！全數轉為加深加廣與多元選修</text>
-    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 自然組(A)：數甲(8)、選物(8)、選化(6)、選生(6)、工設(2)</text>
-    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 社會組(B)：數乙(8)、選修歷/地/公(各6)、健休(2)+補強</text>
-    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#334155">• 多元選修：每週四下午 25 門跨班選修（上2+下2學分）</text>
-    <text x="20" y="164" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#2563EB">• 畢業門檻：及格總學分 ≥ 150（普通班必修≥102、選修≥40）</text>
+    <text x="20" y="68" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="700" fill="#1D4ED8">• 高三下無部定國英！全數轉為加深加廣與多元選修</text>
+    <text x="20" y="92" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 自然組(A)：數甲(8)、選物(8)、選化(6)、選生(6)、工設(2)</text>
+    <text x="20" y="116" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 社會組(B)：數乙(8)、選修歷/地/公(各6)、健休(2)+補強</text>
+    <text x="20" y="140" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="600" fill="#0F172A">• 多元選修：每週四下午 25 門跨班選修（上2+下2學分）</text>
+    <text x="20" y="164" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#1D4ED8">• 畢業門檻：及格總學分 ≥ 150（普通班必修≥102、選修≥40）</text>
   </g>
 </svg>
