@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 42" width="204" height="39">
+  <defs>
+    <linearGradient id="g_1684" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1711"/>
+      <stop offset="100%" stop-color="#33261A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="216" height="38" rx="19" fill="url(#g_1684)" stroke="#D4AF37" stroke-width="2"/>
+  <polygon points="26,10 36,15.5 36,26.5 26,32 16,26.5 16,15.5" fill="#2C2016" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="26" y="25" text-anchor="middle" font-family="sans-serif" font-size="12">🧭</text>
+  <text x="122" y="26" text-anchor="middle" font-family="'Noto Serif TC', 'Noto Sans TC', serif" font-size="13.5" font-weight="800" fill="#F7DF94">1684 生存手冊 (遊戲風)</text>
+</svg>

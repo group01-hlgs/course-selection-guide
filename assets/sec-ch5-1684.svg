@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
+  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#1E1711" stroke="#D4AF37" stroke-width="2.2"/>
+  <rect x="12" y="14" width="1176" height="76" rx="10" fill="none" stroke="#8C6D36" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="46,28 66,40 66,64 46,76 26,64 26,40" fill="#2C2016" stroke="#42a5f5" stroke-width="2"/>
+  <circle cx="46" cy="52" r="6" fill="#42a5f5"/>
+  <text x="84" y="47" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="22" font-weight="900" fill="#FFF5D6" letter-spacing="1">🏛️ 卷五・歷程試煉 — 學習歷程裝備與多元升學航道</text>
+  <text x="84" y="76" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#D4AF37">學習歷程六大欄位（每學期認證3件/每學年勾選6件、多元表現10件）‧ 學測X與分科Y範圍 ‧ 四大入學與特殊管道</text>
+</svg>

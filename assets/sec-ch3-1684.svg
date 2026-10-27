@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
+  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#1E1711" stroke="#D4AF37" stroke-width="2.2"/>
+  <rect x="12" y="14" width="1176" height="76" rx="10" fill="none" stroke="#8C6D36" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="46,28 66,40 66,64 46,76 26,64 26,40" fill="#2C2016" stroke="#ffa726" stroke-width="2"/>
+  <circle cx="46" cy="52" r="6" fill="#ffa726"/>
+  <text x="84" y="47" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="22" font-weight="900" fill="#FFF5D6" letter-spacing="1">⚔️ 卷三・分流決策 — 選組陣營 ‧ 多元選修 ‧ 百工社團</text>
+  <text x="84" y="76" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#D4AF37">自然組(A) vs 社會組(B) ‧ 數A vs 數B 採計 ‧ 高一30門/高三25門多元選修 ‧ 彈性18節自主學習與34個社團</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_berry_True" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E1A1E"/>
+      <stop offset="55%" stop-color="#3B2126"/>
+      <stop offset="100%" stop-color="#292018"/>
+    </linearGradient>
+    <linearGradient id="pillGrad_berry_True" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#F43F5E" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.6" fill="#F43F5E" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- Main Rounded Background -->
+  <rect x="8" y="8" width="1184" height="364" rx="28" fill="url(#bgGrad_berry_True)" stroke="#FECDD3" stroke-width="2.5"/>
+  <rect x="8" y="8" width="1184" height="364" rx="28" fill="url(#dotGrid)"/>
+
+  <!-- Decorative Wavy Pacific Ocean Ribbon at Bottom -->
+  <path d="M 8 310 Q 180 280 360 315 T 720 305 T 1080 320 L 1192 315 L 1192 344 Q 1192 372 1164 372 L 36 372 Q 8 372 8 344 Z" fill="#F43F5E" opacity="0.12"/>
+  <path d="M 8 330 Q 240 300 480 332 T 960 322 L 1192 335 L 1192 344 Q 1192 372 1164 372 L 36 372 Q 8 372 8 344 Z" fill="#FB923C" opacity="0.16"/>
+
+  <!-- Floating Cute Bubbles & Sparkles -->
+  <circle cx="95" cy="75" r="34" fill="#F43F5E" opacity="0.12"/>
+  <circle cx="1110" cy="85" r="52" fill="#FB923C" opacity="0.14"/>
+  <circle cx="1040" cy="280" r="38" fill="#EAB308" opacity="0.14"/>
+  <circle cx="160" cy="295" r="22" fill="#EAB308" opacity="0.18"/>
+
+  <!-- Sparkle Stars -->
+  <path d="M 140 50 Q 140 68 158 68 Q 140 68 140 86 Q 140 68 122 68 Q 140 68 140 50 Z" fill="#F43F5E" opacity="0.65"/>
+  <path d="M 1060 48 Q 1060 62 1074 62 Q 1060 62 1060 76 Q 1060 62 1046 62 Q 1060 62 1060 48 Z" fill="#EAB308" opacity="0.75"/>
+  <path d="M 830 55 Q 830 65 840 65 Q 830 65 830 75 Q 830 65 820 65 Q 830 65 830 55 Z" fill="#FB923C" opacity="0.6"/>
+
+  <!-- Left Journal Card -->
+  <g filter="url(#softShadow)">
+    <rect x="52" y="38" width="760" height="304" rx="24" fill="#3F242A" stroke="#FECDD3" stroke-width="2"/>
+  </g>
+  <!-- Cute Washi Tape on Top Left & Right of Card -->
+  <rect x="85" y="26" width="110" height="24" rx="6" fill="#F43F5E" opacity="0.45" transform="rotate(-4 140 38)"/>
+  <rect x="660" y="26" width="110" height="24" rx="6" fill="#EAB308" opacity="0.45" transform="rotate(5 715 38)"/>
+
+  <!-- Theme Pill Tag -->
+  <rect x="84" y="62" width="350" height="34" rx="17" fill="url(#pillGrad_berry_True)"/>
+  <text x="102" y="84" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">
+    國立花蓮女子高級中學 ‧ 🍓 奶油莓果手札 (Berry Cream)
+  </text>
+
+  <!-- Year Badge -->
+  <rect x="448" y="62" width="175" height="34" rx="17" fill="#FFE4E6" stroke="#F43F5E" stroke-width="1.5"/>
+  <text x="535" y="84" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="700" fill="#F43F5E">
+    ✨ 115 學年度最新完整版
+  </text>
+
+  <!-- Main Title -->
+  <text x="84" y="148" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="42" font-weight="900" fill="#FFE4E6" letter-spacing="1">
+    花漾女孩 ‧ 選課輔導手冊
+  </text>
+  <text x="84" y="184" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="18" font-weight="600" fill="#FDA4AF">
+    Course Selection &amp; Career Planning Guide — 溫柔敦厚 ‧ 巾幗英豪 ‧ 洄瀾之光
+  </text>
+
+  <!-- 3 Grade Highlight Pills inside Banner -->
+  <g transform="translate(84, 206)">
+    <rect x="0" y="0" width="222" height="54" rx="14" fill="#2E1A1E" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="16" y="23" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#F43F5E">🎒 115 入學高一（現高一）</text>
+    <text x="16" y="43" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="500" fill="#FFE4E6">本土語 1+1 ‧ 彈性每週 2 節 ‧ 31 學分</text>
+
+    <rect x="236" y="0" width="222" height="54" rx="14" fill="#3B2126" stroke="#FB923C" stroke-width="1.5"/>
+    <text x="252" y="23" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#FFE4E6">🧭 114 入學高二（現高二）</text>
+    <text x="252" y="43" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="500" fill="#FFE4E6">自然 A / 社會 B 分流 ‧ 校訂必修對開</text>
+
+    <rect x="472" y="0" width="222" height="54" rx="14" fill="#292018" stroke="#EAB308" stroke-width="1.5"/>
+    <text x="488" y="23" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="800" fill="#FFE4E6">🎓 113 入學高三（現高三）</text>
+    <text x="488" y="43" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="500" fill="#FFE4E6">加深加廣衝刺 ‧ 25 門多元 ‧ 150 學分</text>
+  </g>
+
+  <!-- Bottom Meta Note -->
+  <text x="84" y="318" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="600" fill="#FDA4AF">
+    📍 整合 113（高三）、114（高二）、115（高一）三份報部課程計畫書 ‧ 教務處教學組 × 課程諮詢團隊編製
+  </text>
+
+  <!-- Right Polaroid / Sticker Card -->
+  <g transform="translate(848, 42)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="296" height="296" rx="24" fill="#3F242A" stroke="#FECDD3" stroke-width="2"/>
+    <rect x="18" y="18" width="260" height="190" rx="16" fill="url(#bgGrad_berry_True)"/>
+    
+    <!-- Cute School Uniform / Hualien Ocean & Book Illustration -->
+    <!-- Sun / Moon -->
+    <circle cx="220" cy="64" r="24" fill="#EAB308" opacity="0.35"/>
+    <!-- Mountains & Pacific Waves -->
+    <path d="M 18 165 L 78 105 L 135 152 L 188 95 L 278 165 Z" fill="#FB923C" opacity="0.28"/>
+    <path d="M 18 175 Q 80 155 148 175 T 278 170 L 278 208 L 18 208 Z" fill="#F43F5E" opacity="0.35"/>
+    
+    <!-- Open Notebook & Ribbon Bow -->
+    <rect x="78" y="66" width="140" height="96" rx="10" fill="#FFFFFF" stroke="#F43F5E" stroke-width="2.5"/>
+    <line x1="148" y1="66" x2="148" y2="162" stroke="#F43F5E" stroke-width="2" stroke-dasharray="4,4"/>
+    <line x1="94" y1="90" x2="134" y2="90" stroke="#FB923C" stroke-width="3" stroke-linecap="round"/>
+    <line x1="94" y1="108" x2="134" y2="108" stroke="#FECDD3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="94" y1="126" x2="124" y2="126" stroke="#FECDD3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="162" y1="90" x2="202" y2="90" stroke="#EAB308" stroke-width="3" stroke-linecap="round"/>
+    <line x1="162" y1="108" x2="202" y2="108" stroke="#FECDD3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="162" y1="126" x2="192" y2="126" stroke="#FECDD3" stroke-width="3" stroke-linecap="round"/>
+    <!-- Cute Ribbon Bow at Top of Notebook -->
+    <path d="M 148 64 C 130 46 116 58 132 70 C 118 76 132 86 148 68 C 164 86 178 76 164 70 C 180 58 166 46 148 64 Z" fill="#F43F5E"/>
+    <circle cx="148" cy="66" r="5" fill="#FFFFFF"/>
+
+    <!-- Polaroid Caption -->
+    <text x="148" y="238" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="16" font-weight="800" fill="#FFE4E6">
+      暖系香草奶油 × 草莓拍立得貼紙
+    </text>
+    <rect x="48" y="252" width="200" height="28" rx="14" fill="#FFE4E6"/>
+    <text x="148" y="271" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="700" fill="#F43F5E">
+      HLGS ‧ 1927 創校 ‧ 洄瀾之光
+    </text>
+  </g>
+</svg>

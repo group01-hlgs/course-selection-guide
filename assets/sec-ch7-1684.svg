@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
+  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#1E1711" stroke="#D4AF37" stroke-width="2.2"/>
+  <rect x="12" y="14" width="1176" height="76" rx="10" fill="none" stroke="#8C6D36" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="46,28 66,40 66,64 46,76 26,64 26,40" fill="#2C2016" stroke="#ab47bc" stroke-width="2"/>
+  <circle cx="46" cy="52" r="6" fill="#ab47bc"/>
+  <text x="84" y="47" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="22" font-weight="900" fill="#FFF5D6" letter-spacing="1">📖 卷七・前輩傳承 — 歷屆學長姐 Q&A 二十三問</text>
+  <text x="84" y="76" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#D4AF37">課程疑惑篇 ‧ 學習歷程檔案篇 ‧ 課程諮詢篇 ‧ 升學進路篇 — 破解所有迷思的通關秘笈</text>
+</svg>

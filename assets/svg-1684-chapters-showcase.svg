@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg-emblem" cx="50%" cy="45%" r="52%">
+      <stop offset="0%" stop-color="#3c2f1e"/>
+      <stop offset="100%" stop-color="#1c140c"/>
+    </radialGradient>
+    <linearGradient id="gold-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3d27a"/>
+      <stop offset="50%" stop-color="#c99738"/>
+      <stop offset="100%" stop-color="#8a5e18"/>
+    </linearGradient>
+    <linearGradient id="sky-terr" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3547"/>
+      <stop offset="100%" stop-color="#3a6073"/>
+    </linearGradient>
+    <linearGradient id="mt-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b8f5e"/>
+      <stop offset="100%" stop-color="#2f4f38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Umber Background like manual-chapters-preview.png -->
+  <rect x="4" y="4" width="1192" height="532" rx="20" fill="#1a1410" stroke="#c99738" stroke-width="2.5"/>
+  <text x="600" y="46" text-anchor="middle" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="24" font-weight="900" fill="#f3d27a" letter-spacing="2">
+    《花女選課生存手冊・1684 遊戲圖鑑風》純向量 SVG 徽章與七大篇章圖示
+  </text>
+  <line x1="80" y1="64" x2="1120" y2="64" stroke="#6e5226" stroke-width="1.5"/>
+
+  <!-- Grid of 8 Cards (4x2) -->
+  <!-- Card 1: Main Emblem -->
+  <g transform="translate(42, 84)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <circle cx="32" cy="32" r="30" fill="url(#bg-emblem)" stroke="url(#gold-rim)" stroke-width="2.5"/>
+      <circle cx="32" cy="32" r="26.5" fill="none" stroke="#d4af5a" stroke-width="0.8" stroke-dasharray="2.5 2"/>
+      <path d="M12 46 Q18 42 24 46 T36 46 T48 46 T54 45" fill="none" stroke="#4ea3c8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M14.5 18.5 C20.5 16.8 26.5 17.8 32 20.8 C37.5 17.8 43.5 16.8 49.5 18.5 L49.5 41.8 C43.5 40 37.5 41 32 44 C26.5 41 20.5 40 14.5 41.8 Z" fill="#f2dfc0" stroke="#8c6836" stroke-width="1.2"/>
+      <line x1="32" y1="20.8" x2="32" y2="44" stroke="#7a5728" stroke-width="1.4"/>
+      <path d="M23 24 C25.5 25.5 26.5 29 25.5 33.5 C24.5 37 22.5 39 20.5 40 C19.5 37 19.2 33 20.2 29 Z" fill="#4f8a4c"/>
+      <path d="M40.5 23.2 L42 28 L46.8 29.5 L42 31 L40.5 35.8 L39 31 L34.2 29.5 L39 28 Z" fill="#c04832"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">花女選課生存手冊</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">古籍羅盤總徽章・三屆速查雷達</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">113高三 / 114高二 / 115高一</text>
+  </g>
+
+  <!-- Card 2: Vol 1 關於花女 -->
+  <g transform="translate(324, 84)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="url(#sky-terr)" stroke="#d9b26f" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="44" cy="20" r="6" fill="#f4c464"/>
+      <path d="M10 44 L24 20 L36 38 L44 26 L54 44 Z" fill="url(#mt-grad)" stroke="#1d3324" stroke-width="1.4"/>
+      <path d="M9 46 Q20 43 32 47 T55 46 L32 59.5 Z" fill="#23648e"/>
+      <path d="M16 50 Q24 47 32 50 T48 50" fill="none" stroke="#8ed1eb" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷一・花女願景與五力</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">卓越突破多元三品・校訂必修</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">洄瀾之欣(2) × 職業探究(2)</text>
+  </g>
+
+  <!-- Card 3: Vol 2 課程地圖 -->
+  <g transform="translate(606, 84)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#1e3224" stroke="#7cb342" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M22 46 L22 28 M16 28 C16 20 28 20 28 28 C28 34 16 34 16 28 Z" fill="#66bb6a" stroke="#1b5e20" stroke-width="1.4"/>
+      <line x1="40" y1="46" x2="40" y2="16" stroke="#aed581" stroke-width="3" stroke-linecap="round"/>
+      <path d="M40 22 L48 18 M40 30 L33 26 M40 36 L47 33" stroke="#8bc34a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M12 46 L52 46" stroke="#8d6e63" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷二・三年疆域課程地圖</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">普通/語資/數資/美術・182學分</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">畢業門檻：及格 ≥ 150 學分</text>
+  </g>
+
+  <!-- Card 4: Vol 3 選組與選課 -->
+  <g transform="translate(888, 84)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#332215" stroke="#ffa726" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="32" cy="36" r="10" fill="none" stroke="#ffcc80" stroke-width="2.5"/>
+      <circle cx="32" cy="36" r="3" fill="#ffa726"/>
+      <line x1="16" y1="26" x2="48" y2="26" stroke="#ffb74d" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M20 26 L24 18 L40 18 L44 26" fill="#8d6e63" stroke="#ffe0b2" stroke-width="1.4"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷三・選組分流與百工</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">數A數B・多元選修・34個社團</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">自主學習畢業前 ≥ 18 節</text>
+  </g>
+
+  <!-- Card 5: Vol 4 生涯規劃 -->
+  <g transform="translate(42, 304)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#2b1b28" stroke="#ec407a" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="32,14 48,44 16,44" fill="none" stroke="#f48fb1" stroke-width="2.2" stroke-linejoin="round"/>
+      <circle cx="32" cy="34" r="5" fill="#f06292"/>
+      <circle cx="32" cy="14" r="3" fill="#ffd54f"/>
+      <circle cx="48" cy="44" r="3" fill="#4dd0e1"/>
+      <circle cx="16" cy="44" r="3" fill="#aed581"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷四・天賦星盤生涯志</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">Swain金三角・性向與興趣六型</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">RIASEC × 大學十八學群</text>
+  </g>
+
+  <!-- Card 6: Vol 5 築夢踏實 -->
+  <g transform="translate(324, 304)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#1a2636" stroke="#42a5f5" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M16 26 L32 16 L48 26 L44 26 L44 44 L20 44 L20 26 Z" fill="#c62828" stroke="#ffcc80" stroke-width="1.5"/>
+      <rect x="28" y="32" width="8" height="12" fill="#4e342e"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷五・歷程試煉與升學</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">學習歷程認證・學測X與分科Y</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">每學年勾選 6 件成果 + 10 件多元</text>
+  </g>
+
+  <!-- Card 7: Vol 6 課程諮詢 -->
+  <g transform="translate(606, 304)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#172c2e" stroke="#26c6da" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="32" cy="32" r="14" fill="none" stroke="#80deea" stroke-width="1.8"/>
+      <polygon points="32,18 36,29 32,26 28,29" fill="#ff7043"/>
+      <polygon points="32,46 36,35 32,38 28,35" fill="#e0f7fa"/>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷六・課諮引路與時辰</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">課諮金三角・選課轉組重要期程</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">11 位課諮導師線上預約</text>
+  </g>
+
+  <!-- Card 8: Vol 7 學長姐 Q&A -->
+  <g transform="translate(888, 304)">
+    <rect x="0" y="0" width="262" height="196" rx="14" fill="#261d16" stroke="#6e5226" stroke-width="1.6"/>
+    <g transform="translate(99, 18)">
+      <polygon points="32,4 57,18 57,46 32,60 7,46 7,18" fill="#2a1f33" stroke="#ab47bc" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="20" y="18" width="24" height="28" rx="3" fill="#f3e5f5" stroke="#ce93d8" stroke-width="1.5"/>
+      <text x="32" y="38" text-anchor="middle" font-family="serif" font-size="18" font-weight="bold" fill="#6a1b9a">Q&amp;A</text>
+    </g>
+    <text x="131" y="114" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="17" font-weight="800" fill="#f5e6c8">卷七・前輩傳承問答錄</text>
+    <text x="131" y="140" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" fill="#b8a686">課程・歷程・課諮・升學四大篇</text>
+    <text x="131" y="168" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8c734b">23 道歷屆常見難題詳解</text>
+  </g>
+</svg>

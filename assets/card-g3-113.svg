@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 295" width="100%" height="100%">
+  <rect x="4" y="4" width="1192" height="287" rx="22" fill="#F5F3FF" stroke="#8B5CF6" stroke-width="2"/>
+  <rect x="28" y="18" width="460" height="34" rx="17" fill="#8B5CF6"/>
+  <text x="48" y="40" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">🎓 高三專區（113 學年度入學高三適用）</text>
+  
+  <rect x="28" y="58" width="1144" height="36" rx="10" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="1.5"/>
+  <text x="44" y="81" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.8" font-weight="600" fill="#1E293B">⚠️ 高三下（115-2）必修僅剩 4～5 學分：高三下沒有部定必修國文、英文！僅剩體育(2)與藝術生活/家政/全民國防教育對開，其餘 25～26 學分全為加深加廣與多元選修。</text>
+  <rect x="28" y="102" width="1144" height="36" rx="10" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="1.5"/>
+  <text x="44" y="125" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.8" font-weight="600" fill="#1E293B">🔬 高三加深加廣完整對應：自然組修數甲(4+4)、選修物理(4+4)、選修化學(3+3)、選修生物(3+3)、英文作文/聽講/讀寫、語文表達/文學選讀及《工程設計專題》(1+1)；社會組修數乙(4+4)、選修歷/地/公(各 3+3)、國學常識/語文表達/文學選讀/專題閱讀與《健康與休閒生活》(1+1)。</text>
+  <rect x="28" y="146" width="1144" height="36" rx="10" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="1.5"/>
+  <text x="44" y="169" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.8" font-weight="600" fill="#1E293B">🌈 高三 25 門跑班多元選修：每週四下午跑班，涵蓋日/法/德/西/越/韓/俄七國二外、AI客共鄉、花女熊設計、電影配樂賞析、肌膚保養、料理科學、趣味民法、SDG行動等。</text>
+  <rect x="28" y="190" width="1144" height="36" rx="10" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="1.5"/>
+  <text x="44" y="213" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.8" font-weight="600" fill="#1E293B">🏅 資優班學分修正提醒：113 入學數資班高二《獨立研究》為 8 學分；語資班高三校訂必修《書報討論》為 4 學分（2+2）、加深加廣《數學乙》為 8 學分（4+4），校訂必修總計 30 學分（85%及格門檻為 26 學分）。</text>
+  <rect x="28" y="234" width="1144" height="36" rx="10" fill="#FFFFFF" stroke="#EDE9FE" stroke-width="1.5"/>
+  <text x="44" y="257" font-family="'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.8" font-weight="600" fill="#1E293B">✅ 畢業學分終極檢核（總修習 182 學分，及格至少 150 學分）：普通班【部定+校訂必修 ≥ 102、選修 ≥ 40】｜語資班【部定 ≥ 90、校訂 ≥ 26、選修 ≥ 28】｜數資班【部定 ≥ 87、校訂 ≥ 21、選修 ≥ 35】｜美術班【部定+校訂 ≥ 128、選修 ≥ 14】。</text>
+</svg>

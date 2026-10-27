@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cover-sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1410"/>
+      <stop offset="50%" stop-color="#2B2116"/>
+      <stop offset="100%" stop-color="#141E24"/>
+    </linearGradient>
+    <linearGradient id="cover-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7DF94"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7420"/>
+    </linearGradient>
+    <linearGradient id="cover-sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1C4559"/>
+      <stop offset="100%" stop-color="#0E2633"/>
+    </linearGradient>
+    <linearGradient id="cover-mtn-far" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A6B5D"/>
+      <stop offset="100%" stop-color="#243830"/>
+    </linearGradient>
+    <linearGradient id="cover-mtn-near" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B7D44"/>
+      <stop offset="100%" stop-color="#2D4221"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Classical Frame -->
+  <rect x="4" y="4" width="1192" height="382" rx="18" fill="url(#cover-sky)" stroke="url(#cover-gold)" stroke-width="3.5"/>
+  <rect x="16" y="16" width="1168" height="358" rx="12" fill="none" stroke="#8C6D36" stroke-width="1.4" stroke-dasharray="10 5"/>
+
+  <!-- Corner Classical Ornaments -->
+  <g stroke="#D4AF37" stroke-width="2" opacity="0.9" fill="none">
+    <path d="M26 52 V26 H52 M34 42 V34 H42"/>
+    <path d="M1174 52 V26 H1148 M1166 42 V34 H1158"/>
+    <path d="M26 338 V364 H52 M34 348 V356 H42"/>
+    <path d="M1174 338 V364 H1148 M1166 348 V356 H1158"/>
+  </g>
+
+  <!-- Rising Golden Sun & Auspicious Clouds over Hualien Pacific -->
+  <circle cx="960" cy="135" r="82" fill="#E6B85C" opacity="0.14"/>
+  <circle cx="960" cy="135" r="56" fill="#F5C85B" opacity="0.24"/>
+  <path d="M770 84 C800 72 825 72 855 84 C885 96 915 96 945 84" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round" opacity="0.45" fill="none"/>
+  <path d="M1015 72 C1045 62 1075 62 1105 72 C1125 82 1145 82 1165 72" stroke="#D4AF37" stroke-width="1.6" stroke-linecap="round" opacity="0.45" fill="none"/>
+
+  <!-- Compass Rose / Bagua Astrolabe in Background -->
+  <g transform="translate(960, 155)" opacity="0.22" stroke="#F0D284" fill="none">
+    <circle cx="0" cy="0" r="120" stroke-width="1.4" stroke-dasharray="5 5"/>
+    <circle cx="0" cy="0" r="92" stroke-width="1.1"/>
+    <line x1="-132" y1="0" x2="132" y2="0" stroke-width="1.1"/>
+    <line x1="0" y1="-132" x2="0" y2="132" stroke-width="1.1"/>
+    <polygon points="0,-108 10,-24 0,-34 -10,-24" fill="#F0D284"/>
+  </g>
+
+  <!-- Central Range & Qilai Peaks (奇萊山與太魯閣層巒) -->
+  <path d="M680 305 L775 168 L840 225 L920 108 L995 198 L1065 138 L1135 218 L1182 305 Z" fill="url(#cover-mtn-far)" stroke="#8FA89B" stroke-width="1.5"/>
+  <polygon points="920,108 945,144 928,139 920,150 910,139 895,144" fill="#F7F4EB" opacity="0.9"/>
+  <polygon points="1065,138 1084,166 1065,159 1048,166" fill="#F7F4EB" opacity="0.75"/>
+
+  <!-- Meilun Mount Foothills (花崗山台地與美崙山) -->
+  <path d="M715 312 C780 240 855 225 935 262 C1005 230 1090 235 1182 312 Z" fill="url(#cover-mtn-near)" stroke="#9CC476" stroke-width="1.4"/>
+
+  <!-- Pacific Ocean & Kuroshio Waves (七星潭與太平洋黑潮波濤) -->
+  <path d="M18 302 C200 286 385 316 575 302 C765 286 965 316 1182 302 L1182 372 L18 372 Z" fill="url(#cover-sea)"/>
+  <path d="M48 328 C160 314 275 340 390 328 C510 314 630 340 755 328 C880 314 1020 336 1150 324" stroke="#7CC2DE" stroke-width="1.8" stroke-linecap="round" opacity="0.65" fill="none"/>
+  <path d="M84 352 C200 340 320 362 440 352 C565 340 695 362 820 352 C945 340 1055 358 1140 350" stroke="#5AA4C4" stroke-width="1.5" stroke-linecap="round" opacity="0.5" fill="none"/>
+
+  <!-- Sailing Ship on Kuroshio Current -->
+  <g transform="translate(800, 248)">
+    <path d="M0 38 L58 38 L48 52 L10 52 Z" fill="#6E472B" stroke="#F0D284" stroke-width="1.4"/>
+    <line x1="28" y1="4" x2="28" y2="38" stroke="#D9B382" stroke-width="2.2"/>
+    <path d="M28 6 C46 10 50 24 46 34 L28 34 Z" fill="#D95B43" stroke="#F7DF94" stroke-width="1.2"/>
+    <line x1="28" y1="14" x2="46" y2="16" stroke="#F7DF94" stroke-width="1"/>
+    <line x1="28" y1="24" x2="47" y2="25" stroke="#F7DF94" stroke-width="1"/>
+    <path d="M14 14 C23 16 25 26 24 34 L12 34 Z" fill="#E6C875" stroke="#8C6239" stroke-width="1"/>
+  </g>
+
+  <!-- Left Classical Thread-Bound Book Title Plaque (古籍線裝書題簽與朱印) -->
+  <g transform="translate(42, 36)">
+    <rect x="0" y="0" width="248" height="316" rx="10" fill="#1E1711" fill-opacity="0.95" stroke="url(#cover-gold)" stroke-width="2.6"/>
+    <rect x="8" y="8" width="232" height="300" rx="6" fill="none" stroke="#8C6D36" stroke-width="1.1"/>
+    <!-- Silk Bookbinding Spine Lines -->
+    <line x1="26" y1="0" x2="26" y2="316" stroke="#8C6D36" stroke-width="1.5"/>
+    <line x1="0" y1="52" x2="26" y2="52" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="0" y1="126" x2="26" y2="126" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="0" y1="190" x2="26" y2="190" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="0" y1="262" x2="26" y2="262" stroke="#D4AF37" stroke-width="2"/>
+
+    <!-- Era Tag -->
+    <text x="136" y="38" text-anchor="middle" fill="#D4AF37" font-size="12.5" font-weight="bold" font-family="'Noto Serif TC', serif" letter-spacing="2">一九二七創校・一一五學年</text>
+    <line x1="48" y1="48" x2="224" y2="48" stroke="#8C6D36" stroke-width="1"/>
+
+    <!-- Main Book Title -->
+    <text x="136" y="92" text-anchor="middle" fill="#FFF5D6" font-size="25" font-weight="900" font-family="'Noto Serif TC', serif" letter-spacing="3">花女選課生存手冊</text>
+    <text x="136" y="120" text-anchor="middle" fill="#E6C875" font-size="12.5" font-family="'Noto Serif TC', serif" letter-spacing="1.5">班群・學分・學群・歷程全覽</text>
+
+    <!-- Hex Emblem -->
+    <g transform="translate(136, 178)">
+      <polygon points="0,-38 33,-19 33,19 0,38 -33,19 -33,-19" fill="#2C2016" stroke="#D4AF37" stroke-width="2.2"/>
+      <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="none" stroke="#8C6D36" stroke-width="1.1"/>
+      <text x="0" y="-2" text-anchor="middle" fill="#F7DF94" font-size="14" font-weight="bold" font-family="serif">HLGS</text>
+      <text x="0" y="15" text-anchor="middle" fill="#7CC2DE" font-size="11" font-weight="bold" font-family="serif">1684風</text>
+    </g>
+
+    <!-- Red Vermilion Seal (朱印「洄瀾輿圖」) -->
+    <g transform="translate(96, 236)">
+      <rect x="0" y="0" width="80" height="30" rx="4" fill="#B82925" stroke="#F0C75E" stroke-width="1.2"/>
+      <text x="40" y="20" text-anchor="middle" fill="#FFF3E0" font-size="13" font-weight="bold" font-family="'Noto Serif TC', serif" letter-spacing="3">洄瀾輿圖</text>
+    </g>
+    <text x="136" y="294" text-anchor="middle" fill="#B8A686" font-size="11.5" font-family="'Noto Sans TC', sans-serif">全書七卷・三屆課表互相索引</text>
+  </g>
+
+  <!-- Center RPG Survival Atlas HUD Panel -->
+  <g transform="translate(314, 36)">
+    <rect x="0" y="0" width="540" height="316" rx="12" fill="#1E1711" fill-opacity="0.88" stroke="#D4AF37" stroke-width="2"/>
+    <rect x="18" y="16" width="290" height="28" rx="6" fill="#2C2016" stroke="#D4AF37" stroke-width="1.2"/>
+    <text x="30" y="35" font-family="'Noto Serif TC', serif" font-size="13.5" font-weight="800" fill="#F7DF94">🧭 1684 臺灣生存手冊聯名 ‧ 遊戲圖鑑主題</text>
+    <rect x="320" y="16" width="202" height="28" rx="6" fill="#B82925" stroke="#F0C75E" stroke-width="1.2"/>
+    <text x="421" y="35" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="800" fill="#FFF5D6">⚔️ 主線任務：修滿 150 及格學分</text>
+
+    <text x="20" y="82" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="28" font-weight="900" fill="#FFF5D6" letter-spacing="1.5">
+      國立花蓮女中・三年修業輿圖
+    </text>
+    <text x="20" y="110" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="600" fill="#D4AF37">
+      「真正的生涯規劃，是在太平洋與中央山脈之間，開拓屬於妳自己的航道。」
+    </text>
+
+    <!-- 3 RPG Quest Cards inside HUD -->
+    <g transform="translate(20, 128)">
+      <rect x="0" y="0" width="500" height="46" rx="8" fill="#2A2017" stroke="#8C6D36" stroke-width="1.4"/>
+      <text x="14" y="20" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#F7DF94">🛡️ Lv.1 新手拓墾（115 入學高一）</text>
+      <text x="14" y="38" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#E2D5B5">本土語 1+1 新制・每學期 31 學分・每週 2 節彈性學習・30 門高一多元選修</text>
+
+      <rect x="0" y="54" width="500" height="46" rx="8" fill="#2A2017" stroke="#8C6D36" stroke-width="1.4"/>
+      <text x="14" y="74" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#7CC2DE">⚔️ Lv.2 陣營分流（114 入學高二）</text>
+      <text x="14" y="92" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#E2D5B5">自然組(A) vs 社會組(B)・數A/數B抉擇・校訂必修《洄瀾之欣》《職業探究》對開</text>
+
+      <rect x="0" y="108" width="500" height="46" rx="8" fill="#2A2017" stroke="#8C6D36" stroke-width="1.4"/>
+      <text x="14" y="128" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#F4A261">👑 Lv.3 終局試煉（113 入學高三）</text>
+      <text x="14" y="146" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#E2D5B5">高三下無部定國英・加深加廣專精・25 門高三多元選修・學習歷程與四大升學管道</text>
+    </g>
+
+    <!-- Bottom RPG Status Bar -->
+    <text x="20" y="302" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="700" fill="#B8A686">
+      📜 裝備檢核：總修習 182 學分 ｜ 必修及格 ≥ 102 ｜ 選修及格 ≥ 40 ｜ 自主學習 ≥ 18 節
+    </text>
+  </g>
+</svg>

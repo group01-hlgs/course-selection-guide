@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 104" width="100%" height="100%">
+  <rect x="4" y="6" width="1192" height="92" rx="14" fill="#1E1711" stroke="#D4AF37" stroke-width="2.2"/>
+  <rect x="12" y="14" width="1176" height="76" rx="10" fill="none" stroke="#8C6D36" stroke-width="1" stroke-dasharray="6,4"/>
+  <polygon points="46,28 66,40 66,64 46,76 26,64 26,40" fill="#2C2016" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="46" cy="52" r="6" fill="#d4af37"/>
+  <text x="84" y="47" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="22" font-weight="900" fill="#FFF5D6" letter-spacing="1">🧭 卷首・一一五學年度三屆試煉雷達（當學期 ＆ 未來學期）</text>
+  <text x="84" y="76" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="14" font-weight="600" fill="#D4AF37">Lv.1 新手拓墾（115高一）‧ Lv.2 陣營分流（114高二）‧ Lv.3 終局試煉（113高三）跨屆法則總覽</text>
+</svg>
