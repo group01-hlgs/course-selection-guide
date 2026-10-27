@@ -30,28 +30,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><b>01. 洄瀾太平洋 (Pacific Horizon)</b></td>
-        <td>太平洋黑潮海藍 × 霧青現代編輯誌（預設主題）</td>
-        <td align="center"><a href="README.md"><img src="assets/btn-theme-ocean.svg" alt="洄瀾太平洋" height="30" /></a></td>
+        <td><b>01. 文青獨立雜誌 (Indie Zine)</b></td>
+        <td>暖調原漿紙感 × 濃縮咖啡文青排版（預設主題）</td>
+        <td align="center"><a href="README.md"><img src="assets/btn-theme-zine.svg" alt="文青獨立雜誌" height="30" /></a></td>
+        <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine">開啟網頁版</a></td>
+      </tr>
+      <tr>
+        <td><b>02. 洄瀾太平洋 (Pacific Horizon)</b></td>
+        <td>太平洋黑潮海藍 × 霧青現代編輯誌</td>
+        <td align="center"><a href="README-ocean.md"><img src="assets/btn-theme-ocean.svg" alt="洄瀾太平洋" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean">開啟網頁版</a></td>
       </tr>
       <tr>
-        <td><b>02. 經典圖鑑風（古籍典藏）</b></td>
+        <td><b>03. 經典圖鑑風（古籍典藏）</b></td>
         <td>宣紙溫潤米白底色 × 古銅棕書籤 × 古籍之美細框與七大篇章向量圖鑑</td>
         <td align="center"><a href="README-atlas.md"><img src="assets/btn-theme-atlas.svg" alt="經典圖鑑風" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=atlas">開啟網頁版</a></td>
       </tr>
       <tr>
-        <td><b>03. Y2K 丹寧銀灰 (Cyber Denim)</b></td>
+        <td><b>04. Y2K 丹寧銀灰 (Cyber Denim)</b></td>
         <td>冷調丹寧靛藍 × 銀灰金屬質感設計</td>
         <td align="center"><a href="README-denim.md"><img src="assets/btn-theme-denim.svg" alt="Y2K 丹寧銀灰" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=denim">開啟網頁版</a></td>
-      </tr>
-      <tr>
-        <td><b>04. 文青獨立雜誌 (Indie Zine)</b></td>
-        <td>暖調原漿紙感 × 濃縮咖啡文青排版</td>
-        <td align="center"><a href="README-zine.md"><img src="assets/btn-theme-zine.svg" alt="文青獨立雜誌" height="30" /></a></td>
-        <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine">開啟網頁版</a></td>
       </tr>
       <tr>
         <td><b>05. 縱谷松針森系 (Valley Pine)</b></td>

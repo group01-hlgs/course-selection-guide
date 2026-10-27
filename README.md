@@ -2,22 +2,22 @@
 
 <!-- 動態深淺色自適應 SVG 主題橫幅 (100% 本地創作純向量 SVG，零外部圖源、零 Emoji) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-ocean-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-ocean.svg" />
-  <img alt="國立花蓮女子高級中學 115學年度選課輔導手冊 — 洄瀾太平洋 (Pacific Horizon)" src="assets/banner-ocean.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-zine-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-zine.svg" />
+  <img alt="國立花蓮女子高級中學 115學年度選課輔導手冊 — 文青獨立雜誌 (Indie Zine)" src="assets/banner-zine.svg" width="100%" />
 </picture>
 
 <br/>
 
 <p align="center">
-  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean"><img src="assets/btn-interactive-web.svg" alt="開啟互動網頁版（響應式導覽＋下拉風格選單）" height="40" /></a>
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine"><img src="assets/btn-interactive-web.svg" alt="開啟互動網頁版（響應式導覽＋下拉風格選單）" height="40" /></a>
 </p>
 
 </div>
 
 <!-- 視覺風格下拉選單 (GitHub 原生 Details 下拉選單，純 SVG 圖示) -->
 <details>
-  <summary><img src="assets/icon-palette.svg" width="16" height="16" alt="theme" /> <b>視覺風格選擇（點擊展開下拉選單 ── 目前主題：洄瀾太平洋 (Pacific Horizon)）</b></summary>
+  <summary><img src="assets/icon-palette.svg" width="16" height="16" alt="theme" /> <b>視覺風格選擇（點擊展開下拉選單 ── 目前主題：文青獨立雜誌 (Indie Zine)）</b></summary>
   <br/>
   <table>
     <thead>
@@ -30,28 +30,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><b>01. 洄瀾太平洋 (Pacific Horizon)</b></td>
-        <td>太平洋黑潮海藍 × 霧青現代編輯誌（預設主題）</td>
-        <td align="center"><a href="README.md"><img src="assets/btn-theme-ocean.svg" alt="洄瀾太平洋" height="30" /></a></td>
+        <td><b>01. 文青獨立雜誌 (Indie Zine)</b></td>
+        <td>暖調原漿紙感 × 濃縮咖啡文青排版（預設主題）</td>
+        <td align="center"><a href="README.md"><img src="assets/btn-theme-zine.svg" alt="文青獨立雜誌" height="30" /></a></td>
+        <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine">開啟網頁版</a></td>
+      </tr>
+      <tr>
+        <td><b>02. 洄瀾太平洋 (Pacific Horizon)</b></td>
+        <td>太平洋黑潮海藍 × 霧青現代編輯誌</td>
+        <td align="center"><a href="README-ocean.md"><img src="assets/btn-theme-ocean.svg" alt="洄瀾太平洋" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean">開啟網頁版</a></td>
       </tr>
       <tr>
-        <td><b>02. 經典圖鑑風（古籍典藏）</b></td>
+        <td><b>03. 經典圖鑑風（古籍典藏）</b></td>
         <td>宣紙溫潤米白底色 × 古銅棕書籤 × 古籍之美細框與七大篇章向量圖鑑</td>
         <td align="center"><a href="README-atlas.md"><img src="assets/btn-theme-atlas.svg" alt="經典圖鑑風" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=atlas">開啟網頁版</a></td>
       </tr>
       <tr>
-        <td><b>03. Y2K 丹寧銀灰 (Cyber Denim)</b></td>
+        <td><b>04. Y2K 丹寧銀灰 (Cyber Denim)</b></td>
         <td>冷調丹寧靛藍 × 銀灰金屬質感設計</td>
         <td align="center"><a href="README-denim.md"><img src="assets/btn-theme-denim.svg" alt="Y2K 丹寧銀灰" height="30" /></a></td>
         <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=denim">開啟網頁版</a></td>
-      </tr>
-      <tr>
-        <td><b>04. 文青獨立雜誌 (Indie Zine)</b></td>
-        <td>暖調原漿紙感 × 濃縮咖啡文青排版</td>
-        <td align="center"><a href="README-zine.md"><img src="assets/btn-theme-zine.svg" alt="文青獨立雜誌" height="30" /></a></td>
-        <td align="center"><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine">開啟網頁版</a></td>
       </tr>
       <tr>
         <td><b>05. 縱谷松針森系 (Valley Pine)</b></td>
@@ -113,7 +113,7 @@
       <td valign="top">
         <p><img src="assets/handbook-media/image1.jpeg" alt="國立花蓮女中校徽" width="48" align="left" style="margin-right:12px;" />
           <b>國立花蓮女子高級中學 ‧ 115 選課輔導手冊</b><br/>
-          <sub>目前風格：<b>洄瀾太平洋 (Pacific Horizon)</b> ｜ 整合 113/114/115 三份最新報部課程計畫書</sub>
+          <sub>目前風格：<b>文青獨立雜誌 (Indie Zine)</b> ｜ 整合 113/114/115 三份最新報部課程計畫書</sub>
         </p>
         <hr/>
         <p><b>依入學屆別一鍵定位當學期與未來學期重點：</b></p>
@@ -124,7 +124,7 @@
           <li><b><a href="#cross-cohort-diff">113 vs 114 vs 115 跨屆 10 大關鍵變動總表</a></b></li>
         </ul>
         <hr/>
-        <p><b><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=ocean">啟動 GitHub Pages 響應式互動網頁版</a></b><br/>
+        <p><b><a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine">啟動 GitHub Pages 響應式互動網頁版</a></b><br/>
           <sub>支援「<b>風格下拉選單</b>」、「<b>桌機左側常駐章節欄／小螢幕左邊界滑出章節抽屜</b>」、「年級快篩」與「182 應修 / 150 及格畢業學分即時試算儀表板」。</sub>
         </p>
       </td>
@@ -143,12 +143,12 @@
 
 
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="radar"></a>
 <div align="center">
-  <img src="assets/sec-radar-ocean.svg" alt="115 學年度三個年級當學期與未來學期選課速查雷達" width="100%" />
+  <img src="assets/sec-radar-zine.svg" alt="115 學年度三個年級當學期與未來學期選課速查雷達" width="100%" />
 </div>
 
 > **為什麼要先看這一區？**> 在 **115 學年度**同時在校的三個年級，分別適用 **115 學年度入學（現高一）**、**114 學年度入學（現高二）**、**113 學年度入學（現高三）**三份報部核定課程計畫書。為避免同學誤看不同屆別的學分配置，下方以自創純向量 SVG 圖卡與對照表整理「**當學期（115-1 / 115-2）**」與「**未來學期**」的所有關鍵重點！
@@ -190,12 +190,12 @@
 |**語文資優班高三《書報討論》與《數學乙》**|校訂《書報討論》**4**學分（2+2）<br/>加深加廣《數學乙》**8**學分（4+4） |校訂《書報討論》**4**學分（2+2）<br/>加深加廣《數學乙》**8**學分（4+4） |校訂《書報討論》**4**學分（2+2）<br/>加深加廣《數學乙》**8**學分（4+4） |修正舊手冊誤植：語資校訂必修實為 **30 學分**（85%及格為 **26 學分**） |
 |**高一多元選修新增／調整課程**|含《ZINE 小誌創作》等 |含《ZINE 小誌創作》等 |**新增 6 門**：《愛(AI)客共鄉》《生活實用繩結與實作》《刑法世界的秩序與權益》《地景描繪x模型x地形》《初級瑜珈》《科技輔助設計思考於花女熊設計》（停開 ZINE 小誌創作） |高一上學期由學校分發或選填，高一下學期不得重複修習同門課 |
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch1"></a>
 <div align="center">
-  <img src="assets/sec-ch1-ocean.svg" alt="壹、關於花女" width="100%" />
+  <img src="assets/sec-ch1-zine.svg" alt="壹、關於花女" width="100%" />
 </div>
 
 <div align="center">
@@ -278,12 +278,12 @@
 |**數理資優班**<br/>*(114/115入學 現高二/高一)* |**24 學分**|科學閱讀(2)<br/>**研究方法(2)**|生活與化學(2)<br/>**研究方法(2)**|**獨立研究(3)**<br/>科學探究(2)<br/>數學專題I(2) |**獨立研究(3)**<br/>數學專題I(2) |數學專題II(2) |數學專題II(2) |**114/115 入學改制**：高一研究方法改為 4 學分(2+2)，高二獨立研究改為 6 學分(3+3) |
 |**美術資優班**<br/>*(特殊需求領域)* |**8 學分**<br/>*(另加藝才專長必修 60 學分)* |書法1(1) |書法2(1) |造形藝術(1) |— |書法3(1)<br/>彩繪技法1(2) |彩繪技法2(2) |藝術才能專長領域必修 60 學分詳見下方美術班課程地圖 |
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch2"></a>
 <div align="center">
-  <img src="assets/sec-ch2-ocean.svg" alt="貳、三年將會走過的痕跡－花女為我擘劃的課程地圖" width="100%" />
+  <img src="assets/sec-ch2-zine.svg" alt="貳、三年將會走過的痕跡－花女為我擘劃的課程地圖" width="100%" />
 </div>
 
 <div align="center">
@@ -502,12 +502,12 @@
 >  **想一鍵試算自己的及格學分是否達標？**> 請開啟本倉庫隨附的 **[`index.html` 互動式網頁版手冊](index.html)**，內建「**畢業學分互動檢核計算機**」，輸入目前學分即可即時顯示進度條與差額提醒！
 
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch3"></a>
 <div align="center">
-  <img src="assets/sec-ch3-ocean.svg" alt="參、決定自己的課程－選組與選課" width="100%" />
+  <img src="assets/sec-ch3-zine.svg" alt="參、決定自己的課程－選組與選課" width="100%" />
 </div>
 
 >  **在花女三年中，有哪些是「可以自己決定」的課程與時間？**
@@ -640,12 +640,12 @@
 </details>
 
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch4"></a>
 <div align="center">
-  <img src="assets/sec-ch4-ocean.svg" alt="肆、對於未來的想像－生涯規劃" width="100%" />
+  <img src="assets/sec-ch4-zine.svg" alt="肆、對於未來的想像－生涯規劃" width="100%" />
 </div>
 
 <a id="ch4-0"></a>
@@ -759,12 +759,12 @@
 |**14. 教育部青年發展署（Rich 職場體驗網）**|https://rich.yda.gov.tw/ |政府公部門、企業暑期實習與青年職涯探索計畫 |
 |**15. UCAN 大專校院就業職能平台**|https://ucan.moe.edu.tw/ |教育部職能診斷與 16 職涯類型探索參考 |
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch5"></a>
 <div align="center">
-  <img src="assets/sec-ch5-ocean.svg" alt="伍、築夢踏實－學習歷程與升學管道" width="100%" />
+  <img src="assets/sec-ch5-zine.svg" alt="伍、築夢踏實－學習歷程與升學管道" width="100%" />
 </div>
 
 <a id="ch5-1"></a>
@@ -884,12 +884,12 @@
 |**海外大學申請**|**美加地區**|**SAT / ACT 測驗**＋ **TOEFL / IELTS 英語檢定**＋ 高中英文成績單（GPA）與個人自傳 Essay |可透過 Common App 或社區大學轉學制（2+2）申請 |
 |**海外大學申請**|**香港／日本／新加坡**|**臺灣學測成績（X）或日本留學試驗（EJU）**＋ 外語能力檢定（TOEFL/IELTS/JLPT） |多數香港與日本頂尖大學英語學程可直接憑學測頂標成績與英文面試申請（多於高三上 10～12 月截止首輪） |
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch6"></a>
 <div align="center">
-  <img src="assets/sec-ch6-ocean.svg" alt="陸、一路上有人陪我－課程諮詢服務" width="100%" />
+  <img src="assets/sec-ch6-zine.svg" alt="陸、一路上有人陪我－課程諮詢服務" width="100%" />
 </div>
 
 <a id="ch6-1"></a>
@@ -967,12 +967,12 @@
 -  **預約個別課程諮詢方式**：同學可於每學期選課前或平時，至**教務處教學組**、**輔導室**或透過校網「課程諮詢服務站」線上表單預約課諮老師進行一對一或小團體諮詢！
 
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <a id="ch7"></a>
 <div align="center">
-  <img src="assets/sec-ch7-ocean.svg" alt="柒、原來不是只有我不懂－學長姐 Q&A" width="100%" />
+  <img src="assets/sec-ch7-zine.svg" alt="柒、原來不是只有我不懂－學長姐 Q&A" width="100%" />
 </div>
 
 <a id="ch7-1"></a>
@@ -1096,7 +1096,7 @@
 |**協助編輯**|**林佩蓉、杜宜庭**|**學校官網**|https://www.hlgs.hlc.edu.tw/curriculum/class-consult/ |
 |**排版整理**|**張家誠**（數位多主題 README 與 經典圖鑑風版協作升級） |**GitHub 專案**|https://github.com/group01-hlgs/course-selection-guide |
 <p align="center">
-  <img src="assets/divider-ocean.svg" alt="divider" width="100%" />
+  <img src="assets/divider-zine.svg" alt="divider" width="100%" />
 </p>
 
 <div align="center">

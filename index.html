@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW" data-theme="ocean">
+<html lang="zh-Hant-TW" data-theme="zine">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,7 @@
     /* ==========================================================================
        6 Themes (Default: 洄瀾太平洋 + 《古籍之美》經典圖鑑風宣紙米白底色 + 4 Stylish Themes)
        ========================================================================== */
-    :root, [data-theme="ocean"] {
+    [data-theme="ocean"] {
       --bg-main: #f4f7fa;
       --bg-card: #ffffff;
       --bg-accent: #e0f2fe;
@@ -90,7 +90,7 @@
       --quote-border: #2563eb;
     }
 
-    [data-theme="zine"] {
+    :root, [data-theme="zine"] {
       --bg-main: #faf7f2;
       --bg-card: #fffefb;
       --bg-accent: #f3ede2;
@@ -689,10 +689,10 @@
           <span>風格選擇：</span>
         </label>
         <select id="theme-select" class="theme-select" aria-label="選擇手冊視覺風格">
-          <option value="ocean">洄瀾太平洋（現代海岸・預設）</option>
+          <option value="zine">文青獨立雜誌（暖調紙感・預設）</option>
+          <option value="ocean">洄瀾太平洋（現代海岸）</option>
           <option value="atlas">經典圖鑑風（古籍典藏・宣紙米白）</option>
           <option value="denim">Y2K 丹寧銀灰（冷調金屬）</option>
-          <option value="zine">文青獨立雜誌（暖調紙感）</option>
           <option value="pine">縱谷松針森系（自然極簡）</option>
           <option value="mono">極簡黑白（高對比）</option>
         </select>
@@ -712,7 +712,7 @@
     <main class="main-column">
       <!-- Dynamic SVG Hero Banner -->
       <div class="hero-banner">
-        <img id="hero-banner-img" src="assets/banner-ocean.svg?v=4" alt="國立花蓮女中 115學年度選課輔導手冊橫幅" />
+        <img id="hero-banner-img" src="assets/banner-zine.svg?v=5" alt="國立花蓮女中 115學年度選課輔導手冊橫幅" />
       </div>
 
       <!-- Classic Atlas Vector Emblem Showcase (Visible in 經典圖鑑風) -->
@@ -752,7 +752,7 @@
       <section class="card-section" id="card-sec-radar">
 <a id="radar"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-radar" src="assets/sec-radar-ocean.svg" alt="115 學年度三個年級當學期與未來學期選課速查雷達" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-radar" src=\"assets/sec-radar-zine.svg\" alt="115 學年度三個年級當學期與未來學期選課速查雷達" width="100%" />
 </div>
 
 <blockquote><b>為什麼要先看這一區？</b>> 在 <b>115 學年度</b>同時在校的三個年級，分別適用 <b>115 學年度入學（現高一）</b>、<b>114 學年度入學（現高二）</b>、<b>113 學年度入學（現高三）</b>三份報部核定課程計畫書。為避免同學誤看不同屆別的學分配置，下方以自創純向量 SVG 圖卡與對照表整理「<b>當學期（115-1 / 115-2）</b>」與「<b>未來學期</b>」的所有關鍵重點！</blockquote>
@@ -789,7 +789,7 @@
 
 <a id="ch1"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch1" src="assets/sec-ch1-ocean.svg" alt="壹、關於花女" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch1" src=\"assets/sec-ch1-zine.svg\" alt="壹、關於花女" width="100%" />
 </div>
 
 <div align="center">
@@ -848,7 +848,7 @@
 
 <a id="ch2"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch2" src="assets/sec-ch2-ocean.svg" alt="貳、三年將會走過的痕跡－花女為我擘劃的課程地圖" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch2" src=\"assets/sec-ch2-zine.svg\" alt="貳、三年將會走過的痕跡－花女為我擘劃的課程地圖" width="100%" />
 </div>
 
 <div align="center">
@@ -940,7 +940,7 @@
 
 <a id="ch3"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch3" src="assets/sec-ch3-ocean.svg" alt="參、決定自己的課程－選組與選課" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch3" src=\"assets/sec-ch3-zine.svg\" alt="參、決定自己的課程－選組與選課" width="100%" />
 </div>
 
 <blockquote> <b>在花女三年中，有哪些是「可以自己決定」的課程與時間？</b><br/>1. <b>選組與高二數學分流（高一下 5 月決定）</b>：選擇高二進入<b>班群 A（自然組）</b>或<b>班群 B（社會組）</b>，社會組同學還可選擇修習<b>數學 B</b>或<b>數學 A</b>。<br/>2. <b>多元選修課程（高一上下、高二下、高三上下）</b>：每學期從 24～30 門豐富課程中選填志願跨班修習。<br/>3. <b>加深加廣與補強性跑班選修（高二下、高三上下）</b>：依個人升學目標選修加深加廣或補強課程。<br/>4. <b>彈性學習時間（每週五第 3、4 節）</b>：規劃<b>自主學習主題</b>（畢業前至少滿 18 節）、參加微課程或選手培訓。<br/>5. <b>團體活動－社團時間（每週三第 6、7 節）</b>：從 34 個多元社團中選擇熱愛的領域投入！</blockquote>
@@ -1019,7 +1019,7 @@
 
 <a id="ch4"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch4" src="assets/sec-ch4-ocean.svg" alt="肆、對於未來的想像－生涯規劃" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch4" src=\"assets/sec-ch4-zine.svg\" alt="肆、對於未來的想像－生涯規劃" width="100%" />
 </div>
 
 <a id="ch4-0"></a>
@@ -1083,7 +1083,7 @@
 
 <a id="ch5"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch5" src="assets/sec-ch5-ocean.svg" alt="伍、築夢踏實－學習歷程與升學管道" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch5" src=\"assets/sec-ch5-zine.svg\" alt="伍、築夢踏實－學習歷程與升學管道" width="100%" />
 </div>
 
 <a id="ch5-1"></a>
@@ -1161,7 +1161,7 @@
 
 <a id="ch6"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch6" src="assets/sec-ch6-ocean.svg" alt="陸、一路上有人陪我－課程諮詢服務" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch6" src=\"assets/sec-ch6-zine.svg\" alt="陸、一路上有人陪我－課程諮詢服務" width="100%" />
 </div>
 
 <a id="ch6-1"></a>
@@ -1221,7 +1221,7 @@
 
 <a id="ch7"></a>
 <div align="center">
-  <img class="theme-sec-img" data-sec="sec-ch7" src="assets/sec-ch7-ocean.svg" alt="柒、原來不是只有我不懂－學長姐 Q&A" width="100%" />
+  <img class="theme-sec-img" data-sec="sec-ch7" src=\"assets/sec-ch7-zine.svg\" alt="柒、原來不是只有我不懂－學長姐 Q&A" width="100%" />
 </div>
 
 <a id="ch7-1"></a>
@@ -1325,11 +1325,11 @@
   </div>
 
   <script>
-    const VALID_THEMES = ['ocean', 'atlas', 'denim', 'zine', 'pine', 'mono'];
+    const VALID_THEMES = ['zine', 'ocean', 'atlas', 'denim', 'pine', 'mono'];
     const themeSelect = document.getElementById('theme-select');
 
     function normalizeTheme(theme) {
-      if (!theme) return 'ocean';
+      if (!theme) return 'zine';
       if (VALID_THEMES.indexOf(theme) !== -1) return theme;
       return 'atlas';
     }
@@ -1342,7 +1342,7 @@
       }
       const bannerImg = document.getElementById('hero-banner-img');
       if (bannerImg) {
-        bannerImg.src = 'assets/banner-' + theme + '.svg';
+        bannerImg.src = 'assets/banner-' + theme + '.svg?v=5';
       }
       document.querySelectorAll('.theme-sec-img').forEach(img => {
         const sec = img.getAttribute('data-sec');
@@ -1350,7 +1350,7 @@
           img.src = 'assets/' + sec + '-' + theme + '.svg';
         }
       });
-      try { localStorage.setItem('hlgs-handbook-theme-v3', theme); } catch(e) {}
+      try { localStorage.setItem('hlgs-handbook-theme-v4', theme); } catch(e) {}
     }
 
     if (themeSelect) {
@@ -1410,7 +1410,7 @@
     (function init() {
       const params = new URLSearchParams(window.location.search);
       const urlTheme = params.get('theme');
-      const saved = localStorage.getItem('hlgs-handbook-theme-v3');
+      const saved = localStorage.getItem('hlgs-handbook-theme-v4');
       if (urlTheme) {
         setTheme(urlTheme);
       } else if (saved) {
