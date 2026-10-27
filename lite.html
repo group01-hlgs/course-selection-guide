@@ -580,6 +580,42 @@
     tr:nth-child(even) td {
       background: var(--bg-table-stripe);
     }
+    .table-wrap td img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .img-table-wrap {
+      overflow-x: hidden;
+    }
+    .img-table-wrap table {
+      width: 100%;
+      table-layout: fixed;
+    }
+    .img-table-wrap th {
+      white-space: normal;
+      word-break: break-word;
+      text-align: center;
+      font-size: clamp(12px, 1.05vw, 13.8px);
+      line-height: 1.45;
+      padding: 9px 10px;
+    }
+    .img-table-wrap td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
+      min-width: 0;
+    }
+    .img-table-wrap td img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 440px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
 
     details {
       margin: 14px 0;
@@ -1262,7 +1298,7 @@
         <h2 class="spread-title">貳｜三年 182 學分架構 ＆「3 種畢業檢核樣態」即時試算</h2>
         <p class="spread-lead">花女三年應修總學分為 <strong>182 學分</strong>，畢業最低及格總學分為 <strong>150 學分</strong>。全校依班別分為<strong>「普通班（自然／社會同掛）」、「特殊班：語資／數資同掛」、「特殊班：美術班獨立樣態」共 3 種畢業檢核樣態</strong>：</p>
 
-        <p style="margin:12px 0;"><img class="theme-sec-img" data-sec="svg-curriculum-timeline" src="assets/svg-curriculum-timeline-zine.svg?v=7" alt="三年課程時間軸" style="width:100%; border-radius:10px; border:1px solid var(--border-color);" /></p>
+        <p style="margin:12px 0;"><img class="theme-sec-img" data-sec="svg-curriculum-timeline" src="assets/svg-curriculum-timeline-zine.svg?v=10" alt="三年課程時間軸" style="width:100%; border-radius:10px; border:1px solid var(--border-color);" /></p>
 
         <div class="table-wrap">
           <table>

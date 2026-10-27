@@ -580,6 +580,42 @@
     tr:nth-child(even) td {
       background: var(--bg-table-stripe);
     }
+    .table-wrap td img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .img-table-wrap {
+      overflow-x: hidden;
+    }
+    .img-table-wrap table {
+      width: 100%;
+      table-layout: fixed;
+    }
+    .img-table-wrap th {
+      white-space: normal;
+      word-break: break-word;
+      text-align: center;
+      font-size: clamp(12px, 1.05vw, 13.8px);
+      line-height: 1.45;
+      padding: 9px 10px;
+    }
+    .img-table-wrap td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
+      min-width: 0;
+    }
+    .img-table-wrap td img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      max-height: 440px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
 
     details {
       margin: 14px 0;
@@ -1157,7 +1193,7 @@
   <img src="assets/handbook-media/image24.png" alt="手冊原圖：花女五力學生圖像" width="55%" />
 </div>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">花女五力</th><th style="text-align:center">手冊原廠圖示</th><th style="text-align:left">核心素養與能力內涵</th><th style="text-align:left">對應課程與校內活動</th></tr></thead><tbody><tr><td style="text-align:center"><b>1. 思考力</b></td><td style="text-align:center"><img src="assets/handbook-media/image25.jpeg" width="90" alt="思考力" /></td><td style="text-align:left"><b>理性系統思考、解決問題、規劃執行、創新應變。</b></td><td style="text-align:left">自然科學探究與實作、社會探究、數學專題、自主學習計畫</td></tr><tr><td style="text-align:center"><b>2. 心美力</b></td><td style="text-align:center"><img src="assets/handbook-media/image26.jpeg" width="90" alt="心美力" /></td><td style="text-align:left"><b>將理性思考融入藝術涵養、提升美感素養、增進和諧人際關係。</b></td><td style="text-align:left">音樂、美術、藝術生活、生命教育、校園美感策展</td></tr><tr><td style="text-align:center"><b>3. 溝通力</b></td><td style="text-align:center"><img src="assets/handbook-media/image27.jpeg" width="90" alt="溝通力" /></td><td style="text-align:left"><b>結合感性與理性思考，善用符號、科技、媒體素養以達有效溝通。</b></td><td style="text-align:left">國語文、英語文、本土語/臺灣手語、第二外語、職業探究與報導</td></tr><tr><td style="text-align:center"><b>4. 實踐力</b></td><td style="text-align:center"><img src="assets/handbook-media/image28.jpeg" width="90" alt="實踐力" /></td><td style="text-align:left"><b>知行合一、凝聚公民意識、關懷多元文化、國際理解。</b></td><td style="text-align:left">校訂必修《洄瀾之欣》、SDG 永續發展行動、公民倡議、服務性社團</td></tr><tr><td style="text-align:center"><b>5. 超越力</b></td><td style="text-align:center"><img src="assets/handbook-media/image29.jpeg" width="90" alt="超越力" /></td><td style="text-align:left"><b>統整上述能力以提升多元素養，追求身心素質自我精進，善用團隊合作力量，達成自我超越。</b></td><td style="text-align:left">獨立研究、畢業專題製作、34 個多元社團、運動會與班際競賽</td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">花女五力</th><th style="text-align:center">手冊原廠圖示</th><th style="text-align:left">核心素養與能力內涵</th><th style="text-align:left">對應課程與校內活動</th></tr></thead><tbody><tr><td style="text-align:center"><b>1. 思考力</b></td><td style="text-align:center"><img src="assets/handbook-media/image25.jpeg" alt="思考力" /></td><td style="text-align:left"><b>理性系統思考、解決問題、規劃執行、創新應變。</b></td><td style="text-align:left">自然科學探究與實作、社會探究、數學專題、自主學習計畫</td></tr><tr><td style="text-align:center"><b>2. 心美力</b></td><td style="text-align:center"><img src="assets/handbook-media/image26.jpeg" alt="心美力" /></td><td style="text-align:left"><b>將理性思考融入藝術涵養、提升美感素養、增進和諧人際關係。</b></td><td style="text-align:left">音樂、美術、藝術生活、生命教育、校園美感策展</td></tr><tr><td style="text-align:center"><b>3. 溝通力</b></td><td style="text-align:center"><img src="assets/handbook-media/image27.jpeg" alt="溝通力" /></td><td style="text-align:left"><b>結合感性與理性思考，善用符號、科技、媒體素養以達有效溝通。</b></td><td style="text-align:left">國語文、英語文、本土語/臺灣手語、第二外語、職業探究與報導</td></tr><tr><td style="text-align:center"><b>4. 實踐力</b></td><td style="text-align:center"><img src="assets/handbook-media/image28.jpeg" alt="實踐力" /></td><td style="text-align:left"><b>知行合一、凝聚公民意識、關懷多元文化、國際理解。</b></td><td style="text-align:left">校訂必修《洄瀾之欣》、SDG 永續發展行動、公民倡議、服務性社團</td></tr><tr><td style="text-align:center"><b>5. 超越力</b></td><td style="text-align:center"><img src="assets/handbook-media/image29.jpeg" alt="超越力" /></td><td style="text-align:left"><b>統整上述能力以提升多元素養，追求身心素質自我精進，善用團隊合作力量，達成自我超越。</b></td><td style="text-align:left">獨立研究、畢業專題製作、34 個多元社團、運動會與班際競賽</td></tr></tbody></table></div>
 </details>
 
 <hr/>
@@ -1187,7 +1223,7 @@
   <br/><sub>▲ 校訂必修《洄瀾之欣》課程架構與學生五力雷達圖（超越力、思考力、心美力、溝通力、實踐力）</sub>
 </div>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖</th><th style="text-align:center">圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image31a.jpg?v=8" alt="圖1-1 洄瀾之欣110-2票選得獎作品手繪地圖" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image31b.jpg?v=8" alt="圖1-2 洄瀾之欣110-2票選得獎作品地景報導" width="92%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖</th><th style="text-align:center">圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image31a.jpg?v=8" alt="圖1-1 洄瀾之欣110-2票選得獎作品手繪地圖" /></td><td style="text-align:center"><img src="assets/handbook-media/image31b.jpg?v=8" alt="圖1-2 洄瀾之欣110-2票選得獎作品地景報導" /></td></tr></tbody></table></div>
 <h4>2. 語文資優班、數理資優班、美術資優班之校訂必修（特殊需求領域／專長領域）</h4>
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">班別</th><th style="text-align:center">校訂必修總學分</th><th style="text-align:left">高一上</th><th style="text-align:left">高一下</th><th style="text-align:left">高二上</th><th style="text-align:left">高二下</th><th style="text-align:left">高三上</th><th style="text-align:left">高三下</th><th style="text-align:left">跨屆重點說明</th></tr></thead><tbody><tr><td style="text-align:left"><b>普通班</b></td><td style="text-align:center"><b>4 學分</b></td><td style="text-align:left">—</td><td style="text-align:left">—</td><td style="text-align:left">洄瀾之欣(2)／職業探究與報導(2) 對開</td><td style="text-align:left">洄瀾之欣(2)／職業探究與報導(2) 對開</td><td style="text-align:left">—</td><td style="text-align:left">—</td><td style="text-align:left">高二上下學期對開，各修 2 學分</td></tr><tr><td style="text-align:left"><b>語文資優班</b><br/><i>(特殊需求領域)</i></td><td style="text-align:center"><b>30 學分</b></td><td style="text-align:left">古典文學概論(2)<br/>論文寫作(2)<br/>聽力與口語訓練(2)</td><td style="text-align:left">論文寫作(2)<br/>閱讀寫作(2)<br/>聽力與口語訓練(2)</td><td style="text-align:left">獨立研究(3)<br/>現代文學概論(2)<br/>經典導讀(2)</td><td style="text-align:left">獨立研究(3)<br/>現代文學概論(2)<br/>經典導讀(2)</td><td style="text-align:left"><b>書報討論(2)</b></td><td style="text-align:left"><b>書報討論(2)</b></td><td style="text-align:left"><b>113/114/115 三屆皆為 30 學分</b>（高三書報討論為 2+2，舊手冊誤植為 3+3 共 32 學分）</td></tr><tr><td style="text-align:left"><b>數理資優班</b><br/><i>(113入學 現高三)</i></td><td style="text-align:center"><b>24 學分</b></td><td style="text-align:left">科學閱讀(2)</td><td style="text-align:left">生活與化學(2)<br/><b>研究方法(2)</b></td><td style="text-align:left"><b>獨立研究(4)</b><br/>科學探究(2)<br/>數學專題I(2)</td><td style="text-align:left"><b>獨立研究(4)</b><br/>數學專題I(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">113 入學高一研究方法 2 學分、高二獨立研究 8 學分(4+4)</td></tr><tr><td style="text-align:left"><b>數理資優班</b><br/><i>(114/115入學 現高二/高一)</i></td><td style="text-align:center"><b>24 學分</b></td><td style="text-align:left">科學閱讀(2)<br/><b>研究方法(2)</b></td><td style="text-align:left">生活與化學(2)<br/><b>研究方法(2)</b></td><td style="text-align:left"><b>獨立研究(3)</b><br/>科學探究(2)<br/>數學專題I(2)</td><td style="text-align:left"><b>獨立研究(3)</b><br/>數學專題I(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left"><b>114/115 入學改制</b>：高一研究方法改為 4 學分(2+2)，高二獨立研究改為 6 學分(3+3)</td></tr><tr><td style="text-align:left"><b>美術資優班</b><br/><i>(特殊需求領域)</i></td><td style="text-align:center"><b>8 學分</b><br/><i>(另加藝才專長必修 60 學分)</i></td><td style="text-align:left">書法1(1)</td><td style="text-align:left">書法2(1)</td><td style="text-align:left">造形藝術(1)</td><td style="text-align:left">—</td><td style="text-align:left">書法3(1)<br/>彩繪技法1(2)</td><td style="text-align:left">彩繪技法2(2)</td><td style="text-align:left">藝術才能專長領域必修 60 學分詳見下方美術班課程地圖</td></tr></tbody></table></div>
@@ -1215,7 +1251,7 @@
 </div>
 
 <div align="center">
-  <img class="theme-sec-img" data-sec="svg-curriculum-timeline" src="assets/svg-curriculum-timeline-zine.svg?v=7" alt="花女三年課程架構與選課分流全覽" width="100%" />
+  <img class="theme-sec-img" data-sec="svg-curriculum-timeline" src="assets/svg-curriculum-timeline-zine.svg?v=10" alt="花女三年課程架構與選課分流全覽" width="100%" />
 </div>
 
 <a id="ch2-1"></a>
@@ -1276,7 +1312,7 @@
 
 </details>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 2-1：美術班專業課程－彩繪技法實作</th><th style="text-align:center">圖 2-2：自然科學領域－化學課實驗操作</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image32.jpeg" alt="圖2-1 美術班彩繪技法" width="90%" /></td><td style="text-align:center"><img src="assets/handbook-media/image33.jpeg" alt="圖2-2 化學課實驗" width="90%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">圖 2-1：美術班專業課程－彩繪技法實作</th><th style="text-align:center">圖 2-2：自然科學領域－化學課實驗操作</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image32.jpeg" alt="圖2-1 美術班彩繪技法" /></td><td style="text-align:center"><img src="assets/handbook-media/image33.jpeg" alt="圖2-2 化學課實驗" /></td></tr></tbody></table></div>
 <hr/>
 
 <a id="ch2-transfer"></a><a id="ch2-5"></a>
@@ -1344,7 +1380,11 @@
 
 <p>高一數學為全校共同必修（不分版），升上高二後分為 <b>「數學 A（高數學需求）」</b>與 <b>「數學 B（低數學需求／跨領域應用）」</b>兩種版本：</p>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:left">學期／主題</th><th style="text-align:left"><b>高二數學 A（適合自然理工、生醫、資訊、高商管需求）</b></th><th style="text-align:left"><b>高二數學 B（適合文法政、傳播、藝術設計、一般商管需求）</b></th></tr></thead><tbody><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>三角函數</b></td><td style="text-align:left"><b>三角函數完整理論</b>：弧度量、三角函數的圖形與性質、正餘弦的和角公式與倍角公式、<b>正餘弦函數的疊合</b></td><td style="text-align:left"><b>週期性數學模型</b>：弧度量、扇形弧長與面積、$\sin$ 的函數圖形與性質【數A簡單版】、週期性現象模型【數A不強調】</td></tr><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>指數與對數函數</b></td><td style="text-align:left">指數函數及其圖形、對數與對數律、對數函數及其圖形、指對數應用</td><td style="text-align:left"><b>按比例成長模型</b>：指數函數與圖形、常用對數與對數律、<b>自然對數 $e$ 與 $\ln x$、連續複利模型【數B獨有亮點】</b></td></tr><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>平面向量</b></td><td style="text-align:left">平面向量的運算、內積、<b>柯西不等式、正射影、兩直線夾角、二階行列式與面積公式</b></td><td style="text-align:left"><b>平面上的比例</b>：平面向量的加減與係數積、內積基本概念、<b>黃金比例、單點透視法與藝術設計應用【數B獨有！】</b></td></tr><tr><td style="text-align:left"><b>高二下（第四冊）</b><br/><b>空間概念與空間向量</b></td><td style="text-align:left"><b>空間概念、空間坐標系、空間向量的內積與外積、三階行列式、空間中的平面與直線方程式（含三元一次聯立方程組）</b></td><td style="text-align:left"><b>空間中的構圖與球面</b>：空間概念與三視圖、空間坐標系、<b>地球經緯度與球面截痕／圓錐曲線光學性質【數B獨有！】</b></td></tr><tr><td style="text-align:left"><b>高二下（第四冊）</b><br/><b>機率與矩陣</b></td><td style="text-align:left"><b>條件機率與貝氏定理</b>、矩陣的運算（加法、乘法、反矩陣）、<b>矩陣與平面線性變換（伸縮、旋轉、鏡射、推移）</b></td><td style="text-align:left">條件機率與獨立事件基本應用、矩陣的加減法與乘法、轉移矩陣基本應用（不含複雜線性變換與三階行列式）</td></tr><tr><td style="text-align:left">圖 3-1：數學 A 與 數學 B 課程內容交集示意圖</td><td style="text-align:left">圖 3-2：大學各學群採計數學 A / 數學 B 統計示意圖</td></tr><tr><td style="text-align:left">:---:</td><td style="text-align:left">:---:</td></tr><tr><td style="text-align:left"><img src="assets/handbook-media/image35.png" alt="圖3-1 數學A與數學B課程內容交集示意圖" width="88%" /></td><td style="text-align:left"><img src="assets/handbook-media/image37.png" alt="圖3-2 各學群採計數學統計示意圖" width="95%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:left">學期／主題</th><th style="text-align:left"><b>高二數學 A（適合自然理工、生醫、資訊、高商管需求）</b></th><th style="text-align:left"><b>高二數學 B（適合文法政、傳播、藝術設計、一般商管需求）</b></th></tr></thead><tbody><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>三角函數</b></td><td style="text-align:left"><b>三角函數完整理論</b>：弧度量、三角函數的圖形與性質、正餘弦的和角公式與倍角公式、<b>正餘弦函數的疊合</b></td><td style="text-align:left"><b>週期性數學模型</b>：弧度量、扇形弧長與面積、$\sin$ 的函數圖形與性質【數A簡單版】、週期性現象模型【數A不強調】</td></tr><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>指數與對數函數</b></td><td style="text-align:left">指數函數及其圖形、對數與對數律、對數函數及其圖形、指對數應用</td><td style="text-align:left"><b>按比例成長模型</b>：指數函數與圖形、常用對數與對數律、<b>自然對數 $e$ 與 $\ln x$、連續複利模型【數B獨有亮點】</b></td></tr><tr><td style="text-align:left"><b>高二上（第三冊）</b><br/><b>平面向量</b></td><td style="text-align:left">平面向量的運算、內積、<b>柯西不等式、正射影、兩直線夾角、二階行列式與面積公式</b></td><td style="text-align:left"><b>平面上的比例</b>：平面向量的加減與係數積、內積基本概念、<b>黃金比例、單點透視法與藝術設計應用【數B獨有！】</b></td></tr><tr><td style="text-align:left"><b>高二下（第四冊）</b><br/><b>空間概念與空間向量</b></td><td style="text-align:left"><b>空間概念、空間坐標系、空間向量的內積與外積、三階行列式、空間中的平面與直線方程式（含三元一次聯立方程組）</b></td><td style="text-align:left"><b>空間中的構圖與球面</b>：空間概念與三視圖、空間坐標系、<b>地球經緯度與球面截痕／圓錐曲線光學性質【數B獨有！】</b></td></tr><tr><td style="text-align:left"><b>高二下（第四冊）</b><br/><b>機率與矩陣</b></td><td style="text-align:left"><b>條件機率與貝氏定理</b>、矩陣的運算（加法、乘法、反矩陣）、<b>矩陣與平面線性變換（伸縮、旋轉、鏡射、推移）</b></td><td style="text-align:left">條件機率與獨立事件基本應用、矩陣的加減法與乘法、轉移矩陣基本應用（不含複雜線性變換與三階行列式）</td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table>
+<thead><tr><th>圖 3-1：數學 A 與 數學 B 課程內容交集示意圖</th><th>圖 3-2：大學各學群採計數學 A / 數學 B 統計示意圖</th></tr></thead>
+<tbody><tr><td><img src="assets/handbook-media/image35.png" alt="圖3-1 數學A與數學B課程內容交集示意圖" /></td><td><img src="assets/handbook-media/image37.png" alt="圖3-2 大學各學群採計數學A/B統計示意圖" /></td></tr></tbody>
+</table></div>
 <h4>2. 大學申請入學參採數學考科統計與學群建議</h4>
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">參採數學類別</th><th style="text-align:center">系組數量（參考統計）</th><th style="text-align:left">主要對應之大學學群與科系類型</th></tr></thead><tbody><tr><td style="text-align:left"><b>僅參採「數學 A」</b></td><td style="text-align:center"><b>591 系</b></td><td style="text-align:left">資訊學群、工程學群、數理化學群、醫藥衛生學群、生命科學學群、生物資源學群、地球與環境學群，以及部分頂尖大學財金／經濟／資管系</td></tr><tr><td style="text-align:left"><b>僅參採「數學 B」</b></td><td style="text-align:center"><b>346 系</b></td><td style="text-align:left">財經學群、管理學群、社會與心理學群、法政學群、教育學群、建築與設計學群（部分）、文史哲／外語學群（部分）</td></tr><tr><td style="text-align:left"><b>分組招生 或 數A/數B 擇一均可</b></td><td style="text-align:center"><b>104 系</b></td><td style="text-align:left">商管學院、傳播學院、設計學院或跨領域學士班（分 A/B 組或兩科皆可報名）</td></tr><tr><td style="text-align:left"><b>不參採數學（國、英、社為主）</b></td><td style="text-align:center"><b>888 系</b></td><td style="text-align:left">外語學群、文史哲學群、藝術學群、大眾傳播學群、法政學群、遊憩與運動學群等</td></tr></tbody></table></div>
@@ -1367,7 +1407,7 @@
 <p>高三多元選修共規劃 38 門候選課程（當學期實際開班約 24～25 門），包含：</p>
 <ul><li><b>第二外語進階與基礎班</b>：日語、韓語、法語、德語、西班牙語、越南語、俄語（含進階日語／進階韓語／進階法語）。</li><li><b>跨領域實作與科學應用</b>：《愛(AI)客共鄉》、《科技輔助設計思考於花女熊設計》、《從肌膚認識到保養品實作》、《料理科學：從產地到餐桌的美味關係》、《手沖咖啡與感官品評》、《植物染與自然手作》、《3D 列印與數位造物》。</li><li><b>人文藝術與社會法政</b>：《電影配樂賞析與創作》、《趣味民法與生活權益》、《刑法世界的秩序與權益》、《SDG 永續發展目標行動家》、《世界文化遺產巡禮》、《性別、媒體與現代社會》、《心理學專題探索》、《表達力與面試口語實戰》。</li></ul>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 3-3：多元文化講座－印度傳統舞蹈文化演講</th><th style="text-align:center">圖 3-4：花蓮漁港魚市場踏查活動</th><th style="text-align:center">圖 3-5：地理科歐漢文老師指導學生 GIS 課程實地探查</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image38.jpeg" alt="圖3-3 印度傳統舞蹈文化演講" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image40.jpeg" alt="圖3-4 花蓮漁港魚市場踏查" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image39.jpeg" alt="圖3-5 GIS課程實地探查" width="92%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">圖 3-3：多元文化講座－印度傳統舞蹈文化演講</th><th style="text-align:center">圖 3-4：花蓮漁港魚市場踏查活動</th><th style="text-align:center">圖 3-5：地理科歐漢文老師指導學生 GIS 課程實地探查</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image38.jpeg" alt="圖3-3 印度傳統舞蹈文化演講" /></td><td style="text-align:center"><img src="assets/handbook-media/image40.jpeg" alt="圖3-4 花蓮漁港魚市場踏查" /></td><td style="text-align:center"><img src="assets/handbook-media/image39.jpeg" alt="圖3-5 GIS課程實地探查" /></td></tr></tbody></table></div>
 <hr/>
 
 <a id="ch3-3"></a>
@@ -1382,7 +1422,7 @@
 
 <ul><li><b>學生自主學習（畢業前至少須修習滿 18 節以上！）</b>：</li><li>學生依個人興趣與升學方向擬定《自主學習計畫書》，經指導教師與家長審核後，於指定場地（圖書館、電腦教室、實驗室、自習教室）執行計畫並撰寫紀錄，期末完成成果報告，可上傳至「學習歷程檔案—多元表現」或整理為申請入學備審亮點。</li><li><b>選手培訓</b>：具有學校代表隊、語文競賽、學科能力競賽、科展、音樂／美術比賽代表身分之選手，由指導老師進行專項培訓。</li><li><b>學校特色活動</b>：由學校舉辦全年級或分年級之講座、跨領域體驗、大學參訪、國際交流與生涯輔導活動。</li><li><b>充實（增廣）／補強性教學（微課程）</b>：</li><li>學校每學期邀請校內外專家開設為期 <b>4～6 週的「微課程」</b>，協助同學探索興趣、增進學習技巧或特殊技能。歷年熱門微課程範例包括：</li><li>《基礎越語》、《簡易木工實作》、《資訊繪圖版應用》、《芳香療法與精油調配》、《肢體開發與戲劇表達》、《Python 資料分析入門》、《Canva 視覺排版與簡報設計》、《基礎攝影與構圖》、《運動貼紮與傷害防護》。</li></ul>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">微課程實況 A：校外職人實作工作坊</th><th style="text-align:center">微課程實況 B：跨領域動手做體驗</th><th style="text-align:center">微課程實況 C：小組發表與實作交流</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image42.jpeg" alt="組圖3-1 微課程實況1" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image43.jpeg" alt="組圖3-1 微課程實況2" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image44.jpeg" alt="組圖3-1 微課程實況3" width="92%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">微課程實況 A：校外職人實作工作坊</th><th style="text-align:center">微課程實況 B：跨領域動手做體驗</th><th style="text-align:center">微課程實況 C：小組發表與實作交流</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image42.jpeg" alt="組圖3-1 微課程實況1" /></td><td style="text-align:center"><img src="assets/handbook-media/image43.jpeg" alt="組圖3-1 微課程實況2" /></td><td style="text-align:center"><img src="assets/handbook-media/image44.jpeg" alt="組圖3-1 微課程實況3" /></td></tr></tbody></table></div>
 <hr/>
 
 <a id="ch3-clubs"></a><a id="ch3-4"></a>
@@ -1696,7 +1736,7 @@
 
 </details>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 7-1：海洋文學營隊學員登上鏢魚船體驗（講解者為黑潮海洋文教基金會賴威任先生）</th><th style="text-align:center">圖 7-2：柯昊錚學姊回母校提供學妹們課業輔導與陪讀服務</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image83.jpeg" alt="圖7-1 海洋文學營隊學員登上鏢魚船體驗" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image84.jpeg" alt="圖7-2 柯昊錚學姊回母校提供學妹們課業輔導與陪讀服務" width="92%" /></td></tr></tbody></table></div>
+<div class="table-wrap img-table-wrap"><table><thead><tr><th style="text-align:center">圖 7-1：海洋文學營隊學員登上鏢魚船體驗（講解者為黑潮海洋文教基金會賴威任先生）</th><th style="text-align:center">圖 7-2：柯昊錚學姊回母校提供學妹們課業輔導與陪讀服務</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image83.jpeg" alt="圖7-1 海洋文學營隊學員登上鏢魚船體驗" /></td><td style="text-align:center"><img src="assets/handbook-media/image84.jpeg" alt="圖7-2 柯昊錚學姊回母校提供學妹們課業輔導與陪讀服務" /></td></tr></tbody></table></div>
 <hr/>
 
 <a id="ch7-2"></a>
