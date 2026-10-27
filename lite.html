@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" data-theme="zine">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>國立花蓮女子高級中學 115學年度選課輔導手冊｜高一・高二・高三跨屆修課指南</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================================
+       6 Themes (Default: 洄瀾太平洋 + 《古籍之美》經典圖鑑風宣紙米白底色 + 4 Stylish Themes)
+       ========================================================================== */
+    [data-theme="ocean"] {
+      --bg-main: #f4f7fa;
+      --bg-card: #ffffff;
+      --bg-accent: #e0f2fe;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --accent-primary: #0f4c81;
+      --accent-secondary: #0284c7;
+      --border-color: #cbd5e1;
+      --bg-table-head: linear-gradient(135deg, #0f4c81, #0284c7);
+      --text-table-head: #ffffff;
+      --bg-table-stripe: #f8fafc;
+      --badge-bg: #e0f2fe;
+      --badge-text: #0f4c81;
+      --shadow-card: 0 8px 24px -4px rgba(15, 76, 129, 0.08);
+      --radius-card: 16px;
+      --font-body: "Noto Sans TC", -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-title: "Noto Sans TC", sans-serif;
+      --quote-bg: #f0f9ff;
+      --quote-border: #0284c7;
+    }
+
+    /* 經典圖鑑風（古籍典藏）— 依《古籍之美：古籍文獻典藏與管理》宣紙溫潤米白底色與古銅棕書籤設計 */
+    [data-theme="atlas"] {
+      --bg-main: #f4efe3;
+      --bg-card: #faf6ed;
+      --bg-accent: #ebe3d2;
+      --text-main: #2a211b;
+      --text-muted: #655243;
+      --accent-primary: #7c582b;
+      --accent-secondary: #9c723c;
+      --border-color: #c8b99e;
+      --bg-table-head: linear-gradient(135deg, #7c582b, #5e411e);
+      --text-table-head: #faf6ed;
+      --bg-table-stripe: #f5efe2;
+      --badge-bg: #efe6d5;
+      --badge-text: #5c4328;
+      --shadow-card: 0 8px 24px -4px rgba(92, 67, 40, 0.10);
+      --radius-card: 8px;
+      --font-body: "Noto Sans TC", -apple-system, sans-serif;
+      --font-title: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+      --quote-bg: #efe8d8;
+      --quote-border: #7c582b;
+    }
+
+    /*《古籍之美》直角細框裝飾線 (L-Frame subtle border treatment) */
+    [data-theme="atlas"] .card-section {
+      position: relative;
+      border: 1.5px solid #c8b99e;
+      background-image:
+        linear-gradient(to right, #5c4328 120px, transparent 120px),
+        linear-gradient(to bottom, #5c4328 120px, transparent 120px);
+      background-size: calc(100% - 24px) 1.5px, 1.5px calc(100% - 24px);
+      background-position: 12px 12px, 12px 12px;
+      background-repeat: no-repeat;
+    }
+
+    [data-theme="denim"] {
+      --bg-main: #f1f5f9;
+      --bg-card: #ffffff;
+      --bg-accent: #e0e7ff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --accent-primary: #1e293b;
+      --accent-secondary: #2563eb;
+      --border-color: #cbd5e1;
+      --bg-table-head: linear-gradient(135deg, #1e293b, #2563eb);
+      --text-table-head: #ffffff;
+      --bg-table-stripe: #f8fafc;
+      --badge-bg: #e0e7ff;
+      --badge-text: #1e40af;
+      --shadow-card: 0 8px 24px -4px rgba(30, 41, 59, 0.09);
+      --radius-card: 14px;
+      --font-body: "Noto Sans TC", sans-serif;
+      --font-title: "Noto Sans TC", sans-serif;
+      --quote-bg: #eef2ff;
+      --quote-border: #2563eb;
+    }
+
+    :root, [data-theme="zine"] {
+      --bg-main: #faf7f2;
+      --bg-card: #fffefb;
+      --bg-accent: #f3ede2;
+      --text-main: #292524;
+      --text-muted: #57534e;
+      --accent-primary: #9a3412;
+      --accent-secondary: #b45309;
+      --border-color: #d6d3d1;
+      --bg-table-head: linear-gradient(135deg, #7c2d12, #9a3412);
+      --text-table-head: #fffbeb;
+      --bg-table-stripe: #faf8f5;
+      --badge-bg: #ffedd5;
+      --badge-text: #9a3412;
+      --shadow-card: 0 6px 20px -4px rgba(124, 45, 18, 0.08);
+      --radius-card: 10px;
+      --font-body: "Noto Sans TC", sans-serif;
+      --font-title: "Noto Serif TC", Georgia, serif;
+      --quote-bg: #fef3c7;
+      --quote-border: #9a3412;
+    }
+
+    [data-theme="pine"] {
+      --bg-main: #f4f7f4;
+      --bg-card: #ffffff;
+      --bg-accent: #e6f0ea;
+      --text-main: #1c2826;
+      --text-muted: #4a5d54;
+      --accent-primary: #1b4332;
+      --accent-secondary: #2d6a4f;
+      --border-color: #cce0d4;
+      --bg-table-head: linear-gradient(135deg, #1b4332, #2d6a4f);
+      --text-table-head: #ffffff;
+      --bg-table-stripe: #f7faf8;
+      --badge-bg: #d8f3dc;
+      --badge-text: #1b4332;
+      --shadow-card: 0 8px 24px -4px rgba(27, 67, 50, 0.08);
+      --radius-card: 16px;
+      --font-body: "Noto Sans TC", sans-serif;
+      --font-title: "Noto Sans TC", sans-serif;
+      --quote-bg: #edf6f0;
+      --quote-border: #2d6a4f;
+    }
+
+    [data-theme="mono"] {
+      --bg-main: #f3f4f6;
+      --bg-card: #ffffff;
+      --bg-accent: #e5e7eb;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent-primary: #111827;
+      --accent-secondary: #374151;
+      --border-color: #9ca3af;
+      --bg-table-head: linear-gradient(135deg, #111827, #1f2937);
+      --text-table-head: #f9fafb;
+      --bg-table-stripe: #f9fafb;
+      --badge-bg: #e5e7eb;
+      --badge-text: #111827;
+      --shadow-card: 4px 4px 0px #111827;
+      --radius-card: 8px;
+      --font-body: "Noto Sans TC", sans-serif;
+      --font-title: "Noto Sans TC", sans-serif;
+      --quote-bg: #f3f4f6;
+      --quote-border: #111827;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.72;
+      font-size: clamp(14.5px, 1.05vw, 16px);
+      transition: background-color 0.25s ease, color 0.25s ease;
+      overflow-x: hidden;
+    }
+
+    /* ==========================================================================
+       Sticky Top Bar with Dropdown Theme Selector (下拉選單)
+       ========================================================================== */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 1100;
+      background: var(--bg-card);
+      border-bottom: 2px solid var(--border-color);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      padding: 10px 16px;
+    }
+    .top-bar-inner {
+      max-width: 1420px;
+      margin: 0 auto;
+      display: flex;
+       flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    /* Left-side button on small screens to toggle Left Chapter Drawer */
+    .mobile-toc-btn {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 11px;
+      border-radius: 8px;
+      border: 1.5px solid var(--accent-primary);
+      background: var(--bg-accent);
+      color: var(--accent-primary);
+      font-weight: 800;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-family: var(--font-body);
+    }
+    .brand-title {
+      font-family: var(--font-title);
+      font-weight: 900;
+      font-size: clamp(15px, 1.5vw, 18.5px);
+      color: var(--accent-primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .brand-badge {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      font-size: 12px;
+      padding: 2px 9px;
+      border-radius: 999px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* Dropdown Theme Selector (風格選擇下拉選單) */
+    .theme-selector-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+    }
+    .theme-select-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .theme-select {
+      appearance: none;
+      -webkit-appearance: none;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      border: 1.5px solid var(--accent-primary);
+      border-radius: 9px;
+      padding: 6px 34px 6px 12px;
+      font-size: 13.5px;
+      font-weight: 800;
+      font-family: var(--font-body);
+      cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      transition: all 0.2s ease;
+    }
+    .theme-select:hover, .theme-select:focus {
+      outline: none;
+      border-color: var(--accent-secondary);
+      box-shadow: 0 0 0 3px var(--bg-accent);
+    }
+
+    /* ==========================================================================
+       Responsive Layout:
+       - Desktop (>= 1024px): Main Content on Left + Sticky Chapter Sidebar on Right
+       - Small/Medium Screens (< 1024px): Chapter Navigation Collapses to LEFT Edge (左邊界)
+       ========================================================================== */
+    .page-layout {
+      max-width: 1420px;
+      margin: 20px auto;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .main-column {
+      min-width: 0;
+      width: 100%;
+    }
+
+    /* Desktop Right-Side Sticky Sidebar */
+    .sidebar-nav {
+      order: -1;
+      position: sticky;
+      top: 76px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-card);
+      padding: 16px;
+      box-shadow: var(--shadow-card);
+      max-height: calc(100vh - 96px);
+      overflow-y: auto;
+    }
+    .sidebar-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+    }
+    .sidebar-title {
+      font-family: var(--font-title);
+      font-weight: 900;
+      font-size: 14.5px;
+      color: var(--accent-primary);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .drawer-close-btn {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 8px;
+      cursor: pointer;
+    }
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .nav-list a {
+      display: block;
+      padding: 7px 10px;
+      border-radius: 8px;
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      transition: all 0.15s;
+      border-left: 3px solid transparent;
+    }
+    .nav-list a:hover {
+      background: var(--bg-accent);
+      color: var(--accent-primary);
+      border-left-color: var(--accent-primary);
+    }
+    .nav-list .sub-link {
+      padding-left: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    /* Fixed Left-Edge Tab & Backdrop for Small Screens (小螢幕縮到左邊界) */
+    .left-edge-toc-tab {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1150;
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border: 1.5px solid var(--border-color);
+      border-left: none;
+      border-radius: 0 12px 12px 0;
+      padding: 12px 8px;
+      cursor: pointer;
+      box-shadow: 3px 4px 14px rgba(0,0,0,0.18);
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-family: var(--font-body);
+      align-items: center;
+      gap: 6px;
+    }
+    .toc-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.45);
+      z-index: 1180;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    .toc-backdrop.open {
+      display: block;
+      opacity: 1;
+    }
+
+    /* Small & Medium Screens (< 1024px): Collapse Chapter Navigation to LEFT Edge (左邊界抽屜) */
+    @media (max-width: 1024px) {
+      .page-layout {
+        grid-template-columns: minmax(0, 1fr);
+        margin: 14px auto;
+        padding: 0 12px;
+      }
+      .mobile-toc-btn {
+        display: inline-flex;
+      }
+      .left-edge-toc-tab {
+        display: flex;
+      }
+      .drawer-close-btn {
+        display: inline-block;
+      }
+      .sidebar-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: min(300px, 84vw);
+        max-height: 100vh;
+        z-index: 1200;
+        border-radius: 0 16px 16px 0;
+        border-left: none;
+        transform: translateX(-105%);
+        transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 6px 0 28px rgba(0, 0, 0, 0.25);
+      }
+      .sidebar-nav.open {
+        transform: translateX(0);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .top-bar {
+        padding: 8px 10px;
+      }
+      .brand-badge {
+        display: none;
+      }
+      .theme-select-label span {
+        display: none;
+      }
+      .theme-select {
+        font-size: 12.5px;
+        padding: 5px 28px 5px 9px;
+      }
+      .card-section {
+        padding: 16px 14px !important;
+      }
+    }
+
+    /* Hero Banner & Showcase */
+    .hero-banner {
+      margin-bottom: 20px;
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-card);
+    }
+    .hero-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .atlas-showcase-box {
+      display: none;
+      margin-bottom: 20px;
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      border: 2px solid var(--accent-primary);
+      background: var(--bg-card);
+    }
+    [data-theme="atlas"] .atlas-showcase-box {
+      display: block;
+    }
+    .atlas-showcase-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Section Cards */
+    .card-section {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-card);
+      padding: clamp(16px, 2.5vw, 28px) clamp(14px, 2.8vw, 32px);
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-card);
+      min-width: 0;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--font-title);
+      color: var(--accent-primary);
+      line-height: 1.38;
+      word-break: break-word;
+    }
+    h2 {
+      font-size: clamp(1.25rem, 2vw, 1.55rem);
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 10px;
+      margin-top: 24px;
+    }
+    h3 {
+      font-size: clamp(1.08rem, 1.6vw, 1.25rem);
+      margin-top: 22px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h3::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 20px;
+      background: var(--accent-primary);
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    blockquote {
+      margin: 16px 0;
+      padding: 14px 18px;
+      background: var(--quote-bg);
+      border-left: 5px solid var(--quote-border);
+      border-radius: 0 10px 10px 0;
+    }
+
+    /* Responsive Horizontally Scrollable Tables */
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 14px 0 20px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: clamp(12.5px, 1vw, 14px);
+      background: var(--bg-card);
+    }
+    th {
+      background: var(--bg-table-head);
+      color: var(--text-table-head);
+      font-weight: 700;
+      text-align: left;
+      padding: 10px 12px;
+      border: 1px solid var(--border-color);
+      white-space: nowrap;
+    }
+    td {
+      padding: 9px 12px;
+      border: 1px solid var(--border-color);
+      vertical-align: top;
+      min-width: 72px;
+    }
+    tr:nth-child(even) td {
+      background: var(--bg-table-stripe);
+    }
+
+    details {
+      margin: 14px 0;
+      border: 1.5px solid var(--border-color);
+      border-radius: 10px;
+      background: var(--bg-card);
+      overflow: hidden;
+    }
+    summary {
+      padding: 12px 16px;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--bg-accent);
+      color: var(--accent-primary);
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    summary::after {
+      content: "展開 / 收合";
+      font-size: 12px;
+      opacity: 0.8;
+      flex-shrink: 0;
+    }
+    details[open] summary {
+      border-bottom: 1px solid var(--border-color);
+    }
+    details > *:not(summary) {
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+
+    /* Interactive Graduation Credit Calculator */
+    .calc-box {
+      background: var(--bg-accent);
+      border: 2px solid var(--accent-primary);
+      border-radius: var(--radius-card);
+      padding: clamp(14px, 2vw, 22px);
+      margin-bottom: 24px;
+    }
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .calc-item {
+      background: var(--bg-card);
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+    .calc-item label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+    }
+    .calc-item input {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1.5px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 700;
+      background: var(--bg-main);
+      color: var(--text-main);
+    }
+    .calc-result {
+      margin-top: 14px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      background: var(--bg-card);
+      font-weight: 700;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      border: 1.5px solid var(--border-color);
+    }
+    .status-pass { color: #16a34a; }
+    .status-warn { color: #dc2626; }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Dual-Edition & Cross-Platform Navigation Pills */
+    .edition-switch-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+    .edition-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1.5px solid var(--accent-primary);
+      background: var(--bg-main);
+      color: var(--accent-primary);
+      transition: all 0.18s ease;
+      white-space: nowrap;
+    }
+    .edition-pill:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      transform: translateY(-1px);
+    }
+    .edition-pill.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .hero-edition-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--accent-primary);
+      border-radius: var(--radius-card);
+      padding: 12px 16px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-card);
+    }
+    .hero-edition-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    /* Section Bidirectional Portal Bar (章節雙向傳送門) */
+    .section-portal-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 10px 14px;
+      background: var(--bg-accent);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--accent-primary);
+      border-radius: 8px;
+      font-size: 12.8px;
+      font-weight: 700;
+    }
+    .section-portal-bar .portal-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .portal-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--bg-card);
+      color: var(--accent-primary);
+      border: 1px solid var(--border-color);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12.5px;
+      transition: all 0.15s ease;
+    }
+    .portal-btn:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+    }
+
+    /* Contextual Cross-Link Bar & Inline Links (.xref-link) */
+    .xref-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin: 10px 0 18px;
+      padding: 9px 12px;
+      background: var(--bg-main);
+      border: 1px dashed var(--accent-primary);
+      border-radius: 8px;
+      font-size: 12.5px;
+    }
+    .xref-label {
+      font-weight: 800;
+      color: var(--accent-primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-right: 4px;
+    }
+    .xref-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 2px 9px;
+      border-radius: 999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid var(--border-color);
+      font-size: 12px;
+      transition: all 0.15s ease;
+    }
+    .xref-link:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+    }
+
+
+    /* 3-Pattern Graduation Calculator Tabs */
+    .calc-pattern-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 8px;
+      margin: 10px 0 12px;
+    }
+    .calc-pattern-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3px;
+      padding: 10px 13px;
+      border-radius: 10px;
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      cursor: pointer;
+      text-align: left;
+      font-family: var(--font-body);
+      transition: all 0.18s ease;
+    }
+    .calc-pattern-btn:hover {
+      border-color: var(--accent-primary);
+    }
+    .calc-pattern-btn.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    .calc-pattern-btn .pat-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .calc-pattern-btn .pat-sub {
+      font-size: 11.5px;
+      opacity: 0.88;
+      font-weight: 500;
+    }
+    .calc-subtrack-bar {
+      display: none;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 9px 12px;
+      background: var(--bg-card);
+      border: 1.5px dashed var(--accent-primary);
+      border-radius: 8px;
+    }
+    .calc-subtrack-bar.visible {
+      display: flex;
+    }
+    .calc-subtrack-btn {
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: 1.5px solid var(--accent-primary);
+      background: var(--bg-main);
+      color: var(--accent-primary);
+      font-weight: 800;
+      font-size: 12.5px;
+      cursor: pointer;
+      font-family: var(--font-body);
+      transition: all 0.15s ease;
+    }
+    .calc-subtrack-btn.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+    }
+    .calc-rule-banner {
+      background: var(--bg-card);
+      border-left: 4px solid var(--accent-primary);
+      padding: 9px 13px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      margin-bottom: 12px;
+      border-top: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+  
+    /* Indie Zine Lite Edition — High Whitespace Magazine Layout */
+    .lite-grade-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin: 14px 0 22px;
+      padding: 12px 16px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+    }
+    .lite-grade-btn {
+      padding: 7px 15px;
+      border-radius: 999px;
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-main);
+      color: var(--text-main);
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      font-family: var(--font-body);
+    }
+    .lite-grade-btn:hover {
+      border-color: var(--accent-primary);
+      color: var(--accent-primary);
+    }
+    .lite-grade-btn.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+    }
+    .zine-spread {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-card);
+      padding: 28px 30px;
+      margin-bottom: 26px;
+      box-shadow: var(--shadow-card);
+    }
+    .spread-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-primary);
+      background: var(--bg-accent);
+      padding: 4px 11px;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 10px;
+    }
+    .spread-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--text-main);
+      margin: 4px 0 8px;
+      line-height: 1.35;
+    }
+    .spread-lead {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+      line-height: 1.65;
+    }
+    .capsule-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin: 16px 0;
+    }
+    .capsule-card {
+      background: var(--bg-main);
+      border: 1.5px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      transition: transform 0.18s ease, border-color 0.18s ease;
+    }
+    .capsule-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent-primary);
+    }
+    .capsule-tag {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: var(--accent-primary);
+      background: var(--bg-accent);
+      padding: 3px 9px;
+      border-radius: 6px;
+      align-self: flex-start;
+    }
+    .capsule-card h4 {
+      margin: 2px 0 4px;
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+    .capsule-list {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 13.5px;
+      line-height: 1.65;
+      color: var(--text-main);
+    }
+    .capsule-list li {
+      margin-bottom: 5px;
+    }
+    .capsule-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border-color);
+    }
+    .grade-filter-item.hidden-by-grade {
+      display: none !important;
+    }
+    @media (max-width: 768px) {
+      .zine-spread { padding: 18px 16px; }
+      .spread-title { font-size: 18.5px; }
+    }
+
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- Sticky Top Theme Switcher Bar -->
+  <header class="top-bar">
+    <div class="brand">
+      <button type="button" class="nav-Quick-btn" onclick="toggleMobileNav()" aria-label="展開或收合章節條目">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="17" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <span>章節條目</span>
+      </button>
+      <div>
+        <div class="brand-title">國立花蓮女中 ‧ 選課輔導手冊【文青簡要版】</div>
+      </div>
+    </div>
+    <div class="edition-switch-bar" aria-label="切換完整版">
+      <a href="index.html" class="edition-pill preserve-theme-link" title="切換至完整詳盡版手冊">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <span>完整詳盡版</span>
+      </a>
+    </div>
+    <div class="theme-switcher" role="region" aria-label="視覺風格選擇器">
+      <label class="theme-select-label" for="theme-select">
+        <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
+        <span>風格主題</span>
+      </label>
+      <div class="theme-select-wrap">
+        <select id="theme-select" class="theme-select" aria-label="選擇手冊視覺風格" onchange="setTheme(this.value)">
+          <option value="zine" selected>01. 文青獨立雜誌（暖調紙感・預設）</option>
+          <option value="ocean">02. 洄瀾太平洋（海洋藍調）</option>
+          <option value="atlas">03. 經典圖鑑風（古籍羊皮紙）</option>
+          <option value="denim">04. Y2K 丹寧銀灰（極簡現代）</option>
+          <option value="pine">05. 縱谷松針森系（大地鼠尾草）</option>
+          <option value="mono">06. 極簡黑白（高對比印刷）</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="開啟章節條目導覽" onclick="toggleMobileNav()">
+    <svg class="svg-icon" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <span>簡要版導覽</span>
+  </button>
+  <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="closeMobileNav()"></div>
+
+  <div class="layout">
+    <!-- Left Sticky Chapter Sidebar -->
+    <aside class="sidebar-nav" id="sidebar-nav" aria-label="簡要版章節條目導覽">
+      <div class="nav-title">
+        <span>簡要版 7 大跨頁導覽</span>
+        <button class="sidebar-close-btn" aria-label="關閉導覽選單" onclick="closeMobileNav()">
+          <svg class="svg-icon" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div style="margin-bottom:10px; padding:8px 10px; background:var(--bg-accent); border:1.5px solid var(--accent-primary); border-radius:8px;">
+        <a href="index.html" class="preserve-theme-link" style="display:flex; align-items:center; justify-content:space-between; text-decoration:none; color:var(--accent-primary); font-weight:800; font-size:12.5px;">
+          <span>⇄ 切換：完整詳盡版</span>
+          <span>→</span>
+        </a>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#spread-radar" class="active"><span class="nav-num">00</span> 卷首｜三屆選課速查卡</a></li>
+        <li><a href="#spread-ch1"><span class="nav-num">01</span> 壹｜花女五力 ＆ 校訂必修</a></li>
+        <li><a href="#spread-ch2"><span class="nav-num">02</span> 貳｜畢業 3 種樣態 ＆ 試算器</a></li>
+        <li><a href="#credit-calculator"><span class="nav-num">試算</span> 互動式畢業學分試算器</a></li>
+        <li><a href="#spread-ch3"><span class="nav-num">03</span> 參｜自然/社會 ＆ 數A/數B</a></li>
+        <li><a href="#spread-ch4"><span class="nav-num">04</span> 肆｜生涯金三角 ＆ 18 學群</a></li>
+        <li><a href="#spread-ch5"><span class="nav-num">05</span> 伍｜學習歷程 ＆ 升學管道</a></li>
+        <li><a href="#spread-ch6"><span class="nav-num">06</span> 陸｜選課/選組期程 ＆ 課諮</a></li>
+        <li><a href="#spread-ch7"><span class="nav-num">07</span> 柒｜學長姐高頻 Q&amp;A 精選</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Hero Banner -->
+      <div class="hero-card">
+        <img id="hero-banner-lite" src="assets/banner-zine-lite.svg" alt="國立花蓮女子高級中學 115 學年度選課輔導手冊 文青獨立風簡要版橫幅" />
+        <div class="hero-meta">
+          <div><strong>文青獨立風簡要版（Indie Zine Lite Edition）</strong>｜將 48 頁手冊濃縮為 7 張高留白雜誌跨頁，每張重點皆可一鍵跳轉完整版對應課表。</div>
+          <div class="badge-row">
+            <span class="pill">3 分鐘極簡速讀</span>
+            <span class="pill">3 種畢業檢核樣態</span>
+            <span class="pill">雙向超連結傳送門</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dual-Edition Bar (Only shows Full Version button) -->
+      <div class="hero-edition-bar">
+        <div style="font-size:13.5px; font-weight:800; color:var(--text-main); display:flex; align-items:center; gap:8px;">
+          <svg class="svg-icon" viewBox="0 0 24 24" style="color:var(--accent-primary);"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>目前為「<strong>文青獨立風簡要版（3 分鐘重點速讀）</strong>」，需要查閱六學期完整科目學分表請點右側切換：</span>
+        </div>
+        <div class="hero-edition-links">
+          <a href="index.html" class="edition-pill preserve-theme-link" style="background:var(--accent-primary); color:var(--text-table-head);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>切換至：完整詳盡版 →</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Grade Quick Filter Tabs -->
+      <div class="lite-grade-bar" role="region" aria-label="依年級快速篩選簡要版重點">
+        <span style="font-size:13px; font-weight:800; color:var(--accent-primary);">依妳所在的年級篩選重點：</span>
+        <button type="button" class="lite-grade-btn active" data-grade="all" onclick="filterLiteGrade('all')">全部年級總覽</button>
+        <button type="button" class="lite-grade-btn" data-grade="g1" onclick="filterLiteGrade('g1')">115 入學・現高一</button>
+        <button type="button" class="lite-grade-btn" data-grade="g2" onclick="filterLiteGrade('g2')">114 入學・現高二</button>
+        <button type="button" class="lite-grade-btn" data-grade="g3" onclick="filterLiteGrade('g3')">113 入學・現高三</button>
+      </div>
+
+      <!-- SPREAD 00: 115 三個年級當學期選課速查卡 -->
+      <section class="zine-spread" id="spread-radar">
+        <div class="spread-kicker">SPREAD 00 ‧ COHORT QUICK RADAR</div>
+        <h2 class="spread-title">卷首｜115 學年度三屆學生「這學期必做清單」</h2>
+        <p class="spread-lead">同時在校的三個年級分別適用 115（高一）、114（高二）、113（高三）三份課程計畫書。先看妳所屬年級的本學期三件大事，想看完整科目表直接點卡片下方傳送門：</p>
+
+        <div class="capsule-grid">
+          <div class="capsule-card grade-filter-item" data-grades="g1">
+            <div>
+              <span class="capsule-tag">115 學年度入學 ‧ 現高一</span>
+              <h4>高一新生：探索志趣 ＆ 下學期選組</h4>
+              <p style="margin:6px 0;"><img id="theme-card-g1" src="assets/card-g1-115-zine.svg" alt="115高一速查卡" style="width:100%; border-radius:8px; border:1px solid var(--border-color);" /></p>
+              <ul class="capsule-list">
+                <li><strong>上下學期各選 1 門多元選修</strong>（每學期 2 學分，共 30 門課可選）。</li>
+                <li><strong>高一下（5～6 月）正式選組</strong>：決定高二進入自然班群 A（修數 A）或社會班群 B（修數 A 或數 B）。</li>
+                <li><strong>自主學習滿 18 節</strong>：三年合計須完成至少 18 節自主學習。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#g1-radar" class="xref-link preserve-theme-link">完整版高一雷達 →</a>
+              <a href="index.html#ch3-2" class="xref-link preserve-theme-link">高一 30 門多元選修 →</a>
+              <a href="index.html#ch6-4" class="xref-link preserve-theme-link">選組時程表 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card grade-filter-item" data-grades="g2">
+            <div>
+              <span class="capsule-tag">114 學年度入學 ‧ 現高二</span>
+              <h4>高二同學：班群分流 ＆ 校訂必修</h4>
+              <p style="margin:6px 0;"><img id="theme-card-g2" src="assets/card-g2-114-zine.svg" alt="114高二速查卡" style="width:100%; border-radius:8px; border:1px solid var(--border-color);" /></p>
+              <ul class="capsule-list">
+                <li><strong>校訂必修（4 學分）</strong>：普通班高二修習《洄瀾之欣》(2) 與《職涯探索與實踐》(2) 上下對開。</li>
+                <li><strong>自然 A vs 社會 B 對開差異</strong>：社會組高二上修《家政》(2)；自然組高三才修《家政》(2)。</li>
+                <li><strong>學習歷程每學期勾選 6 件</strong>：含課程學習成果與多元表現認證。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#g2-radar" class="xref-link preserve-theme-link">完整版高二雷達 →</a>
+              <a href="index.html#ch2-4" class="xref-link preserve-theme-link">自然A/社會B課表 →</a>
+              <a href="index.html#ch2-5" class="xref-link preserve-theme-link">轉組學分對照表 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card grade-filter-item" data-grades="g3">
+            <div>
+              <span class="capsule-tag">113 學年度入學 ‧ 現高三</span>
+              <h4>高三準畢業生：150 學分檢核 ＆ 升學衝刺</h4>
+              <p style="margin:6px 0;"><img id="theme-card-g3" src="assets/card-g3-113-zine.svg" alt="113高三速查卡" style="width:100%; border-radius:8px; border:1px solid var(--border-color);" /></p>
+              <ul class="capsule-list">
+                <li><strong>113 屆專屬差異</strong>：自然組高三《生物-演化》(1)＋《化-有機》(1)；社會組高三含《邏輯》(1)＋《地科-環境》(1)。</li>
+                <li><strong>畢業門檻總檢核</strong>：立即使用下方「三種樣態畢業學分試算器」確認是否達 150 學分。</li>
+                <li><strong>大考與申請大學</strong>：1 月學測（X）、5 月申請入學（P1+P2）、7 月分科測驗（Y）。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#g3-radar" class="xref-link preserve-theme-link">完整版高三雷達 →</a>
+              <a href="#credit-calculator" class="xref-link">立即試算畢業學分 ↓</a>
+              <a href="index.html#ch5-2" class="xref-link preserve-theme-link">學測X/分科Y範圍 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>卷首傳送門｜需要看 113 / 114 / 115 跨屆課程變動明細表？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#cross-cohort-diff" class="portal-btn preserve-theme-link">完整版：跨屆變動總表 (#cross-cohort-diff) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 01: 壹、關於花女 — 五力與校訂必修 -->
+      <section class="zine-spread" id="spread-ch1">
+        <div class="spread-kicker">SPREAD 01 ‧ VISION &amp; SCHOOL-REQUIRED COURSES</div>
+        <h2 class="spread-title">壹｜花女五力圖像 ＆《洄瀾之欣》校訂必修</h2>
+        <p class="spread-lead">以「溫柔同理、美感創造、磊落自信、思辨力行、協力共好」五大核心素養為基底，普通班於高二修習 4 學分校訂必修；資優班與美術班則修習專屬特殊需求領域必修。</p>
+
+        <p style="margin:12px 0;"><img id="theme-svg-5powers" src="assets/svg-5powers-zine.svg" alt="花女五力視覺圖卡" style="width:100%; border-radius:10px; border:1px solid var(--border-color);" /></p>
+
+        <div class="capsule-grid">
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">普通班校訂必修（共 4 學分）</span>
+              <h4>《洄瀾之欣》(2) ＋《職涯探索與實踐》(2)</h4>
+              <ul class="capsule-list">
+                <li><strong>《洄瀾之欣》（2 學分）</strong>：走讀花蓮在地文史、自然地景與田野調查，完成手繪地圖或地景報導（最適合認證為「課程學習成果」！）。</li>
+                <li><strong>《職涯探索與實踐》（2 學分）</strong>：結合 SDGs 永續議題、學群探索與生涯實踐企劃。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch1-3" class="xref-link preserve-theme-link">完整版：校訂必修詳解 →</a>
+              <a href="index.html#ch5-1" class="xref-link preserve-theme-link">如何上傳課程學習成果 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">特殊班校訂必修（特殊需求領域）</span>
+              <h4>語資班(30) ‧ 數資班(24) ‧ 美術班(8)</h4>
+              <ul class="capsule-list">
+                <li><strong>語文資優班（30 學分）</strong>：專題研究、獨立研究、領導才能、情意發展、外語溝通與跨文化理解。</li>
+                <li><strong>數理資優班（24 學分）</strong>：科學方法與專題研究、高階數理實作與獨立研究。</li>
+                <li><strong>美術資優班（8 學分）</strong>：藝術鑑賞、策展實務與特殊需求領域（另加 60 學分部定藝才專長必修）。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch1-3" class="xref-link preserve-theme-link">完整版：資優與美術班必修表 →</a>
+              <a href="#spread-ch2" class="xref-link">查看 3 種畢業檢核樣態 ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="media-box" style="margin-top:16px;">
+          <img src="assets/handbook-media/image30.png" alt="《洄瀾之欣》課程架構與學生五力雷達圖" style="max-width:760px; width:100%; height:auto; display:block; margin:0 auto; border-radius:8px;" />
+          <div class="media-caption">《洄瀾之欣》課程架構與學生五力雷達圖</div>
+        </div>
+
+        <div class="table-wrap" style="margin-top:14px;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width:50%; text-align:center;">圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖</th>
+                <th style="width:50%; text-align:center;">圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="text-align:center; vertical-align:middle;">
+                  <img src="assets/handbook-media/image31a.jpg" alt="圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖" style="max-width:100%; height:auto; border-radius:8px;" />
+                </td>
+                <td style="text-align:center; vertical-align:middle;">
+                  <img src="assets/handbook-media/image31b.jpg" alt="圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導" style="max-width:100%; height:auto; border-radius:8px;" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第壹章傳送門｜想看完整版願景說明與各班別校訂必修學分拆解？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch1" class="portal-btn preserve-theme-link">完整版：第壹章全文 (#ch1) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 02: 貳、畢業條件 3 種樣態與互動試算器 -->
+      <section class="zine-spread" id="spread-ch2">
+        <div class="spread-kicker">SPREAD 02 ‧ 3 GRADUATION PATTERNS &amp; CALCULATOR</div>
+        <h2 class="spread-title">貳｜三年 182 學分架構 ＆「3 種畢業檢核樣態」即時試算</h2>
+        <p class="spread-lead">花女三年應修總學分為 <strong>182 學分</strong>，畢業最低及格總學分為 <strong>150 學分</strong>。全校依班別分為<strong>「普通班（自然／社會同掛）」、「特殊班：語資／數資同掛」、「特殊班：美術班獨立樣態」共 3 種畢業檢核樣態</strong>：</p>
+
+        <p style="margin:12px 0;"><img id="theme-svg-timeline" src="assets/svg-curriculum-timeline-zine.svg" alt="三年課程時間軸" style="width:100%; border-radius:10px; border:1px solid var(--border-color);" /></p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>畢業檢核樣態（共 3 種樣態）</th>
+                <th>適用班別</th>
+                <th>應修總分</th>
+                <th>畢業總門檻</th>
+                <th>① 必修及格門檻</th>
+                <th>② 選修及格門檻</th>
+                <th>完整課表</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>樣態一｜普通班（自然/社會同掛）</strong></td>
+                <td><strong>自然班群 A ‧ 社會班群 B</strong></td>
+                <td>182</td>
+                <td><strong>≥ 150 學分</strong></td>
+                <td><strong>部定必修(118)＋校訂必修(4) 合併 ≥ 102 學分</strong></td>
+                <td><strong>選修(60) ≥ 40 學分</strong></td>
+                <td><a href="index.html#ch2-4" class="xref-link preserve-theme-link">六學期課表 →</a></td>
+              </tr>
+              <tr>
+                <td rowspan="2"><strong>樣態二｜特殊班：學術資優班（語資/數資同掛）</strong><br/><span style="font-size:12px; color:var(--text-muted);">部定一般≥80% ‧ 校訂特需≥85% ‧ 選修≥70%</span></td>
+                <td><strong>語文資優班</strong></td>
+                <td>182</td>
+                <td><strong>≥ 150 學分</strong></td>
+                <td>部定一般(112) <strong>≥ 90</strong> (80%) ＋ 校訂特需(30) <strong>≥ 26</strong> (85%)</td>
+                <td><strong>選修(40) ≥ 28 學分</strong> (70%)</td>
+                <td><a href="index.html#ch2-4" class="xref-link preserve-theme-link">語資課表 →</a></td>
+              </tr>
+              <tr>
+                <td><strong>數理資優班</strong></td>
+                <td>182</td>
+                <td><strong>≥ 150 學分</strong></td>
+                <td>部定一般(108) <strong>≥ 87</strong> (80%) ＋ 校訂特需(24) <strong>≥ 21</strong> (85%)</td>
+                <td><strong>選修(50) ≥ 35 學分</strong> (70%)</td>
+                <td><a href="index.html#ch2-4" class="xref-link preserve-theme-link">數資課表 →</a></td>
+              </tr>
+              <tr>
+                <td><strong>樣態三｜特殊班：藝才資優班（美術班獨立樣態）</strong></td>
+                <td><strong>美術資優班</strong></td>
+                <td>182</td>
+                <td><strong>≥ 150 學分</strong></td>
+                <td><strong>部定(一般86+藝才專長60)＋校訂特需(8) 合併 ≥ 128 學分</strong></td>
+                <td><strong>選修(28) ≥ 14 學分</strong> (50%)</td>
+                <td><a href="index.html#ch2-4" class="xref-link preserve-theme-link">美術課表 →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Embedded 3-Pattern Graduation Calculator -->
+        <section class="calc-box" id="credit-calculator">
+        <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px;">
+          <h3 style="margin-top:0; margin-bottom:2px;">互動式畢業學分快速試算器（182 應修學分 ‧ 150 及格門檻 ‧ 三種班群樣態）</h3>
+          <a href="index.html#ch2-6" class="xref-link preserve-theme-link">→ 對照第貳章畢業條件檢核表 (#ch2-6)</a>
+        </div>
+        <p style="margin:4px 0 8px; font-size:13px; color:var(--text-muted);">
+          花女各班別依課程結構分為<strong>「三種畢業檢核樣態」</strong>：請先點選妳所屬的班別樣態，再輸入目前累積或預計取得的及格學分數：
+        </p>
+
+        <!-- 3 Graduation Validation Patterns Selector -->
+        <div class="calc-pattern-tabs" role="tablist" aria-label="選擇畢業檢核樣態">
+          <button type="button" class="calc-pattern-btn active" id="pat-btn-regular" onclick="selectCalcPattern('regular')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12l2 2 4-4"/></svg>
+              <span>樣態一｜普通班（自然A ‧ 社會B 同掛）</span>
+            </span>
+            <span class="pat-sub">部定(118)+校訂(4) 合計 ≥ 102 ｜ 選修(60) ≥ 40 ｜ 總分 ≥ 150</span>
+          </button>
+
+          <button type="button" class="calc-pattern-btn" id="pat-btn-gifted" onclick="selectCalcPattern('gifted_lang')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>樣態二｜特殊班：語資班 ‧ 數資班（同掛）</span>
+            </span>
+            <span class="pat-sub">部定一般 ≥ 80% ｜ 校訂特需 ≥ 85% ｜ 選修 ≥ 70% ｜ 總分 ≥ 150</span>
+          </button>
+
+          <button type="button" class="calc-pattern-btn" id="pat-btn-art" onclick="selectCalcPattern('art')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><circle cx="8.5" cy="9.5" r="1.5"/><circle cx="15.5" cy="9.5" r="1.5"/><path d="M8 15c1.5 2 6.5 2 8 0"/></svg>
+              <span>樣態三｜特殊班：美術資優班（獨立樣態）</span>
+            </span>
+            <span class="pat-sub">部定(一般86+專長60)+校訂(8) 合計 ≥ 128 ｜ 選修(28) ≥ 14 ｜ 總分 ≥ 150</span>
+          </button>
+        </div>
+
+        <!-- Sub-selector for Pattern 2 (語資班 vs 數資班) -->
+        <div class="calc-subtrack-bar" id="calc-subtrack-bar">
+          <span style="font-size:12.5px; font-weight:800; color:var(--accent-primary);">選擇學術性向資優班別（同採 80% / 85% / 70% 檢核，應修配分不同）：</span>
+          <button type="button" class="calc-subtrack-btn active" id="sub-btn-lang" onclick="selectCalcPattern('gifted_lang')">
+            語文資優班（部定112 ‧ 特需30 ‧ 選修40）
+          </button>
+          <button type="button" class="calc-subtrack-btn" id="sub-btn-math" onclick="selectCalcPattern('gifted_math')">
+            數理資優班（部定108 ‧ 特需24 ‧ 選修50）
+          </button>
+        </div>
+
+        <!-- Dynamic Rule Explanation Banner -->
+        <div class="calc-rule-banner" id="calc-rule-desc">
+          <strong>【樣態一：普通班（自然班群 A、社會班群 B 同掛）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(118)＋校訂必修(4) 合併計算及格 ≥ 102 學分</strong>、<strong>② 選修(60) 及格 ≥ 40 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（註：102 + 40 = 142，仍須由必修或選修多拿 8 學分湊滿 150）。
+        </div>
+
+        <div class="calc-grid">
+          <div class="calc-item">
+            <label for="inp-moe" id="lbl-moe">① 部定必修及格學分（應修滿分 118）</label>
+            <input type="number" id="inp-moe" value="102" min="0" max="118" oninput="updateCredits()" />
+          </div>
+          <div class="calc-item">
+            <label for="inp-sch" id="lbl-sch">② 校訂必修及格學分（應修滿分 4，與部定合併檢核）</label>
+            <input type="number" id="inp-sch" value="4" min="0" max="4" oninput="updateCredits()" />
+          </div>
+          <div class="calc-item">
+            <label for="inp-ele" id="lbl-ele">③ 選修課程及格學分（應修滿分 60，門檻 ≥ 40）</label>
+            <input type="number" id="inp-ele" value="48" min="0" max="60" oninput="updateCredits()" />
+          </div>
+        </div>
+        <div class="calc-result" id="calc-output">
+          <span>總及格學分：<strong>154 / 150</strong>（達標）</span>
+          <span>必修合計（部定+校訂）：<strong>106 / 102</strong>（應修122，達標）</span>
+          <span>選修學分：<strong>48 / 40</strong>（應修60，達標）</span>
+          <span class="status-pass">恭喜！符合【普通班（自然/社會班群）】畢業學分門檻</span>
+        </div>
+      </section>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第貳章傳送門｜想查閱自然A、社會B、語資、數資、美術班完整六學期授課學分表與轉組科目對照？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch2-4" class="portal-btn preserve-theme-link">完整版：各班群六學期課程地圖 (#ch2-4) →</a>
+            <a href="index.html#ch2-5" class="portal-btn preserve-theme-link">完整版：轉組缺少科目對照表 (#ch2-5) →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 03: 參、決定自己的課程 — 選組、數A/數B、多元與社團 -->
+      <section class="zine-spread" id="spread-ch3">
+        <div class="spread-kicker">SPREAD 03 ‧ TRACKS, MATH A/B &amp; ELECTIVES</div>
+        <h2 class="spread-title">參｜自然組 vs 社會組 ‧ 數 A vs 數 B ‧ 多元選修與 34 社團</h2>
+        <p class="spread-lead">高一下學期末將進行班群選組與高二數學分流。用三張重點卡掌握核心差異：</p>
+
+        <div class="capsule-grid">
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">班群分流（高二起）</span>
+              <h4>自然班群 A vs 社會班群 B</h4>
+              <ul class="capsule-list">
+                <li><strong>自然班群 A（理工醫農生醫）</strong>：加深加廣主修物理、化學、生物、地科與數 A／數甲。</li>
+                <li><strong>社會班群 B（文法商管社心）</strong>：加深加廣主修歷史、地理、公民探究與數 A 或數 B（高三數乙）。</li>
+                <li><strong>轉組提醒</strong>：社會組高二上修《家政》(2)，自然組高三才修；轉組前請先看轉組對照表！</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch3-1" class="xref-link preserve-theme-link">完整版：自然/社會比較表 →</a>
+              <a href="index.html#ch2-5" class="xref-link preserve-theme-link">轉組學分差異表 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">高二數學分流</span>
+              <h4>高二數 A vs 數 B 怎麼選？</h4>
+              <ul class="capsule-list">
+                <li><strong>數學 A（高強度空間與微積分銜接）</strong>：適合資訊、工程、數理化、醫牙藥及頂大商管財金科系。</li>
+                <li><strong>數學 B（設計、人文、傳播與實務模型）</strong>：含平面透視、球面經緯度、單利複利，適合文史哲法政藝設。</li>
+                <li><strong>跨考原則</strong>：修數 A 較易跨考數 B，但修數 B 若高三想跨考數甲需自行補足空間向量與矩陣。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch3-1" class="xref-link preserve-theme-link">完整版：數A/數B單元對照 →</a>
+              <a href="index.html#ch4-3" class="xref-link preserve-theme-link">18 學群採計對應 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">多元選修 ＆ 彈性 ＆ 社團</span>
+              <h4>30 門高一多元選修 ‧ 18 節自主學習</h4>
+              <ul class="capsule-list">
+                <li><strong>多元選修</strong>：每學期 2 學分（三階段網路選課：初選二階段志願序 ＋ 開學加退選）。</li>
+                <li><strong>彈性學習（每週 3 節）</strong>：三年須完成<strong>至少 18 節自主學習</strong>並通過指導老師審核。</li>
+                <li><strong>34 個繽紛社團</strong>：學術、音樂、藝文、服務、康樂、體育六大類。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch3-2" class="xref-link preserve-theme-link">完整版：高一/高二/高三多元清單 →</a>
+              <a href="index.html#ch3-4" class="xref-link preserve-theme-link">34 個社團總表 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第參章傳送門｜想看高一 30 門、高二 14 門、高三 9 門多元選修完整開課清單？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch3-2" class="portal-btn preserve-theme-link">完整版：多元選修總表 (#ch3-2) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 04: 肆、生涯規劃與十八學群 -->
+      <section class="zine-spread" id="spread-ch4">
+        <div class="spread-kicker">SPREAD 04 ‧ CAREER TRIANGLE &amp; 18 CLUSTERS</div>
+        <h2 class="spread-title">肆｜生涯規劃金三角 ＆ 大學十八學群選組導航</h2>
+        <p class="spread-lead">結合高一「大考中心興趣量表（Holland 六碼）」與「新編多元性向測驗」，快速對準十八學群與建議班群：</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>建議選組方向</th>
+                <th>對應大學十八學群</th>
+                <th>核心加深加廣選修組合</th>
+                <th>詳細對照</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>自然班群 A（主修數 A）</strong></td>
+                <td>資訊、工程、數理化、醫藥衛生、生命科學、生物資源、地球與環境</td>
+                <td>力學一/二、電磁波、選修化學(四冊)、選修生物(四冊)、地科、數甲</td>
+                <td><a href="index.html#ch4-3" class="xref-link preserve-theme-link">18 學群全表 →</a></td>
+              </tr>
+              <tr>
+                <td><strong>社會班群 B（修數 A 或數 B）</strong></td>
+                <td>文史哲、外語、法政、社會心理、大眾傳播、教育、藝術、建築與設計</td>
+                <td>歷史探究(二冊)、地理探究(二冊)、公民探究(二冊)、英文寫作、數乙</td>
+                <td><a href="index.html#ch4-3" class="xref-link preserve-theme-link">18 學群全表 →</a></td>
+              </tr>
+              <tr>
+                <td><strong>自然 A 或社會 B 皆可（商管經濟）</strong></td>
+                <td>管理學群、財經學群、遊憩與運動學群</td>
+                <td>留意目標校系學測採計<strong>數 A</strong> 或<strong>數 B</strong>，高三建議修習數甲或數乙</td>
+                <td><a href="index.html#ch4-3" class="xref-link preserve-theme-link">18 學群全表 →</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第肆章傳送門｜想看 Holland 六型生涯興趣與十八學群逐一對應科目表？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch4" class="portal-btn preserve-theme-link">完整版：第肆章生涯與18學群 (#ch4) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 05: 伍、學習歷程檔案與四大升學管道 -->
+      <section class="zine-spread" id="spread-ch5">
+        <div class="spread-kicker">SPREAD 05 ‧ LEARNING PORTFOLIO &amp; ADMISSIONS</div>
+        <h2 class="spread-title">伍｜學習歷程檔案（每學期 6 件勾選）＆ 四大升學管道</h2>
+        <p class="spread-lead">學習歷程檔案是申請大學的「P1 備審核心」，按學期穩定累積最輕鬆：</p>
+
+        <div class="capsule-grid">
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">課程學習成果（有學分課程）</span>
+              <h4>每學期認證至多 6 件 ‧ 每年勾選 6 件</h4>
+              <ul class="capsule-list">
+                <li><strong>可上傳科目</strong>：部定必修、校訂必修（如《洄瀾之欣》）、加深加廣選修、多元選修。</li>
+                <li><strong>三年至多勾選 18 件</strong>提交至中央資料庫，高三申請大學時再從中挑選 <strong>3 件</strong>送審。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch5-1" class="xref-link preserve-theme-link">完整版：上傳認證 7 步驟 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">多元表現（自主學習／社團／競賽）</span>
+              <h4>每學年勾選至多 10 件</h4>
+              <ul class="capsule-list">
+                <li><strong>包含項目</strong>：彈性學習時間之「自主學習成果」、社團活動、幹部經歷、競賽、檢定、營隊志工。</li>
+                <li><strong>不須任課老師認證</strong>，但須於每學年規定時間內完成上傳與勾選（三年至多 30 件，高三挑 10 件）。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch5-1" class="xref-link preserve-theme-link">完整版：學習歷程架構圖 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">四大升學管道 ＆ 大考範圍</span>
+              <h4>特殊選才 ‧ 繁星 ‧ 申請 ‧ 分發</h4>
+              <ul class="capsule-list">
+                <li><strong>學測（X，高三寒假 1 月）</strong>：考部定必修（國、英、數A、數B、社、自）。</li>
+                <li><strong>申請入學（3～5 月）</strong>：學測 X ＋ 學習歷程 P1 ＋ 二階面試筆試 P2。</li>
+                <li><strong>分科測驗（Y，高三暑假 7 月）</strong>：考加深加廣選修（數甲、數乙、物、化、生、歷、地、公）。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch5-2" class="xref-link preserve-theme-link">完整版：學測X/分科Y考科全表 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第伍章傳送門｜想看學測 X 與分科測驗 Y 各科測驗範圍完整表格？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch5" class="portal-btn preserve-theme-link">完整版：第伍章學習歷程與升學 (#ch5) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 06: 陸、課程諮詢與選課/選組重要期程 -->
+      <section class="zine-spread" id="spread-ch6">
+        <div class="spread-kicker">SPREAD 06 ‧ TIMELINE &amp; COURSE CONSULTATION</div>
+        <h2 class="spread-title">陸｜選課／選組／轉組重要期程 ＆ 課諮師預約管道</h2>
+        <p class="spread-lead">遇到選課或轉組問題，「班導師、專任輔導教師、課程諮詢教師」金三角隨時陪妳討論：</p>
+
+        <div class="capsule-grid">
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">多元選修三階段選課</span>
+              <h4>初選一階 ➔ 初選二階 ➔ 加退選</h4>
+              <ul class="capsule-list">
+                <li><strong>第一階段（期末前）</strong>：上網登記志願序（非先搶先贏，請填滿志願）。</li>
+                <li><strong>第二階段</strong>：第一階段未中選同學進行二階志願分發。</li>
+                <li><strong>加退選（開學第 1～2 週）</strong>：特殊原因申請加退選（須經課諮師或教務處核章）。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch6-4" class="xref-link preserve-theme-link">完整版：選課流程圖 →</a>
+            </div>
+          </div>
+
+          <div class="capsule-card">
+            <div>
+              <span class="capsule-tag">選組與寒暑假轉組</span>
+              <h4>高一下選組 ‧ 高二寒暑假轉組</h4>
+              <ul class="capsule-list">
+                <li><strong>高一下（5～6 月）</strong>：舉辦課程說明會、團體課諮，繳交家長同意之選組表。</li>
+                <li><strong>寒假／暑假轉組申請</strong>：必須完成「<strong>導師 ➔ 輔導老師 ➔ 課程諮詢教師</strong>」三關晤談簽章方可申請。</li>
+              </ul>
+            </div>
+            <div class="capsule-actions">
+              <a href="index.html#ch6-5" class="xref-link preserve-theme-link">完整版：選組轉組時程 →</a>
+              <a href="index.html#ch6-2" class="xref-link preserve-theme-link">各處室問題對口表 →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第陸章傳送門｜想看「找對人、找對處室」完整對照表與課諮預約步驟？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch6" class="portal-btn preserve-theme-link">完整版：第陸章課程諮詢服務 (#ch6) →</a>
+            <a href="#top" class="portal-btn">↑ 回到頁首</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPREAD 07: 柒、學長姐高頻 Q&A 精選 -->
+      <section class="zine-spread" id="spread-ch7">
+        <div class="spread-kicker">SPREAD 07 ‧ TOP FAQ HIGHLIGHTS</div>
+        <h2 class="spread-title">柒｜原來不是只有我不懂 — 學長姐最常問的 5 大核心問題</h2>
+        <p class="spread-lead">精選自手冊第柒章 23 題 Q&amp;A 中最常被問到的 5 題，想看全部 23 題詳解請點下方傳送門：</p>
+
+        <details open>
+          <summary>Q1：如果高二志趣改變決定轉組，會不會因為學分不足而不能畢業？</summary>
+          <div class="details-body">
+            只要提早規劃就不用擔心！請先用上方「<strong>互動式畢業學分快速試算器（3 種樣態）</strong>」檢核必修與選修學分，並特別留意自然組與社會組《家政》(2) 及高二對開科目的學分落差；未修習之必修科目可透過暑期補修專班完成。<a href="index.html#ch2-5" class="xref-link preserve-theme-link" style="margin-left:6px;">查看轉組科目對照表 →</a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Q2：自主學習一定要有嗎？如果自主學習計畫書未審查通過怎麼辦？</summary>
+          <div class="details-body">
+            <strong>是的！</strong>新課綱規定每位高中生三年間至少需完成 <strong>18 節以上</strong>的自主學習。若計畫初審未通過，學校「自主學習審查小組」與指導老師會協助妳修訂計畫內容直到通過為止。<a href="index.html#ch3-3" class="xref-link preserve-theme-link" style="margin-left:6px;">查看彈性學習規定 →</a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Q3：哪些課程可以上傳到「課程學習成果」？微課程或自主學習算哪一類？</summary>
+          <div class="details-body">
+            <strong>有學分且任課老師會評分的課程</strong>（部定必修、校訂必修《洄瀾之欣》等、加深加廣選修、多元選修）經任課老師認證後列入「<strong>課程學習成果</strong>」；沒有學分的彈性學習（自主學習、微課程）與社團活動則列入「<strong>多元表現</strong>」。<a href="index.html#ch5-1" class="xref-link preserve-theme-link" style="margin-left:6px;">查看學習歷程詳解 →</a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Q4：高三才發現選修課跟想申請的大學科系沒有完全對應怎麼辦？</summary>
+          <div class="details-body">
+            可向輔導老師或課諮師尋求協助，從「<strong>多元表現（自主學習、營隊、競賽）</strong>」展現對該領域的熱情，並在「<strong>學習歷程自述</strong>」中真誠說明自己探索、轉折到確立目標科系的心路歷程。<a href="index.html#ch7-1" class="xref-link preserve-theme-link" style="margin-left:6px;">查看課程疑惑篇 Q1–Q5 →</a>
+          </div>
+        </details>
+
+        <details>
+          <summary>Q5：對選課、選組或學習歷程有疑問時，該去哪裡找誰？</summary>
+          <div class="details-body">
+            選課系統與開課加退選找<strong>教務處教學組</strong>；學分採計、成績與轉組重補修找<strong>教務處註冊組</strong>；生涯探索、興趣測驗與升學面試找<strong>輔導室</strong>；個人化選課規劃則找<strong>課程諮詢教師</strong>！<a href="index.html#ch6-2" class="xref-link preserve-theme-link" style="margin-left:6px;">查看各處室問題對口表 →</a>
+          </div>
+        </details>
+
+        <div class="section-portal-bar">
+          <div class="portal-group">
+            <span>第柒章傳送門｜想看完整 23 題學長姐 Q&amp;A（課程疑惑、學習歷程、課諮、升學進路四篇全收錄）？</span>
+          </div>
+          <div class="portal-group">
+            <a href="index.html#ch7" class="portal-btn preserve-theme-link">完整版：第柒章 23 問全集 (#ch7) →</a>
+            <a href="#top" class="portal-btn">↑ 回到簡要版頂部</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p><strong>國立花蓮女子高級中學 ‧ 115 學年度選課輔導手冊【文青獨立風簡要版】</strong></p>
+        <p>地址：970018 花蓮縣花蓮市菁華街 2 號 ｜ 電話：(03) 832-1202 ｜ <a href="index.html" class="preserve-theme-link" style="color:var(--accent-primary); font-weight:800;">切換至完整詳盡版</a></p>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    const VALID_THEMES = ['zine', 'ocean', 'atlas', 'denim', 'pine', 'mono'];
+    const themeSelect = document.getElementById('theme-select');
+
+    function normalizeTheme(theme) {
+      if (!theme) return 'zine';
+      if (VALID_THEMES.indexOf(theme) !== -1) return theme;
+      return 'atlas';
+    }
+
+    function setTheme(rawTheme) {
+      const theme = normalizeTheme(rawTheme);
+      document.documentElement.setAttribute('data-theme', theme);
+      if (themeSelect && themeSelect.value !== theme) {
+        themeSelect.value = theme;
+      }
+      const bannerImg = document.getElementById('hero-banner-img');
+      if (bannerImg) {
+        bannerImg.src = 'assets/banner-' + theme + '.svg?v=7';
+      }
+      document.querySelectorAll('.theme-sec-img').forEach(img => {
+        const sec = img.getAttribute('data-sec');
+        if (sec) {
+          img.src = 'assets/' + sec + '-' + theme + '.svg?v=7';
+        }
+      });
+      try { localStorage.setItem('hlgs-handbook-theme-v5', theme); } catch(e) {}
+      document.querySelectorAll('.preserve-theme-link').forEach(a => {
+        const rawHref = a.getAttribute('href') || '';
+        const parts = rawHref.split('#');
+        const base = parts[0].split('?')[0];
+        const hash = parts[1] ? '#' + parts[1] : '';
+        a.setAttribute('href', base + '?theme=' + theme + hash);
+      });
+    }
+
+    if (themeSelect) {
+      themeSelect.addEventListener('change', function(e) {
+        setTheme(e.target.value);
+      });
+    }
+
+    // Left-Edge Chapter Drawer Controls for Small Screens
+    const sidebar = document.getElementById('chapter-sidebar');
+    const backdrop = document.getElementById('toc-backdrop');
+    const openBtnTop = document.getElementById('mobile-toc-open');
+    const openBtnLeft = document.getElementById('left-edge-toc-btn');
+    const closeBtn = document.getElementById('mobile-toc-close');
+
+    function openDrawer() {
+      if (sidebar) sidebar.classList.add('open');
+      if (backdrop) backdrop.classList.add('open');
+    }
+    function closeDrawer() {
+      if (sidebar) sidebar.classList.remove('open');
+      if (backdrop) backdrop.classList.remove('open');
+    }
+
+    if (openBtnTop) openBtnTop.addEventListener('click', openDrawer);
+    if (openBtnLeft) openBtnLeft.addEventListener('click', openDrawer);
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    if (backdrop) backdrop.addEventListener('click', closeDrawer);
+
+    document.querySelectorAll('#chapter-sidebar a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) closeDrawer();
+      });
+    });
+
+    const CALC_CONFIGS = {
+      regular: {
+        name: '普通班（自然/社會班群）',
+        mode: 'combined_req',
+        moeMax: 118, schMax: 4, eleMax: 60,
+        moeDefault: 102, schDefault: 4, eleDefault: 48,
+        reqCombinedPass: 102, elePass: 40, totalPass: 150,
+        lblMoe: '① 部定必修及格學分（應修滿分 118）',
+        lblSch: '② 校訂必修及格學分（應修滿分 4，與部定合併檢核）',
+        lblEle: '③ 選修課程及格學分（應修滿分 60，門檻 ≥ 40）',
+        ruleHtml: '<strong>【樣態一：普通班（自然班群 A、社會班群 B 同掛）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(118)＋校訂必修(4) 合併計算及格 ≥ 102 學分</strong>、<strong>② 選修(60) 及格 ≥ 40 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（註：102 + 40 = 142，仍須由必修或選修多拿 8 學分湊滿 150）。'
+      },
+      gifted_lang: {
+        name: '語文資優班（特殊班樣態二）',
+        mode: 'separate_pct',
+        moeMax: 112, schMax: 30, eleMax: 40,
+        moeDefault: 96, schDefault: 28, eleDefault: 32,
+        moePass: 90, schPass: 26, elePass: 28, totalPass: 150,
+        lblMoe: '① 部定一般科目及格學分（應修 112，80%門檻 ≥ 90）',
+        lblSch: '② 校訂特需領域及格學分（應修 30，85%門檻 ≥ 26）',
+        lblEle: '③ 選修課程及格學分（應修 40，70%門檻 ≥ 28）',
+        ruleHtml: '<strong>【樣態二：學術性向資優班 — 語文資優班（與數資班同掛百分比邏輯）】</strong>應修 182 學分。畢業四門檻：<strong>① 部定一般科目(112) 至少 80% 及格（≥ 90 學分）</strong>、<strong>② 校訂特殊需求(30) 至少 85% 及格（≥ 26 學分）</strong>、<strong>③ 選修(40) 至少 70% 及格（≥ 28 學分）</strong>、<strong>④ 總及格 ≥ 150 學分</strong>（90+26+28=144，仍須湊滿 150）。'
+      },
+      gifted_math: {
+        name: '數理資優班（特殊班樣態二）',
+        mode: 'separate_pct',
+        moeMax: 108, schMax: 24, eleMax: 50,
+        moeDefault: 92, schDefault: 22, eleDefault: 40,
+        moePass: 87, schPass: 21, elePass: 35, totalPass: 150,
+        lblMoe: '① 部定一般科目及格學分（應修 108，80%門檻 ≥ 87）',
+        lblSch: '② 校訂特需領域及格學分（應修 24，85%門檻 ≥ 21）',
+        lblEle: '③ 選修課程及格學分（應修 50，70%門檻 ≥ 35）',
+        ruleHtml: '<strong>【樣態二：學術性向資優班 — 數理資優班（與語資班同掛百分比邏輯）】</strong>應修 182 學分。畢業四門檻：<strong>① 部定一般科目(108) 至少 80% 及格（≥ 87 學分）</strong>、<strong>② 校訂特殊需求(24) 至少 85% 及格（≥ 21 學分）</strong>、<strong>③ 選修(50) 至少 70% 及格（≥ 35 學分）</strong>、<strong>④ 總及格 ≥ 150 學分</strong>（87+21+35=143，仍須湊滿 150）。'
+      },
+      art: {
+        name: '美術資優班（特殊班樣態三）',
+        mode: 'combined_req',
+        moeMax: 146, schMax: 8, eleMax: 28,
+        moeDefault: 126, schDefault: 8, eleDefault: 20,
+        reqCombinedPass: 128, elePass: 14, totalPass: 150,
+        lblMoe: '① 部定必修（一般86＋藝才專長60＝滿分 146）',
+        lblSch: '② 校訂特需必修（應修滿分 8，與部定合併檢核）',
+        lblEle: '③ 選修課程及格學分（應修滿分 28，50%門檻 ≥ 14）',
+        ruleHtml: '<strong>【樣態三：藝術才能資優班 — 美術班（獨立樣態）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(一般86+藝才專長60)＋校訂特需(8) 合併計算及格 ≥ 128 學分（應修 154）</strong>、<strong>② 選修(28) 及格 ≥ 14 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（128+14=142，仍須湊滿 150）。'
+      }
+    };
+
+    let currentCalcPattern = 'regular';
+
+    function selectCalcPattern(patKey) {
+      if (!CALC_CONFIGS[patKey]) patKey = 'regular';
+      currentCalcPattern = patKey;
+      const cfg = CALC_CONFIGS[patKey];
+
+      // Update main pattern tab active states
+      const btnReg = document.getElementById('pat-btn-regular');
+      const btnGif = document.getElementById('pat-btn-gifted');
+      const btnArt = document.getElementById('pat-btn-art');
+      const subBar = document.getElementById('calc-subtrack-bar');
+      const subLang = document.getElementById('sub-btn-lang');
+      const subMath = document.getElementById('sub-btn-math');
+
+      if (btnReg) btnReg.classList.toggle('active', patKey === 'regular');
+      if (btnGif) btnGif.classList.toggle('active', patKey === 'gifted_lang' || patKey === 'gifted_math');
+      if (btnArt) btnArt.classList.toggle('active', patKey === 'art');
+
+      if (subBar) {
+        subBar.classList.toggle('visible', patKey === 'gifted_lang' || patKey === 'gifted_math');
+      }
+      if (subLang) subLang.classList.toggle('active', patKey === 'gifted_lang');
+      if (subMath) subMath.classList.toggle('active', patKey === 'gifted_math');
+
+      const ruleDesc = document.getElementById('calc-rule-desc');
+      if (ruleDesc) ruleDesc.innerHTML = cfg.ruleHtml;
+
+      const inpMoe = document.getElementById('inp-moe');
+      const inpSch = document.getElementById('inp-sch');
+      const inpEle = document.getElementById('inp-ele');
+
+      document.getElementById('lbl-moe').textContent = cfg.lblMoe;
+      document.getElementById('lbl-sch').textContent = cfg.lblSch;
+      document.getElementById('lbl-ele').textContent = cfg.lblEle;
+
+      inpMoe.max = cfg.moeMax;
+      inpSch.max = cfg.schMax;
+      inpEle.max = cfg.eleMax;
+
+      inpMoe.value = cfg.moeDefault;
+      inpSch.value = cfg.schDefault;
+      inpEle.value = cfg.eleDefault;
+
+      updateCredits();
+    }
+
+    function updateCredits() {
+      const cfg = CALC_CONFIGS[currentCalcPattern] || CALC_CONFIGS.regular;
+      const moe = Math.max(0, parseInt(document.getElementById('inp-moe').value || '0', 10));
+      const sch = Math.max(0, parseInt(document.getElementById('inp-sch').value || '0', 10));
+      const ele = Math.max(0, parseInt(document.getElementById('inp-ele').value || '0', 10));
+      const total = moe + sch + ele;
+      const totalOk = total >= cfg.totalPass;
+      const eleOk = ele >= cfg.elePass;
+      const out = document.getElementById('calc-output');
+
+      if (cfg.mode === 'combined_req') {
+        const reqTotal = moe + sch;
+        const reqMax = cfg.moeMax + cfg.schMax;
+        const reqOk = reqTotal >= cfg.reqCombinedPass;
+        const allOk = totalOk && reqOk && eleOk;
+        out.innerHTML = `
+          <span>總及格學分：<strong>${total} / ${cfg.totalPass}</strong>（${totalOk ? '達標' : '差 ' + (cfg.totalPass - total) + ' 學分'}）</span>
+          <span>必修合計（部定+校訂）：<strong>${reqTotal} / ${cfg.reqCombinedPass}</strong>（應修 ${reqMax}，${reqOk ? '達標' : '差 ' + (cfg.reqCombinedPass - reqTotal) + ' 學分'}）</span>
+          <span>選修學分：<strong>${ele} / ${cfg.elePass}</strong>（應修 ${cfg.eleMax}，${eleOk ? '達標' : '差 ' + (cfg.elePass - ele) + ' 學分'}）</span>
+          <span class="${allOk ? 'status-pass' : 'status-warn'}">${allOk ? '恭喜！符合【' + cfg.name + '】畢業學分門檻' : '尚有指標未達【' + cfg.name + '】畢業門檻，請對照上方門檻或諮詢課諮師'}</span>
+        `;
+      } else {
+        const moeOk = moe >= cfg.moePass;
+        const schOk = sch >= cfg.schPass;
+        const allOk = totalOk && moeOk && schOk && eleOk;
+        const moePct = ((moe / cfg.moeMax) * 100).toFixed(1);
+        const schPct = ((sch / cfg.schMax) * 100).toFixed(1);
+        const elePct = ((ele / cfg.eleMax) * 100).toFixed(1);
+        out.innerHTML = `
+          <span>總及格：<strong>${total} / ${cfg.totalPass}</strong>（${totalOk ? '達標' : '未達標'}）</span>
+          <span>部定一般(≥80%)：<strong>${moe} / ${cfg.moePass}</strong>（${moePct}% ${moeOk ? '達標' : '未達標'}）</span>
+          <span>校訂特需(≥85%)：<strong>${sch} / ${cfg.schPass}</strong>（${schPct}% ${schOk ? '達標' : '未達標'}）</span>
+          <span>選修(≥70%)：<strong>${ele} / ${cfg.elePass}</strong>（${elePct}% ${eleOk ? '達標' : '未達標'}）</span>
+          <span class="${allOk ? 'status-pass' : 'status-warn'}">${allOk ? '恭喜！符合【' + cfg.name + '】畢業學分門檻' : '尚有指標未達【' + cfg.name + '】畢業門檻，請諮詢課諮師'}</span>
+        `;
+      }
+    }
+
+    (function init() {
+      const params = new URLSearchParams(window.location.search);
+      const urlTheme = params.get('theme');
+      const saved = localStorage.getItem('hlgs-handbook-theme-v5');
+      setTheme(urlTheme || saved || 'zine');
+    })();
+  
+    function filterLiteGrade(grade) {
+      document.querySelectorAll('.lite-grade-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-grade') === grade);
+      });
+      document.querySelectorAll('.grade-filter-item').forEach(item => {
+        const grades = (item.getAttribute('data-grades') || 'all').split(',');
+        if (grade === 'all' || grades.includes(grade) || grades.includes('all')) {
+          item.classList.remove('hidden-by-grade');
+        } else {
+          item.classList.add('hidden-by-grade');
+        }
+      });
+    }
+
+  </script>
+</body>
+</html>
