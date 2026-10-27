@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="100%" height="100%">
   <rect x="4" y="4" width="1192" height="532" rx="14" fill="#F4EFE3" stroke="#7C582B" stroke-width="2.2"/>
   <polyline points="24,516 24,24 1176,24" fill="none" stroke="#5C4328" stroke-width="1.4"/>
-  <rect x="380" y="18" width="440" height="36" rx="4" fill="#7C582B"/>
+  <rect x="300" y="18" width="600" height="36" rx="4" fill="#7C582B"/>
   <text x="600" y="42" text-anchor="middle" font-family="'Noto Serif TC', 'PingFang TC', serif" font-size="20" font-weight="900" fill="#FAF6ED" letter-spacing="3">
     《花女選課經典圖鑑》純向量 SVG 徽章與七大篇章總覽
   </text>

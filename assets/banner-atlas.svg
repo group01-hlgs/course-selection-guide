@@ -94,15 +94,11 @@
   <!-- Right Side: Bronze-Ochre Vertical Bookmark Bar + Thread-Bound Ancient Books Illustration (Directly inspired by《古籍之美》DM) -->
   <g transform="translate(866, 34)">
     <!-- Bronze-Ochre Bookmark Strip -->
-    <rect x="172" y="0" width="54" height="260" fill="url(#bronze-bar)"/>
-    <text x="199" y="28" text-anchor="middle" fill="#FAF6ED" font-size="16" font-weight="800" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="3">
-      選課文獻典藏與修業圖鑑
-    </text>
+    <rect x="172" y="0" width="54" height="258" fill="url(#bronze-bar)"/>
+    <text x="199" y="129" text-anchor="middle" fill="#FAF6ED" font-size="15.5" font-weight="800" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="3">選課文獻典藏與修業圖鑑</text>
 
     <!-- Large Vertical Calligraphic Title on Far Right -->
-    <text x="262" y="42" text-anchor="middle" fill="#2A211B" font-size="38" font-weight="900" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="8">
-      經典圖鑑
-    </text>
+    <text x="262" y="118" text-anchor="middle" fill="#2A211B" font-size="36" font-weight="900" font-family="'Noto Serif TC', 'Songti TC', serif" writing-mode="tb" letter-spacing="8">經典圖鑑</text>
 
     <!-- Thread-Bound Books Stack (線裝書典藏插畫) -->
     <g transform="translate(8, 135)">
