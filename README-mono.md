@@ -11,7 +11,6 @@
 <br/>
 
 <p align="center">
-  <a href="README-lite.md"><img src="assets/btn-lite-edition.svg" alt="切換至【文青簡要版 README】3分鐘速讀" height="38" /></a>
   <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=mono"><img src="assets/btn-lite-web.svg" alt="開啟【文青簡要互動網頁】lite.html" height="38" /></a>
   <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=mono"><img src="assets/btn-full-web.svg" alt="開啟【完整詳盡互動網頁】index.html" height="38" /></a>
 </p>

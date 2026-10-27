@@ -12,7 +12,6 @@
 
 <!-- 頂部雙版本 × 雙平台互連導覽列 -->
 <p align="center">
-  <a href="README.md"><img src="assets/btn-full-edition.svg" alt="切換至【完整詳盡版 README】" height="38" /></a>
   <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=zine"><img src="assets/btn-lite-web.svg" alt="開啟【文青簡要互動網頁】lite.html" height="38" /></a>
   <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=zine"><img src="assets/btn-full-web.svg" alt="開啟【完整詳盡互動網頁】index.html" height="38" /></a>
 </p>
