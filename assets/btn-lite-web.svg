@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 42" width="270" height="39">
+  <defs>
+    <linearGradient id="g_lite_web" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="286" height="38" rx="10" fill="url(#g_lite_web)" stroke="#9A3412" stroke-width="2"/>
+  <circle cx="24" cy="21" r="9" fill="#9A3412"/>
+  <polygon points="21,16 29,21 21,26" fill="#FFFFFF"/>
+  <text x="158" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13.5" font-weight="800" fill="#7C2D12">開啟【文青簡要互動網頁】lite.html</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="liteBg_ocean_True" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1917"/>
+      <stop offset="60%" stop-color="#292524"/>
+      <stop offset="100%" stop-color="#44403C"/>
+    </linearGradient>
+    <linearGradient id="litePill_ocean_True" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <pattern id="zineDots_ocean" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1" fill="#EA580C" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="304" rx="20" fill="url(#liteBg_ocean_True)" stroke="#57534E" stroke-width="2"/>
+  <rect x="8" y="8" width="1184" height="304" rx="20" fill="url(#zineDots_ocean)"/>
+
+  <!-- Left Editorial Spread Card -->
+  <rect x="38" y="30" width="790" height="260" rx="16" fill="#292524" stroke="#57534E" stroke-width="1.6"/>
+  <rect x="38" y="30" width="8" height="260" rx="4" fill="#EA580C"/>
+
+  <!-- Issue Header Bar -->
+  <rect x="68" y="52" width="350" height="32" rx="7" fill="url(#litePill_ocean_True)"/>
+  <circle cx="86" cy="68" r="4.5" fill="#FFFFFF"/>
+  <text x="100" y="73" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#FFFFFF">
+    洄瀾太平洋 ‧ 三分鐘極簡速讀版
+  </text>
+
+  <rect x="430" y="52" width="230" height="32" rx="7" fill="#44403C" stroke="#EA580C" stroke-width="1.4"/>
+  <text x="545" y="73" text-anchor="middle" font-family="monospace, 'Noto Sans TC'" font-size="12.5" font-weight="800" fill="#EA580C">
+    ISSUE NO. 115 // LITE DIGEST
+  </text>
+
+  <!-- Main Magazine Title -->
+  <text x="68" y="132" font-family="'Noto Serif TC', 'Noto Sans TC', serif" font-size="36" font-weight="900" fill="#FAF8F5" letter-spacing="1">
+    花女選課小誌 ‧ 三分鐘極簡速讀本
+  </text>
+  <text x="68" y="164" font-family="'Noto Sans TC', sans-serif" font-size="15.5" font-weight="600" fill="#D6D3D1">
+    告別密密麻麻長文！只留「圖卡 ＋ 大數字 ＋ 核心重點」，任何細節一鍵跳轉完整版手冊
+  </text>
+
+  <!-- 3 Digest Pills -->
+  <g transform="translate(68, 184)">
+    <rect x="0" y="0" width="232" height="54" rx="10" fill="#1C1917" stroke="#EA580C" stroke-width="1.5"/>
+    <text x="16" y="23" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#EA580C">01｜年級快篩雷達</text>
+    <text x="16" y="42" font-family="'Noto Sans TC', sans-serif" font-size="11.5" font-weight="600" fill="#FAF8F5">高一 115 ‧ 高二 114 ‧ 高三 113</text>
+
+    <rect x="246" y="0" width="232" height="54" rx="10" fill="#292524" stroke="#D97706" stroke-width="1.5"/>
+    <text x="262" y="23" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#D97706">02｜182 應修 / 150 及格</text>
+    <text x="262" y="42" font-family="'Noto Sans TC', sans-serif" font-size="11.5" font-weight="600" fill="#FAF8F5">互動學分試算 ‧ 四大班群一覽</text>
+
+    <rect x="492" y="0" width="232" height="54" rx="10" fill="#1C1917" stroke="#B45309" stroke-width="1.5"/>
+    <text x="508" y="23" font-family="'Noto Sans TC', sans-serif" font-size="13.5" font-weight="800" fill="#B45309">03｜雙向傳送門互連</text>
+    <text x="508" y="42" font-family="'Noto Sans TC', sans-serif" font-size="11.5" font-weight="600" fill="#FAF8F5">README ⇄ HTML 完整版秒切換</text>
+  </g>
+
+  <text x="68" y="268" font-family="'Noto Sans TC', sans-serif" font-size="12.5" font-weight="600" fill="#D6D3D1">
+    國立花蓮女子高級中學 教務處教學組 × 課程諮詢團隊 ｜ 整合 113 / 114 / 115 報部課程計畫書
+  </text>
+
+  <!-- Right Magazine Cover Illustration Card -->
+  <g transform="translate(852, 30)">
+    <rect x="0" y="0" width="310" height="260" rx="16" fill="#292524" stroke="#57534E" stroke-width="1.6"/>
+    <rect x="20" y="18" width="270" height="156" rx="10" fill="#292524" stroke="#EA580C" stroke-width="1.4"/>
+    <!-- Minimalist Magazine Book Icon & Typography -->
+    <rect x="52" y="36" width="96" height="120" rx="6" fill="#292524" stroke="#EA580C" stroke-width="2"/>
+    <rect x="148" y="36" width="96" height="120" rx="6" fill="#1C1917" stroke="#EA580C" stroke-width="2"/>
+    <line x1="68" y1="58" x2="130" y2="58" stroke="#EA580C" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="68" y1="76" x2="122" y2="76" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="68" y1="92" x2="114" y2="92" stroke="#57534E" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="68" y="108" width="60" height="30" rx="4" fill="#44403C" stroke="#EA580C" stroke-width="1.2"/>
+    <text x="98" y="128" text-anchor="middle" font-family="monospace" font-size="13" font-weight="900" fill="#EA580C">3 MIN</text>
+
+    <circle cx="196" cy="78" r="22" fill="#44403C" stroke="#D97706" stroke-width="1.8"/>
+    <text x="196" y="83" text-anchor="middle" font-family="monospace" font-size="12" font-weight="900" fill="#EA580C">150</text>
+    <line x1="166" y1="116" x2="226" y2="116" stroke="#B45309" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="174" y1="132" x2="218" y2="132" stroke="#57534E" stroke-width="2.5" stroke-linecap="round"/>
+
+    <text x="155" y="204" text-anchor="middle" font-family="'Noto Serif TC', serif" font-size="16" font-weight="900" fill="#FAF8F5">
+      留白舒適 ‧ 視覺優先
+    </text>
+    <rect x="45" y="218" width="220" height="26" rx="13" fill="#44403C"/>
+    <text x="155" y="235" text-anchor="middle" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="800" fill="#EA580C">
+      點選任一卡片即可展開完整課表
+    </text>
+  </g>
+</svg>

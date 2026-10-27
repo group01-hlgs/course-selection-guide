@@ -665,9 +665,231 @@
       max-width: 100%;
       height: auto;
     }
+
+    /* Dual-Edition & Cross-Platform Navigation Pills */
+    .edition-switch-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+    .edition-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1.5px solid var(--accent-primary);
+      background: var(--bg-main);
+      color: var(--accent-primary);
+      transition: all 0.18s ease;
+      white-space: nowrap;
+    }
+    .edition-pill:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      transform: translateY(-1px);
+    }
+    .edition-pill.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .hero-edition-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1.5px solid var(--accent-primary);
+      border-radius: var(--radius-card);
+      padding: 12px 16px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-card);
+    }
+    .hero-edition-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    /* Section Bidirectional Portal Bar (章節雙向傳送門) */
+    .section-portal-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 10px 14px;
+      background: var(--bg-accent);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--accent-primary);
+      border-radius: 8px;
+      font-size: 12.8px;
+      font-weight: 700;
+    }
+    .section-portal-bar .portal-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .portal-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--bg-card);
+      color: var(--accent-primary);
+      border: 1px solid var(--border-color);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12.5px;
+      transition: all 0.15s ease;
+    }
+    .portal-btn:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+    }
+
+    /* Contextual Cross-Link Bar & Inline Links (.xref-link) */
+    .xref-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin: 10px 0 18px;
+      padding: 9px 12px;
+      background: var(--bg-main);
+      border: 1px dashed var(--accent-primary);
+      border-radius: 8px;
+      font-size: 12.5px;
+    }
+    .xref-label {
+      font-weight: 800;
+      color: var(--accent-primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-right: 4px;
+    }
+    .xref-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 2px 9px;
+      border-radius: 999px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid var(--border-color);
+      font-size: 12px;
+      transition: all 0.15s ease;
+    }
+    .xref-link:hover {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+    }
+
+
+    /* 3-Pattern Graduation Calculator Tabs */
+    .calc-pattern-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 8px;
+      margin: 10px 0 12px;
+    }
+    .calc-pattern-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3px;
+      padding: 10px 13px;
+      border-radius: 10px;
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      cursor: pointer;
+      text-align: left;
+      font-family: var(--font-body);
+      transition: all 0.18s ease;
+    }
+    .calc-pattern-btn:hover {
+      border-color: var(--accent-primary);
+    }
+    .calc-pattern-btn.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+      border-color: var(--accent-primary);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    .calc-pattern-btn .pat-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .calc-pattern-btn .pat-sub {
+      font-size: 11.5px;
+      opacity: 0.88;
+      font-weight: 500;
+    }
+    .calc-subtrack-bar {
+      display: none;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      padding: 9px 12px;
+      background: var(--bg-card);
+      border: 1.5px dashed var(--accent-primary);
+      border-radius: 8px;
+    }
+    .calc-subtrack-bar.visible {
+      display: flex;
+    }
+    .calc-subtrack-btn {
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: 1.5px solid var(--accent-primary);
+      background: var(--bg-main);
+      color: var(--accent-primary);
+      font-weight: 800;
+      font-size: 12.5px;
+      cursor: pointer;
+      font-family: var(--font-body);
+      transition: all 0.15s ease;
+    }
+    .calc-subtrack-btn.active {
+      background: var(--accent-primary);
+      color: var(--text-table-head);
+    }
+    .calc-rule-banner {
+      background: var(--bg-card);
+      border-left: 4px solid var(--accent-primary);
+      padding: 9px 13px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      margin-bottom: 12px;
+      border-top: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
   </style>
 </head>
-<body>
+<body id="top">
 
   <!-- Top Sticky Header with Dropdown Theme Selector (風格下拉選單) & Mobile Left-TOC Trigger -->
   <header class="top-bar">
@@ -680,6 +902,25 @@
         <a href="#" class="brand-title">
           <span class="brand-badge">115學年度</span>
           <span>國立花蓮女中・選課輔導手冊</span>
+        </a>
+      </div>
+
+            <div class="edition-switch-bar" aria-label="版本與平台切換">
+        <a href="lite.html" class="edition-pill preserve-theme-link" title="切換至三分鐘文青極簡速讀版">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <span>文青簡要版 (3分鐘速讀)</span>
+        </a>
+        <a href="index.html" class="edition-pill active preserve-theme-link" title="目前位於完整詳盡版手冊">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>完整詳盡版</span>
+        </a>
+        <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md" target="_blank" rel="noopener" class="edition-pill" title="開啟 GitHub 文青簡要版 README">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          <span>GitHub 簡要版</span>
+        </a>
+        <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md" target="_blank" rel="noopener" class="edition-pill" title="開啟 GitHub 完整詳盡版 README">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          <span>GitHub 完整版</span>
         </a>
       </div>
 
@@ -715,37 +956,103 @@
         <img id="hero-banner-img" src="assets/banner-zine.svg?v=7" alt="國立花蓮女中 115學年度選課輔導手冊橫幅" />
       </div>
 
+            <!-- Dual-Edition & Cross-Platform Quick Portal Bar -->
+      <div class="hero-edition-bar">
+        <div style="font-size:13.5px; font-weight:800; color:var(--text-main); display:flex; align-items:center; gap:8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>覺得完整版文字太多？一鍵切換「<strong>文青獨立風・三分鐘簡要版</strong>」，或與 GitHub README 雙向互連：</span>
+        </div>
+        <div class="hero-edition-links">
+          <a href="lite.html" class="edition-pill preserve-theme-link" style="background:var(--accent-primary); color:var(--text-table-head);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+            <span>切換至【文青簡要版網頁 lite.html】</span>
+          </a>
+          <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md" target="_blank" rel="noopener" class="edition-pill">
+            <span>GitHub 簡要版 (README-lite.md)</span>
+          </a>
+          <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md" target="_blank" rel="noopener" class="edition-pill">
+            <span>GitHub 完整版 (README.md)</span>
+          </a>
+        </div>
+      </div>
+
       <!-- Classic Atlas Vector Emblem Showcase (Visible in 經典圖鑑風) -->
       <div class="atlas-showcase-box">
         <img src="assets/svg-atlas-chapters-showcase.svg?v=4" alt="花女選課經典圖鑑・純向量 SVG 徽章與七大篇章總覽" />
       </div>
 
       <!-- Interactive Graduation Credit Calculator -->
-      <section class="calc-box" id="credit-calculator">
-        <h3 style="margin-top:0;">互動式畢業學分快速試算器（182 應修學分 ‧ 150 及格門檻）</h3>
-        <p style="margin:4px 0 10px; font-size:13.5px; color:var(--text-muted);">
-          輸入你目前累積或預計取得的及格學分數，立即檢核是否符合教育部與花女畢業門檻（總及格 ≥ 150、部定必修及格率 ≥ 85%、校訂必修 ≥ 4、選修 ≥ 40）：
+            <section class="calc-box" id="credit-calculator">
+        <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px;">
+          <h3 style="margin-top:0; margin-bottom:2px;">互動式畢業學分快速試算器（182 應修學分 ‧ 150 及格門檻 ‧ 三種班群樣態）</h3>
+          <a href="#ch2-6" class="xref-link">→ 對照第貳章畢業條件檢核表 (#ch2-6)</a>
+        </div>
+        <p style="margin:4px 0 8px; font-size:13px; color:var(--text-muted);">
+          花女各班別依課程結構分為<strong>「三種畢業檢核樣態」</strong>：請先點選妳所屬的班別樣態，再輸入目前累積或預計取得的及格學分數：
         </p>
+
+        <!-- 3 Graduation Validation Patterns Selector -->
+        <div class="calc-pattern-tabs" role="tablist" aria-label="選擇畢業檢核樣態">
+          <button type="button" class="calc-pattern-btn active" id="pat-btn-regular" onclick="selectCalcPattern('regular')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12l2 2 4-4"/></svg>
+              <span>樣態一｜普通班（自然A ‧ 社會B 同掛）</span>
+            </span>
+            <span class="pat-sub">部定(118)+校訂(4) 合計 ≥ 102 ｜ 選修(60) ≥ 40 ｜ 總分 ≥ 150</span>
+          </button>
+
+          <button type="button" class="calc-pattern-btn" id="pat-btn-gifted" onclick="selectCalcPattern('gifted_lang')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <span>樣態二｜特殊班：語資班 ‧ 數資班（同掛）</span>
+            </span>
+            <span class="pat-sub">部定一般 ≥ 80% ｜ 校訂特需 ≥ 85% ｜ 選修 ≥ 70% ｜ 總分 ≥ 150</span>
+          </button>
+
+          <button type="button" class="calc-pattern-btn" id="pat-btn-art" onclick="selectCalcPattern('art')">
+            <span class="pat-title">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><circle cx="8.5" cy="9.5" r="1.5"/><circle cx="15.5" cy="9.5" r="1.5"/><path d="M8 15c1.5 2 6.5 2 8 0"/></svg>
+              <span>樣態三｜特殊班：美術資優班（獨立樣態）</span>
+            </span>
+            <span class="pat-sub">部定(一般86+專長60)+校訂(8) 合計 ≥ 128 ｜ 選修(28) ≥ 14 ｜ 總分 ≥ 150</span>
+          </button>
+        </div>
+
+        <!-- Sub-selector for Pattern 2 (語資班 vs 數資班) -->
+        <div class="calc-subtrack-bar" id="calc-subtrack-bar">
+          <span style="font-size:12.5px; font-weight:800; color:var(--accent-primary);">選擇學術性向資優班別（同採 80% / 85% / 70% 檢核，應修配分不同）：</span>
+          <button type="button" class="calc-subtrack-btn active" id="sub-btn-lang" onclick="selectCalcPattern('gifted_lang')">
+            語文資優班（部定112 ‧ 特需30 ‧ 選修40）
+          </button>
+          <button type="button" class="calc-subtrack-btn" id="sub-btn-math" onclick="selectCalcPattern('gifted_math')">
+            數理資優班（部定108 ‧ 特需24 ‧ 選修50）
+          </button>
+        </div>
+
+        <!-- Dynamic Rule Explanation Banner -->
+        <div class="calc-rule-banner" id="calc-rule-desc">
+          <strong>【樣態一：普通班（自然班群 A、社會班群 B 同掛）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(118)＋校訂必修(4) 合併計算及格 ≥ 102 學分</strong>、<strong>② 選修(60) 及格 ≥ 40 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（註：102 + 40 = 142，仍須由必修或選修多拿 8 學分湊滿 150）。
+        </div>
+
         <div class="calc-grid">
           <div class="calc-item">
-            <label for="inp-moe">部定必修及格學分（滿分 118）</label>
+            <label for="inp-moe" id="lbl-moe">① 部定必修及格學分（應修滿分 118）</label>
             <input type="number" id="inp-moe" value="102" min="0" max="118" oninput="updateCredits()" />
           </div>
           <div class="calc-item">
-            <label for="inp-sch">校訂必修及格學分（滿分 4~6）</label>
-            <input type="number" id="inp-sch" value="4" min="0" max="6" oninput="updateCredits()" />
+            <label for="inp-sch" id="lbl-sch">② 校訂必修及格學分（應修滿分 4，與部定合併檢核）</label>
+            <input type="number" id="inp-sch" value="4" min="0" max="4" oninput="updateCredits()" />
           </div>
           <div class="calc-item">
-            <label for="inp-ele">選修課程及格學分（滿分 58~60）</label>
-            <input type="number" id="inp-ele" value="48" min="0" max="65" oninput="updateCredits()" />
+            <label for="inp-ele" id="lbl-ele">③ 選修課程及格學分（應修滿分 60，門檻 ≥ 40）</label>
+            <input type="number" id="inp-ele" value="48" min="0" max="60" oninput="updateCredits()" />
           </div>
         </div>
         <div class="calc-result" id="calc-output">
           <span>總及格學分：<strong>154 / 150</strong>（達標）</span>
-          <span>部定必修：<strong>102 / 100</strong>（86.4% 達標）</span>
-          <span>校訂必修：<strong>4 / 4</strong>（達標）</span>
-          <span>選修學分：<strong>48 / 40</strong>（達標）</span>
-          <span class="status-pass">恭喜！符合花蓮女中畢業學分門檻</span>
+          <span>必修合計（部定+校訂）：<strong>106 / 102</strong>（應修122，達標）</span>
+          <span>選修學分：<strong>48 / 40</strong>（應修60，達標）</span>
+          <span class="status-pass">恭喜！符合【普通班（自然/社會班群）】畢業學分門檻</span>
         </div>
       </section>
 
@@ -757,25 +1064,53 @@
 
 <blockquote><b>為什麼要先看這一區？</b>> 在 <b>115 學年度</b>同時在校的三個年級，分別適用 <b>115 學年度入學（現高一）</b>、<b>114 學年度入學（現高二）</b>、<b>113 學年度入學（現高三）</b>三份報部核定課程計畫書。為避免同學誤看不同屆別的學分配置，下方以自創純向量 SVG 圖卡與對照表整理「<b>當學期（115-1 / 115-2）</b>」與「<b>未來學期</b>」的所有關鍵重點！</blockquote>
 
-<a id="g1-radar"></a>
+<a id="115-grade1"></a><a id="g1-radar"></a>
 <h3>【高一專區】115 學年度入學新生（Class of 115）</h3>
 
 <div align="center">
   <img class="theme-sec-img" data-sec="card-g1-115" src="assets/card-g1-115-zine.svg?v=7" alt="高一專區 115入學新生速查卡" width="100%" />
 </div>
+<div class="xref-bar">
+  <span class="xref-label">高一選課快速跳轉：</span>
+  <a href="#ch2-2" class="xref-link">→ 畢業條件 150 學分 (#ch2-2)</a>
+  <a href="#ch2-3" class="xref-link">→ 四班群完整科目表 (#ch2-3)</a>
+  <a href="#ch3-1" class="xref-link">→ 自然A/社會B與數A/B分流 (#ch3-1)</a>
+  <a href="#ch3-2" class="xref-link">→ 高一 30 門多元選修 (#ch3-2)</a>
+  <a href="#ch3-3" class="xref-link">→ 彈性學習與一週課表 (#ch3-3)</a>
+  <a href="#ch3-4" class="xref-link">→ 34 個社團一覽 (#ch3-4)</a>
+  <a href="#ch5-1" class="xref-link">→ 學習歷程檔案 (#ch5-1)</a>
+  <a href="#ch6-4" class="xref-link">→ 選課與選組期程 (#ch6-4)</a>
+</div>
 
-<a id="g2-radar"></a>
+<a id="114-grade2"></a><a id="g2-radar"></a>
 <h3>【高二專區】114 學年度入學高二（Class of 114）</h3>
 
 <div align="center">
   <img class="theme-sec-img" data-sec="card-g2-114" src="assets/card-g2-114-zine.svg?v=7" alt="高二專區 114入學高二速查卡" width="100%" />
 </div>
+<div class="xref-bar">
+  <span class="xref-label">高二選課快速跳轉：</span>
+  <a href="#ch1-3" class="xref-link">→ 校訂必修洄瀾之欣/職探對開 (#ch1-3)</a>
+  <a href="#ch2-4" class="xref-link">→ 自然A/社會B六學期課表 (#ch2-4)</a>
+  <a href="#ch2-5" class="xref-link">→ 轉組學分差異（家政/對開科） (#ch2-5)</a>
+  <a href="#ch3-1" class="xref-link">→ 數A vs 數B深度解析 (#ch3-1)</a>
+  <a href="#ch5-1" class="xref-link">→ 學習歷程每學期3件認證 (#ch5-1)</a>
+  <a href="#ch6-5" class="xref-link">→ 寒暑假轉組期程 (#ch6-5)</a>
+</div>
 
-<a id="g3-radar"></a>
+<a id="113-grade3"></a><a id="g3-radar"></a>
 <h3>【高三專區】113 學年度入學高三（Class of 113）</h3>
 
 <div align="center">
   <img class="theme-sec-img" data-sec="card-g3-113" src="assets/card-g3-113-zine.svg?v=7" alt="高三專區 113入學高三速查卡" width="100%" />
+</div>
+<div class="xref-bar">
+  <span class="xref-label">高三升學快速跳轉：</span>
+  <a href="#ch2-6" class="xref-link">→ 畢業 150 學分檢核表 (#ch2-6)</a>
+  <a href="#calc-output" class="xref-link">→ 畢業學分即時試算器 (#calc-output)</a>
+  <a href="#ch3-2" class="xref-link">→ 高三 25 門多元選修 (#ch3-2)</a>
+  <a href="#ch5-2" class="xref-link">→ 學測X/分科Y範圍與四大升學管道 (#ch5-2)</a>
+  <a href="#ch7" class="xref-link">→ 學長姐 Q&amp;A 23問 (#ch7)</a>
 </div>
 
 <a id="cross-cohort-diff"></a>
@@ -783,6 +1118,26 @@
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">比較項目</th><th style="text-align:left">113 入學（現高三）</th><th style="text-align:left">114 入學（現高二）</th><th style="text-align:left">115 入學（現高一）</th><th style="text-align:left">選課與修課提醒</th></tr></thead><tbody><tr><td style="text-align:left"><b>本土語文／臺灣手語（部定必修 2 學分）</b></td><td style="text-align:left">高一上或高一下 <b>2 學分</b>（與彈性學習時間對開）</td><td style="text-align:left">高一上或高一下 <b>2 學分</b>（與彈性學習時間對開）</td><td style="text-align:left"><b>高一上 1 學分 ＋ 高一下 1 學分</b>（學年課，不再與彈學對開！）</td><td style="text-align:left"><b>115 入學高一重大變革</b>：每學期固定 1 節本土語/手語</td></tr><tr><td style="text-align:left"><b>高一每學期修習總學分數</b></td><td style="text-align:left">一上 <b>30</b>學分 ／ 一下 <b>32</b>學分</td><td style="text-align:left">一上 <b>30</b>學分 ／ 一下 <b>32</b>學分</td><td style="text-align:left">一上 <b>31</b>學分 ／ 一下 <b>31</b>學分</td><td style="text-align:left">四個班群（普通/語資/數資/美術）115 入學高一每學期均為 <b>31 學分</b></td></tr><tr><td style="text-align:left"><b>團體活動時間（三年節數）</b></td><td style="text-align:left">高一上 3 節、其餘每學期 2 節（三年共 <b>17 節</b>）</td><td style="text-align:left">高一上 3 節、其餘每學期 2 節（三年共 <b>17 節</b>）</td><td style="text-align:left">六個學期皆為每週 <b>2 節</b>（三年共 <b>16 節</b>）</td><td style="text-align:left">班會（週三第 5 節）＋ 社團活動（週三第 6、7 節）</td></tr><tr><td style="text-align:left"><b>彈性學習時間（三年節數）</b></td><td style="text-align:left">一上 2 節、一下 1 節、高二高三各 2 節（三年共 <b>11 節</b>）</td><td style="text-align:left">一上 2 節、一下 1 節、高二高三各 2 節（三年共 <b>11 節</b>）</td><td style="text-align:left">六個學期皆為每週 <b>2 節</b>（三年共 <b>12 節</b>）</td><td style="text-align:left"><b>115 入學高一上下學期皆有每週 2 節彈學</b>（畢業前自主學習須滿 18 節）</td></tr><tr><td style="text-align:left"><b>普通班高二校訂必修（4 學分）</b></td><td style="text-align:left">《洄瀾之欣》(2) ＋《職業探究與報導》(2) 上下對開</td><td style="text-align:left">《洄瀾之欣》(2) ＋《職業探究與報導》(2) 上下對開</td><td style="text-align:left">《洄瀾之欣》(2) ＋《職業探究與報導》(2) 上下對開</td><td style="text-align:left">舊版手冊文字僅介紹《洄瀾之欣》，實際課程計畫為兩門對開共 4 學分</td></tr><tr><td style="text-align:left"><b>普通班社會組高三補強選修（歷史／地理）</b></td><td style="text-align:left">高三上 <b>1</b>學分 ＋ 高三下 <b>1</b>學分（共 2 學分）</td><td style="text-align:left">高三上 <b>1</b>學分 ＋ 高三下 <b>1</b>學分（共 2 學分）</td><td style="text-align:left">高三上 <b>2</b>學分 ＋ 高三下 <b>2</b>學分（共 4 學分）</td><td style="text-align:left">115 入學社會組高三歷史、地理補強選修提高為每學期 2 學分</td></tr><tr><td style="text-align:left"><b>數理資優班校訂必修（24 學分）配置</b></td><td style="text-align:left">高一《研究方法》<b>2</b>學分（一下）<br/>高二《獨立研究》<b>8</b>學分（4+4）</td><td style="text-align:left">高一《研究方法》<b>4</b>學分（2+2）<br/>高二《獨立研究》<b>6</b>學分（3+3）</td><td style="text-align:left">高一《研究方法》<b>4</b>學分（2+2）<br/>高二《獨立研究》<b>6</b>學分（3+3）</td><td style="text-align:left">校訂必修總學分維持 <b>24 學分</b>（及格門檻 85% = <b>21 學分</b>）</td></tr><tr><td style="text-align:left"><b>數理資優班部定必修《資訊科技》(2)</b></td><td style="text-align:left">高一修習（1+1）</td><td style="text-align:left"><b>高二修習（1+1）</b></td><td style="text-align:left"><b>高二修習（1+1）</b></td><td style="text-align:left">114、115 入學數資班將資訊科技移至高二，以配合高一研究方法(2+2)</td></tr><tr><td style="text-align:left"><b>語文資優班高三《書報討論》與《數學乙》</b></td><td style="text-align:left">校訂《書報討論》<b>4</b>學分（2+2）<br/>加深加廣《數學乙》<b>8</b>學分（4+4）</td><td style="text-align:left">校訂《書報討論》<b>4</b>學分（2+2）<br/>加深加廣《數學乙》<b>8</b>學分（4+4）</td><td style="text-align:left">校訂《書報討論》<b>4</b>學分（2+2）<br/>加深加廣《數學乙》<b>8</b>學分（4+4）</td><td style="text-align:left">修正舊手冊誤植：語資校訂必修實為 <b>30 學分</b>（85%及格為 <b>26 學分</b>）</td></tr><tr><td style="text-align:left"><b>高一多元選修新增／調整課程</b></td><td style="text-align:left">含《ZINE 小誌創作》等</td><td style="text-align:left">含《ZINE 小誌創作》等</td><td style="text-align:left"><b>新增 6 門</b>：《愛(AI)客共鄉》《生活實用繩結與實作》《刑法世界的秩序與權益》《地景描繪x模型x地形》《初級瑜珈》《科技輔助設計思考於花女熊設計》（停開 ZINE 小誌創作）</td><td style="text-align:left">高一上學期由學校分發或選填，高一下學期不得重複修習同門課</td></tr></tbody></table></div>
 
+
+<div class="section-portal-bar" aria-label="卷首｜三屆選課快篩雷達 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-00" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-00)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-00" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#radar" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#top" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch1" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch1">
 
@@ -838,10 +1193,46 @@
 
 <ul><li><b>《洄瀾之欣》（2 學分）</b>：</li><li>花蓮女中位於花蓮市美崙溪口南側，依附花崗山台地，東面太平洋，西倚中央山脈，坐擁豐富自然生態與多元人文歷史。本課程由跨領域教師團隊共同開發，分為三大核心主題模組：</li><li><b>海洋產業文化</b>：踏查花蓮港、七星潭定置漁場、黑潮鏢旗魚文化與海洋文學。</li><li><b>海岸地形</b>：實察花東海岸板塊碰撞、海階地形、七星潭礫灘與美崙溪口演變。</li><li><b>海洋資源</b>：探討海洋生態保育、太平洋黑潮資源永續與在地環境議題。</li><li>課程採用 <b>PBL（Problem-Based Learning 問題導向學習）</b>模式，引導學生透過實地踏查、小組討論、海報策展與專題發表，全面培養「思考、心美、溝通、實踐、超越」花女五力！</li><li><b>《職業探究與報導》（2 學分）</b>：</li><li>結合生涯探索、人物訪談、媒體識讀與紀實寫作，引導高二學生針對感興趣的學群與職人進行田野訪談與專題報導撰寫，產出極具個人特色的「課程學習成果」作品。</li></ul>
 
-<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 1-1：《洄瀾之欣》學生五力雷達圖與課程架構</th><th style="text-align:center">圖 1-2：《洄瀾之欣》110-2 票選得獎作品展實況</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image30.jpeg" alt="圖1-1 洄瀾之欣作品展" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image31.jpeg" alt="圖1-2 洄瀾之欣作品展" width="92%" /></td></tr></tbody></table></div>
+<div class="xref-bar">
+  <span class="xref-label">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+    校訂必修跨章節串聯：
+  </span>
+  <a href="#ch2-3" class="xref-link">→ 普通班三年課程表 (#ch2-3)</a>
+  <a href="#ch2-4" class="xref-link">→ 六學期學分數總表 (#ch2-4)</a>
+  <a href="#g2-radar" class="xref-link">→ 高二上下學期對開提醒 (#g2-radar)</a>
+  <a href="#ch5-1" class="xref-link">→ 課程學習成果認證 (#ch5-1)</a>
+</div>
+
+<div align="center" style="margin: 16px 0;">
+  <img src="assets/handbook-media/image30.png?v=8" alt="《洄瀾之欣》課程架構與學生五力雷達圖" width="84%" style="border-radius:10px; border:1px solid var(--border-color);" />
+  <br/><sub>▲ 校訂必修《洄瀾之欣》課程架構與學生五力雷達圖（超越力、思考力、心美力、溝通力、實踐力）</sub>
+</div>
+
+<div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖</th><th style="text-align:center">圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image31a.jpg?v=8" alt="圖1-1 洄瀾之欣110-2票選得獎作品手繪地圖" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image31b.jpg?v=8" alt="圖1-2 洄瀾之欣110-2票選得獎作品地景報導" width="92%" /></td></tr></tbody></table></div>
 <h4>2. 語文資優班、數理資優班、美術資優班之校訂必修（特殊需求領域／專長領域）</h4>
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">班別</th><th style="text-align:center">校訂必修總學分</th><th style="text-align:left">高一上</th><th style="text-align:left">高一下</th><th style="text-align:left">高二上</th><th style="text-align:left">高二下</th><th style="text-align:left">高三上</th><th style="text-align:left">高三下</th><th style="text-align:left">跨屆重點說明</th></tr></thead><tbody><tr><td style="text-align:left"><b>普通班</b></td><td style="text-align:center"><b>4 學分</b></td><td style="text-align:left">—</td><td style="text-align:left">—</td><td style="text-align:left">洄瀾之欣(2)／職業探究與報導(2) 對開</td><td style="text-align:left">洄瀾之欣(2)／職業探究與報導(2) 對開</td><td style="text-align:left">—</td><td style="text-align:left">—</td><td style="text-align:left">高二上下學期對開，各修 2 學分</td></tr><tr><td style="text-align:left"><b>語文資優班</b><br/><i>(特殊需求領域)</i></td><td style="text-align:center"><b>30 學分</b></td><td style="text-align:left">古典文學概論(2)<br/>論文寫作(2)<br/>聽力與口語訓練(2)</td><td style="text-align:left">論文寫作(2)<br/>閱讀寫作(2)<br/>聽力與口語訓練(2)</td><td style="text-align:left">獨立研究(3)<br/>現代文學概論(2)<br/>經典導讀(2)</td><td style="text-align:left">獨立研究(3)<br/>現代文學概論(2)<br/>經典導讀(2)</td><td style="text-align:left"><b>書報討論(2)</b></td><td style="text-align:left"><b>書報討論(2)</b></td><td style="text-align:left"><b>113/114/115 三屆皆為 30 學分</b>（高三書報討論為 2+2，舊手冊誤植為 3+3 共 32 學分）</td></tr><tr><td style="text-align:left"><b>數理資優班</b><br/><i>(113入學 現高三)</i></td><td style="text-align:center"><b>24 學分</b></td><td style="text-align:left">科學閱讀(2)</td><td style="text-align:left">生活與化學(2)<br/><b>研究方法(2)</b></td><td style="text-align:left"><b>獨立研究(4)</b><br/>科學探究(2)<br/>數學專題I(2)</td><td style="text-align:left"><b>獨立研究(4)</b><br/>數學專題I(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">113 入學高一研究方法 2 學分、高二獨立研究 8 學分(4+4)</td></tr><tr><td style="text-align:left"><b>數理資優班</b><br/><i>(114/115入學 現高二/高一)</i></td><td style="text-align:center"><b>24 學分</b></td><td style="text-align:left">科學閱讀(2)<br/><b>研究方法(2)</b></td><td style="text-align:left">生活與化學(2)<br/><b>研究方法(2)</b></td><td style="text-align:left"><b>獨立研究(3)</b><br/>科學探究(2)<br/>數學專題I(2)</td><td style="text-align:left"><b>獨立研究(3)</b><br/>數學專題I(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left">數學專題II(2)</td><td style="text-align:left"><b>114/115 入學改制</b>：高一研究方法改為 4 學分(2+2)，高二獨立研究改為 6 學分(3+3)</td></tr><tr><td style="text-align:left"><b>美術資優班</b><br/><i>(特殊需求領域)</i></td><td style="text-align:center"><b>8 學分</b><br/><i>(另加藝才專長必修 60 學分)</i></td><td style="text-align:left">書法1(1)</td><td style="text-align:left">書法2(1)</td><td style="text-align:left">造形藝術(1)</td><td style="text-align:left">—</td><td style="text-align:left">書法3(1)<br/>彩繪技法1(2)</td><td style="text-align:left">彩繪技法2(2)</td><td style="text-align:left">藝術才能專長領域必修 60 學分詳見下方美術班課程地圖</td></tr></tbody></table></div>
+
+<div class="section-portal-bar" aria-label="第 1 章｜關於花女・五力與校訂必修 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-01" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-01)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-01" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch1" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-radar" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch2" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch2">
 
@@ -879,7 +1270,7 @@
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">班群／班別</th><th style="text-align:left">適性發展方向與對應大學十八學群</th><th style="text-align:center">數學版本配置</th><th style="text-align:left">核心加深加廣選修配置</th></tr></thead><tbody><tr><td style="text-align:left"><b>普通班－班群 A（自然組）</b></td><td style="text-align:left">適合工程、資訊、數理化、醫藥衛生、生命科學、生物資源、地球與環境、建築設計等理工生醫農學群（兼顧商管跨考需求）</td><td style="text-align:center">高二：<b>數學 A (4+4)</b><br/>高三：<b>數學甲 (4+4)</b></td><td style="text-align:left">選修物理（力學一、力學二與熱學、波動光及聲音、電磁現象一、電磁現象二與量子現象，共10學分）、選修化學（共8學分）、選修生物（共8學分）、選修地科（2學分）、工程設計專題（2學分）</td></tr><tr><td style="text-align:left"><b>普通班－班群 B（社會組）</b></td><td style="text-align:left">適合文史哲、外語、法政、社會心理、大眾傳播、教育、管理、財經、遊憩運動、藝術等文科與商管學群</td><td style="text-align:center">高二：<b>數學 B 或 數學 A (4+4)</b><br/><i>(跑班分組上課)</i><br/>高三：<b>數學乙 (4+4)</b>或補強</td><td style="text-align:left">歷史學探究(2)、族群性別與國家的歷史(3)、科技環境與藝術的歷史(3)；地理探究(2)、社會環境議題(3)、空間資訊科技(3)；公共議題與社會探究(2)、現代社會與經濟(3)、民主政治與法律(3)；創新生活與家庭(2)、健康與休閒生活(2)</td></tr><tr><td style="text-align:left"><b>語文資優班</b></td><td style="text-align:left">適合外語、文史哲、法政、傳播、教育、國際關係、社會心理、商管等人文社會頂尖科系</td><td style="text-align:center">高二：<b>數學 B (4+4)</b><br/>高三：<b>數學乙 (4+4)</b></td><td style="text-align:left">除 30 學分特殊需求領域專題（古典/現代文學、論文寫作、聽力口語、獨立研究、經典導讀、書報討論）外，高二高三修習完整英、國、歷、地、公加深加廣共 34 學分</td></tr><tr><td style="text-align:left"><b>數理資優班</b></td><td style="text-align:left">適合醫牙藥、電機資訊、物理、化學、數學、生命科學、材料工程等頂尖理工生醫科系</td><td style="text-align:center">高二：<b>數學 A (4+4)</b><br/>高三：<b>數學甲 (4+4)</b></td><td style="text-align:left">除 24 學分特殊需求領域專題（科學閱讀、生活與化學、研究方法、獨立研究、科學探究、數學專題I/II）外，高二高三修習完整物、化、生、地科、數甲加深加廣共 44 學分</td></tr><tr><td style="text-align:left"><b>美術資優班</b></td><td style="text-align:left">適合美術、視覺傳達、工業設計、建築與景觀、數位媒體、藝術史、藝術行政與文創產業學系</td><td style="text-align:center">高二：<b>數學 B (3+3)</b><br/>高三：加深加廣國/英/社</td><td style="text-align:left">藝術才能專長必修 60 學分（素描18、水墨12、水彩8、基本設計4、版畫4、創意表現4、藝術概論3、畢業專題製作3、藝術史2、色彩學1、藝術鑑賞1）＋ 特殊需求 8 學分（書法、造形藝術、彩繪技法）</td></tr></tbody></table></div>
 <hr/>
 
-<a id="ch2-4"></a>
+<a id="ch2-general"></a><a id="ch2-gifted"></a><a id="ch2-4"></a>
 <h3>四、各班群課程地圖（113 高三 ‧ 114 高二 ‧ 115 高一 完整六學期學分數對照表）</h3>
 
 <h4>表 2-1：普通班【班群 A（自然組）】六學期課程學分數表</h4>
@@ -916,7 +1307,7 @@
 <div class="table-wrap"><table><thead><tr><th style="text-align:center">圖 2-1：美術班專業課程－彩繪技法實作</th><th style="text-align:center">圖 2-2：自然科學領域－化學課實驗操作</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image32.jpeg" alt="圖2-1 美術班彩繪技法" width="90%" /></td><td style="text-align:center"><img src="assets/handbook-media/image33.jpeg" alt="圖2-2 化學課實驗" width="90%" /></td></tr></tbody></table></div>
 <hr/>
 
-<a id="ch2-5"></a>
+<a id="ch2-transfer"></a><a id="ch2-5"></a>
 <h3>五、各班群課程差異與「轉組（轉換班群）」關鍵提醒</h3>
 
 <p>當同學於高二下學期或高二升高三考慮<b>轉換班群（自然組 A ⇄ 社會組 B）</b>時，務必對照以下五大核心差異，並向教務處註冊組與課諮老師確認學分銜接：</p>
@@ -925,6 +1316,14 @@
 
 <hr/>
 
+<div class="xref-bar">
+  <span class="xref-label">課程架構與畢業檢核串聯：</span>
+  <a href="#calc-output" class="xref-link">→ 互動式畢業學分試算器 (#calc-output)</a>
+  <a href="#cross-cohort-diff" class="xref-link">→ 113/114/115 跨屆差異總表 (#cross-cohort-diff)</a>
+  <a href="#ch2-5" class="xref-link">→ 轉組學分差異提醒 (#ch2-5)</a>
+  <a href="#ch7-1" class="xref-link">→ Q&amp;A：轉組或學分不足怎麼辦 (#ch7-1)</a>
+  <a href="#ch7-3" class="xref-link">→ Q&amp;A：校訂必修不及格能畢業嗎 (#ch7-3)</a>
+</div>
 <a id="ch2-6"></a>
 <h3>六、畢業條件與修課學分檢核表（普通班 ‧ 語資班 ‧ 數資班 ‧ 美術班）</h3>
 
@@ -934,6 +1333,26 @@
 <blockquote> <b>想一鍵試算自己的及格學分是否達標？</b>> 請開啟本倉庫隨附的 <b><a href="index.html" target="_blank" rel="noopener"><code>index.html</code> 互動式網頁版手冊</a></b>，內建「<b>畢業學分互動檢核計算機</b>」，輸入目前學分即可即時顯示進度條與差額提醒！</blockquote>
 
 
+
+<div class="section-portal-bar" aria-label="第 2 章｜三年課程地圖與畢業檢核 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-02" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-02)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-02" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch2" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch1" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch3" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch3">
 
@@ -945,7 +1364,14 @@
 
 <blockquote> <b>在花女三年中，有哪些是「可以自己決定」的課程與時間？</b><br/>1. <b>選組與高二數學分流（高一下 5 月決定）</b>：選擇高二進入<b>班群 A（自然組）</b>或<b>班群 B（社會組）</b>，社會組同學還可選擇修習<b>數學 B</b>或<b>數學 A</b>。<br/>2. <b>多元選修課程（高一上下、高二下、高三上下）</b>：每學期從 24～30 門豐富課程中選填志願跨班修習。<br/>3. <b>加深加廣與補強性跑班選修（高二下、高三上下）</b>：依個人升學目標選修加深加廣或補強課程。<br/>4. <b>彈性學習時間（每週五第 3、4 節）</b>：規劃<b>自主學習主題</b>（畢業前至少滿 18 節）、參加微課程或選手培訓。<br/>5. <b>團體活動－社團時間（每週三第 6、7 節）</b>：從 34 個多元社團中選擇熱愛的領域投入！</blockquote>
 
-<a id="ch3-1"></a>
+<div class="xref-bar">
+  <span class="xref-label">選組與選課跨章節串聯：</span>
+  <a href="#ch4-1" class="xref-link">→ 性向與 Holland 興趣六碼 (#ch4-1)</a>
+  <a href="#ch4-3" class="xref-link">→ 大學十八學群對應班群 (#ch4-3)</a>
+  <a href="#ch5-2" class="xref-link">→ 學測X與分科測驗Y考科範圍 (#ch5-2)</a>
+  <a href="#ch7-1" class="xref-link">→ Q&amp;A：選組、數A轉數B與自主學習18節 (#ch7-1)</a>
+</div>
+<a id="ch3-stream"></a><a id="ch3-1"></a>
 <h3>一、自然組／社會組之不同課程 ＆ 高二數學 A vs 數學 B 深度解析</h3>
 
 <h4>1. 數學 A 與 數學 B 課程內容差異對照表（摘錄自行動學習網與課綱）</h4>
@@ -960,7 +1386,7 @@
 
 <hr/>
 
-<a id="ch3-2"></a>
+<a id="ch3-electives"></a><a id="ch3-2"></a>
 <h3>二、多元選修課程介紹（115 學年度高一 30 門 ＆ 高三 25 門完整清單）</h3>
 
 <p>本校於高一上、高一下、高二下（自然組或跑班）、高三上、高三下開設豐富多元的跨班選修課程（每門 2 學分），涵蓋<b>第二外語（日/韓/法/德/西/越/俄 7 國語言）</b>、<b>AI 科技與設計思考</b>、<b>在地海洋與人文踏查</b>、<b>自然科學與生活實作</b>、<b>法政財經與哲學思辨</b>等領域：</p>
@@ -993,7 +1419,7 @@
 <div class="table-wrap"><table><thead><tr><th style="text-align:center">微課程實況 A：校外職人實作工作坊</th><th style="text-align:center">微課程實況 B：跨領域動手做體驗</th><th style="text-align:center">微課程實況 C：小組發表與實作交流</th></tr></thead><tbody><tr><td style="text-align:center"><img src="assets/handbook-media/image42.jpeg" alt="組圖3-1 微課程實況1" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image43.jpeg" alt="組圖3-1 微課程實況2" width="92%" /></td><td style="text-align:center"><img src="assets/handbook-media/image44.jpeg" alt="組圖3-1 微課程實況3" width="92%" /></td></tr></tbody></table></div>
 <hr/>
 
-<a id="ch3-4"></a>
+<a id="ch3-clubs"></a><a id="ch3-4"></a>
 <h3>四、團體活動時間與花女 34 個多元社團全覽（每週三第 5～7 節）</h3>
 
 <p>團體活動時間安排於<b>每星期三下午</b>：</p>
@@ -1013,6 +1439,26 @@
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">項目</th><th style="text-align:left">上學期（第 1 學期）重點活動</th><th style="text-align:left">下學期（第 2 學期）重點活動</th></tr></thead><tbody><tr><td style="text-align:left"><b>全校／分年級週會講座</b></td><td style="text-align:left">開學典禮、幹部訓練、友善校園週、法治與人權教育講座、性平教育講座、防災演練、名人職涯分享</td><td style="text-align:left">生涯規劃講座、高一選組輔導說明會、高二學習歷程與升學講座、環境教育參訪、國際教育交流講座</td></tr><tr><td style="text-align:left"><b>班際與校園特色活動</b></td><td style="text-align:left"><b>班際排球賽</b>、<b>高一合唱比賽</b>、英語歌唱比賽、教室佈置競賽、校慶運動會預演</td><td style="text-align:left"><b>班際籃球賽</b>、<b>社團動態成果發表會</b>、社團靜態展、飢餓十二／公益體驗、畢業典禮籌備</td></tr><tr><td style="text-align:left"><b>社團活動（第 6-7 節）</b></td><td style="text-align:left">社團線上選填志願、社團迎新、期中社課（共約 8～10 次）</td><td style="text-align:left">下學期社課、校外服務學習、社團成發排練與幹部交接（共約 8～10 次）</td></tr></tbody></table></div>
 </details>
 
+
+<div class="section-portal-bar" aria-label="第 3 章｜選組・數A/B・多元選修與社團 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-03" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-03)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-03" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch3" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch2" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch4" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch4">
 
@@ -1065,6 +1511,12 @@
 
 <hr/>
 
+<div class="xref-bar">
+  <span class="xref-label">生涯探索對接校內課程：</span>
+  <a href="#ch2-3" class="xref-link">→ 四大班群核心選修配置 (#ch2-3)</a>
+  <a href="#ch3-2" class="xref-link">→ 高一30門與高三25門多元選修 (#ch3-2)</a>
+  <a href="#ch6-1" class="xref-link">→ 預約課程諮詢金三角 (#ch6-1)</a>
+</div>
 <a id="ch4-3"></a>
 <h3>三、認識學群、學類與科系（大學十八學群完整總表 ＆ 高中班群對應）</h3>
 
@@ -1077,6 +1529,26 @@
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">網站名稱</th><th style="text-align:left">網址連結</th><th style="text-align:left">功能與使用時機說明</th></tr></thead><tbody><tr><td style="text-align:left"><b>1. ColleGo! 大學選才與高中育才輔助系統</b></td><td style="text-align:left">https://collego.edu.tw/</td><td style="text-align:left">大考中心建置！查詢 <b>18 學群、學類、各大學校系介紹、三年修課建議與能力特質</b></td></tr><tr><td style="text-align:left"><b>2. 漫步在大學（大學校系查詢系統）</b></td><td style="text-align:left">https://unews.com.tw/</td><td style="text-align:left">查詢全國各大學校系課程、師資、獎學金、雙主修與歷年篩選標準</td></tr><tr><td style="text-align:left"><b>3. 104 升學就業地圖</b></td><td style="text-align:left">https://www.104.com.tw/jb/career/department/</td><td style="text-align:left">查詢各大學科系畢業後的<b>真實就業流向、職務比例與薪資分布</b></td></tr><tr><td style="text-align:left"><b>4. IOH 開放個人經驗平台</b></td><td style="text-align:left">https://ioh.tw/</td><td style="text-align:left">觀看全國各大學學長姐與海內外工作者的<b>真人影片經驗分享</b></td></tr><tr><td style="text-align:left"><b>5. 大學入學考試中心（CEEC）</b></td><td style="text-align:left">https://www.ceec.edu.tw/</td><td style="text-align:left">英聽、學測（X）、分科測驗（Y）簡章、歷屆試題與興趣量表資源</td></tr><tr><td style="text-align:left"><b>6. 大學招生委員會聯合會</b></td><td style="text-align:left">http://www.jbcrc.edu.tw/</td><td style="text-align:left">查詢大學繁星推薦、申請入學、分發入學<b>參採數學考科與學習歷程參採項目</b></td></tr><tr><td style="text-align:left"><b>7. 大學甄選入學委員會</b></td><td style="text-align:left">https://www.cac.edu.tw/</td><td style="text-align:left"><b>繁星推薦</b>與<b>申請入學</b>官方網站（簡章查詢、歷年篩選級分、線上報名）</td></tr><tr><td style="text-align:left"><b>8. 大學考試入學分發委員會</b></td><td style="text-align:left">https://www.uac.edu.tw/</td><td style="text-align:left"><b>分發入學</b>官方網站（分科測驗採計組合、歷年最低錄取分數、登記志願）</td></tr><tr><td style="text-align:left"><b>9. 技專校院招生委員會聯合會</b></td><td style="text-align:left">https://www.jctv.ntut.edu.tw/</td><td style="text-align:left"><b>高中生申請四技（科技大學）</b>入學簡章與招生管道查詢</td></tr><tr><td style="text-align:left"><b>10. 大學多元入學升學網</b></td><td style="text-align:left">http://nsdua.moe.edu.tw/</td><td style="text-align:left">教育部匯整之各大學特殊選才、獨招、繁星、申請、分發最新公告</td></tr><tr><td style="text-align:left"><b>11. 作伙學：學習歷程檔案審議計畫</b></td><td style="text-align:left">https://www.108epo.com/</td><td style="text-align:left">臺大團隊主持，提供<b>課程學習成果與多元表現實例範本</b>及大學教授審查觀點</td></tr><tr><td style="text-align:left"><b>12. 國立花蓮女中生涯輔導資訊網</b></td><td style="text-align:left">https://www.hlgs.hlc.edu.tw/</td><td style="text-align:left">本校輔導室與教務處最新升學講座、營隊、模擬面試與獎學金公告</td></tr><tr><td style="text-align:left"><b>13. 職業就業指南（勞動部台灣就業通）</b></td><td style="text-align:left">https://www.taiwanjobs.gov.tw/</td><td style="text-align:left">職涯測驗、各行業職能基準與未來新興職業趨勢查詢</td></tr><tr><td style="text-align:left"><b>14. 教育部青年發展署（Rich 職場體驗網）</b></td><td style="text-align:left">https://rich.yda.gov.tw/</td><td style="text-align:left">政府公部門、企業暑期實習與青年職涯探索計畫</td></tr><tr><td style="text-align:left"><b>15. UCAN 大專校院就業職能平台</b></td><td style="text-align:left">https://ucan.moe.edu.tw/</td><td style="text-align:left">教育部職能診斷與 16 職涯類型探索參考</td></tr></tbody></table></div>
 
+
+<div class="section-portal-bar" aria-label="第 4 章｜生涯規劃與大學十八學群 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-04" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-04)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-04" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch4" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch3" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch5" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch5">
 
@@ -1117,6 +1589,13 @@
 
 <hr/>
 
+<div class="xref-bar">
+  <span class="xref-label">學習歷程與選課對接：</span>
+  <a href="#ch3-2" class="xref-link">→ 多元選修與加深加廣課表 (#ch3-2)</a>
+  <a href="#ch3-3" class="xref-link">→ 彈性自主學習計畫 (#ch3-3)</a>
+  <a href="#ch6-1" class="xref-link">→ 課程諮詢金三角 (#ch6-1)</a>
+  <a href="#ch7-2" class="xref-link">→ 學習歷程檔案 Q&amp;A 7問 (#ch7-2)</a>
+</div>
 <a id="ch5-2"></a>
 <h3>二、了解升學管道（大考時程 ‧ 學測 X 與分科 Y 範圍 ‧ 多元入學與特殊管道）</h3>
 
@@ -1155,6 +1634,26 @@
 <h5>C. 運動績優學生大專院校升學考試 ＆ D. 國外／港澳日大陸大學申請</h5>
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">管道類別</th><th style="text-align:left">子管道／地區</th><th style="text-align:left">核心資格與測驗要求</th><th style="text-align:left">重要說明與官方資訊</th></tr></thead><tbody><tr><td style="text-align:left"><b>運動績優升學</b></td><td style="text-align:left"><b>甄審</b></td><td style="text-align:left">3 年內代表國家參加國際賽會獲指定成績</td><td style="text-align:left">免學科與術科考試，4 月中旬起由學校承辦單位初審後至 <b><a href="https://lulu.ntus.edu.tw/" target="_blank" rel="noopener">運動績優升學輔導網</a></b>報名</td></tr><tr><td style="text-align:left"><b>運動績優升學</b></td><td style="text-align:left"><b>甄試</b></td><td style="text-align:left">2 年內參加國際賽會或全國性運動會獲指定成績</td><td style="text-align:left">採計 <b>5 月底學科考試（國、英、數）＋ 專長術科檢定</b>，依加分後總分及志願序分發</td></tr><tr><td style="text-align:left"><b>運動績優升學</b></td><td style="text-align:left"><b>單獨招生</b></td><td style="text-align:left">運動表現優異者、曾為學校代表隊或體育班畢業生</td><td style="text-align:left">逕向各辦理運動獨招之大學下載簡章報名（部分採計學測 X 加上術科檢定）</td></tr><tr><td style="text-align:left"><b>海外大學申請</b></td><td style="text-align:left"><b>美加地區</b></td><td style="text-align:left"><b>SAT / ACT 測驗</b>＋ <b>TOEFL / IELTS 英語檢定</b>＋ 高中英文成績單（GPA）與個人自傳 Essay</td><td style="text-align:left">可透過 Common App 或社區大學轉學制（2+2）申請</td></tr><tr><td style="text-align:left"><b>海外大學申請</b></td><td style="text-align:left"><b>香港／日本／新加坡</b></td><td style="text-align:left"><b>臺灣學測成績（X）或日本留學試驗（EJU）</b>＋ 外語能力檢定（TOEFL/IELTS/JLPT）</td><td style="text-align:left">多數香港與日本頂尖大學英語學程可直接憑學測頂標成績與英文面試申請（多於高三上 10～12 月截止首輪）</td></tr></tbody></table></div>
+
+<div class="section-portal-bar" aria-label="第 5 章｜學習歷程檔案與多元升學管道 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-05" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-05)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-05" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch5" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch4" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch6" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch6">
 
@@ -1215,6 +1714,26 @@
 
 <ul><li><b>花女課程諮詢服務站專頁</b>：https://www.hlgs.hlc.edu.tw/curriculum/class-consult/</li><li><b>預約個別課程諮詢方式</b>：同學可於每學期選課前或平時，至<b>教務處教學組</b>、<b>輔導室</b>或透過校網「課程諮詢服務站」線上表單預約課諮老師進行一對一或小團體諮詢！</li></ul>
 
+
+<div class="section-portal-bar" aria-label="第 6 章｜課程諮詢金三角與選課期程 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-06" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-06)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-06" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch6" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch5" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#card-sec-ch7" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-ch7">
 
@@ -1282,6 +1801,26 @@
 </div>
 
 <div class="table-wrap"><table><thead><tr><th style="text-align:left">欄位項目</th><th style="text-align:left">內容資訊</th><th style="text-align:left">欄位項目</th><th style="text-align:left">內容資訊</th></tr></thead><tbody><tr><td style="text-align:left"><b>書名</b></td><td style="text-align:left"><b>國立花蓮女子高級中學 選課輔導手冊（115 學年度數位互動改版）</b></td><td style="text-align:left"><b>發行者</b></td><td style="text-align:left"><b>國立花蓮女子高級中學（National Hualien Girls' Senior High School）</b></td></tr><tr><td style="text-align:left"><b>發行人</b></td><td style="text-align:left"><b>詹滿福 校長</b></td><td style="text-align:left"><b>學校地址</b></td><td style="text-align:left"><b>970 花蓮縣花蓮市菁華街 2 號</b></td></tr><tr><td style="text-align:left"><b>編輯委員</b></td><td style="text-align:left"><b>張家誠、陳怡伶、林毓淵、林家煜、張珮郁、朱柏亘、黃敬云、林廷諭、陳玉時、張書衡</b></td><td style="text-align:left"><b>聯絡電話</b></td><td style="text-align:left"><b>(03) 832-1202</b>／ 傳真：(03) 833-0251</td></tr><tr><td style="text-align:left"><b>執行編輯</b></td><td style="text-align:left"><b>黃文琴</b></td><td style="text-align:left"><b>課程基準</b></td><td style="text-align:left"><b>113(高三)、114(高二)、115(高一) 學年度報部核定課程計畫書 ＆ 115 選課輔導手冊母檔</b></td></tr><tr><td style="text-align:left"><b>協助編輯</b></td><td style="text-align:left"><b>林佩蓉、杜宜庭</b></td><td style="text-align:left"><b>學校官網</b></td><td style="text-align:left">https://www.hlgs.hlc.edu.tw/curriculum/class-consult/</td></tr><tr><td style="text-align:left"><b>排版整理</b></td><td style="text-align:left"><b>張家誠</b>（數位多主題 README 與 經典圖鑑風版協作升級）</td><td style="text-align:left"><b>GitHub 專案</b></td><td style="text-align:left">https://github.com/group01-hlgs/course-selection-guide</td></tr></tbody></table></div>
+
+<div class="section-portal-bar" aria-label="第 7 章｜歷屆學長姐 Q&A 二十三問 跨版本傳送門">
+  <div class="portal-group">
+    <a href="lite.html#spread-06" class="portal-btn preserve-theme-link">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg>
+      <span>⇄ 看本章文青簡要版 (lite.html#spread-06)</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README-lite.md#spread-06" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 簡要版 README</span>
+    </a>
+    <a href="https://github.com/group01-hlgs/course-selection-guide/blob/main/README.md#ch7" target="_blank" rel="noopener" class="portal-btn">
+      <span>↗ 對應 GitHub 完整版 README</span>
+    </a>
+  </div>
+  <div class="portal-group">
+    <a href="#card-sec-ch6" class="portal-btn">← 上一章</a>
+    <a href="#top" class="portal-btn">↑ 回頁首目錄</a>
+    <a href="#top" class="portal-btn">下一章 →</a>
+  </div>
+</div>
 </section>
 <section class="card-section" id="card-sec-extra-8">
 
@@ -1300,6 +1839,12 @@
           <span>章節條目導覽</span>
         </h4>
         <button type="button" class="drawer-close-btn" id="mobile-toc-close" aria-label="關閉導覽">關閉 </button>
+      </div>
+            <div style="margin-bottom:10px; padding:8px 10px; background:var(--bg-accent); border:1.5px solid var(--accent-primary); border-radius:8px;">
+        <a href="lite.html" class="preserve-theme-link" style="display:flex; align-items:center; justify-content:space-between; text-decoration:none; color:var(--accent-primary); font-weight:800; font-size:12.5px;">
+          <span>⇄ 切換：文青簡要版 (3分鐘速讀)</span>
+          <span>→</span>
+        </a>
       </div>
       <ul class="nav-list">
         <li><a href="#credit-calculator">畢業學分互動試算器</a></li>
@@ -1351,6 +1896,13 @@
         }
       });
       try { localStorage.setItem('hlgs-handbook-theme-v5', theme); } catch(e) {}
+      document.querySelectorAll('.preserve-theme-link').forEach(a => {
+        const rawHref = a.getAttribute('href') || '';
+        const parts = rawHref.split('#');
+        const base = parts[0].split('?')[0];
+        const hash = parts[1] ? '#' + parts[1] : '';
+        a.setAttribute('href', base + '?theme=' + theme + hash);
+      });
     }
 
     if (themeSelect) {
@@ -1386,25 +1938,136 @@
       });
     });
 
+    const CALC_CONFIGS = {
+      regular: {
+        name: '普通班（自然/社會班群）',
+        mode: 'combined_req',
+        moeMax: 118, schMax: 4, eleMax: 60,
+        moeDefault: 102, schDefault: 4, eleDefault: 48,
+        reqCombinedPass: 102, elePass: 40, totalPass: 150,
+        lblMoe: '① 部定必修及格學分（應修滿分 118）',
+        lblSch: '② 校訂必修及格學分（應修滿分 4，與部定合併檢核）',
+        lblEle: '③ 選修課程及格學分（應修滿分 60，門檻 ≥ 40）',
+        ruleHtml: '<strong>【樣態一：普通班（自然班群 A、社會班群 B 同掛）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(118)＋校訂必修(4) 合併計算及格 ≥ 102 學分</strong>、<strong>② 選修(60) 及格 ≥ 40 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（註：102 + 40 = 142，仍須由必修或選修多拿 8 學分湊滿 150）。'
+      },
+      gifted_lang: {
+        name: '語文資優班（特殊班樣態二）',
+        mode: 'separate_pct',
+        moeMax: 112, schMax: 30, eleMax: 40,
+        moeDefault: 96, schDefault: 28, eleDefault: 32,
+        moePass: 90, schPass: 26, elePass: 28, totalPass: 150,
+        lblMoe: '① 部定一般科目及格學分（應修 112，80%門檻 ≥ 90）',
+        lblSch: '② 校訂特需領域及格學分（應修 30，85%門檻 ≥ 26）',
+        lblEle: '③ 選修課程及格學分（應修 40，70%門檻 ≥ 28）',
+        ruleHtml: '<strong>【樣態二：學術性向資優班 — 語文資優班（與數資班同掛百分比邏輯）】</strong>應修 182 學分。畢業四門檻：<strong>① 部定一般科目(112) 至少 80% 及格（≥ 90 學分）</strong>、<strong>② 校訂特殊需求(30) 至少 85% 及格（≥ 26 學分）</strong>、<strong>③ 選修(40) 至少 70% 及格（≥ 28 學分）</strong>、<strong>④ 總及格 ≥ 150 學分</strong>（90+26+28=144，仍須湊滿 150）。'
+      },
+      gifted_math: {
+        name: '數理資優班（特殊班樣態二）',
+        mode: 'separate_pct',
+        moeMax: 108, schMax: 24, eleMax: 50,
+        moeDefault: 92, schDefault: 22, eleDefault: 40,
+        moePass: 87, schPass: 21, elePass: 35, totalPass: 150,
+        lblMoe: '① 部定一般科目及格學分（應修 108，80%門檻 ≥ 87）',
+        lblSch: '② 校訂特需領域及格學分（應修 24，85%門檻 ≥ 21）',
+        lblEle: '③ 選修課程及格學分（應修 50，70%門檻 ≥ 35）',
+        ruleHtml: '<strong>【樣態二：學術性向資優班 — 數理資優班（與語資班同掛百分比邏輯）】</strong>應修 182 學分。畢業四門檻：<strong>① 部定一般科目(108) 至少 80% 及格（≥ 87 學分）</strong>、<strong>② 校訂特殊需求(24) 至少 85% 及格（≥ 21 學分）</strong>、<strong>③ 選修(50) 至少 70% 及格（≥ 35 學分）</strong>、<strong>④ 總及格 ≥ 150 學分</strong>（87+21+35=143，仍須湊滿 150）。'
+      },
+      art: {
+        name: '美術資優班（特殊班樣態三）',
+        mode: 'combined_req',
+        moeMax: 146, schMax: 8, eleMax: 28,
+        moeDefault: 126, schDefault: 8, eleDefault: 20,
+        reqCombinedPass: 128, elePass: 14, totalPass: 150,
+        lblMoe: '① 部定必修（一般86＋藝才專長60＝滿分 146）',
+        lblSch: '② 校訂特需必修（應修滿分 8，與部定合併檢核）',
+        lblEle: '③ 選修課程及格學分（應修滿分 28，50%門檻 ≥ 14）',
+        ruleHtml: '<strong>【樣態三：藝術才能資優班 — 美術班（獨立樣態）】</strong>應修 182 學分。畢業三門檻：<strong>① 部定必修(一般86+藝才專長60)＋校訂特需(8) 合併計算及格 ≥ 128 學分（應修 154）</strong>、<strong>② 選修(28) 及格 ≥ 14 學分</strong>、<strong>③ 總及格學分 ≥ 150 學分</strong>（128+14=142，仍須湊滿 150）。'
+      }
+    };
+
+    let currentCalcPattern = 'regular';
+
+    function selectCalcPattern(patKey) {
+      if (!CALC_CONFIGS[patKey]) patKey = 'regular';
+      currentCalcPattern = patKey;
+      const cfg = CALC_CONFIGS[patKey];
+
+      // Update main pattern tab active states
+      const btnReg = document.getElementById('pat-btn-regular');
+      const btnGif = document.getElementById('pat-btn-gifted');
+      const btnArt = document.getElementById('pat-btn-art');
+      const subBar = document.getElementById('calc-subtrack-bar');
+      const subLang = document.getElementById('sub-btn-lang');
+      const subMath = document.getElementById('sub-btn-math');
+
+      if (btnReg) btnReg.classList.toggle('active', patKey === 'regular');
+      if (btnGif) btnGif.classList.toggle('active', patKey === 'gifted_lang' || patKey === 'gifted_math');
+      if (btnArt) btnArt.classList.toggle('active', patKey === 'art');
+
+      if (subBar) {
+        subBar.classList.toggle('visible', patKey === 'gifted_lang' || patKey === 'gifted_math');
+      }
+      if (subLang) subLang.classList.toggle('active', patKey === 'gifted_lang');
+      if (subMath) subMath.classList.toggle('active', patKey === 'gifted_math');
+
+      const ruleDesc = document.getElementById('calc-rule-desc');
+      if (ruleDesc) ruleDesc.innerHTML = cfg.ruleHtml;
+
+      const inpMoe = document.getElementById('inp-moe');
+      const inpSch = document.getElementById('inp-sch');
+      const inpEle = document.getElementById('inp-ele');
+
+      document.getElementById('lbl-moe').textContent = cfg.lblMoe;
+      document.getElementById('lbl-sch').textContent = cfg.lblSch;
+      document.getElementById('lbl-ele').textContent = cfg.lblEle;
+
+      inpMoe.max = cfg.moeMax;
+      inpSch.max = cfg.schMax;
+      inpEle.max = cfg.eleMax;
+
+      inpMoe.value = cfg.moeDefault;
+      inpSch.value = cfg.schDefault;
+      inpEle.value = cfg.eleDefault;
+
+      updateCredits();
+    }
+
     function updateCredits() {
-      const moe = parseInt(document.getElementById('inp-moe').value || '0', 10);
-      const sch = parseInt(document.getElementById('inp-sch').value || '0', 10);
-      const ele = parseInt(document.getElementById('inp-ele').value || '0', 10);
+      const cfg = CALC_CONFIGS[currentCalcPattern] || CALC_CONFIGS.regular;
+      const moe = Math.max(0, parseInt(document.getElementById('inp-moe').value || '0', 10));
+      const sch = Math.max(0, parseInt(document.getElementById('inp-sch').value || '0', 10));
+      const ele = Math.max(0, parseInt(document.getElementById('inp-ele').value || '0', 10));
       const total = moe + sch + ele;
-      const moeOk = moe >= 100;
-      const schOk = sch >= 4;
-      const eleOk = ele >= 40;
-      const totalOk = total >= 150;
-      const allOk = moeOk && schOk && eleOk && totalOk;
-      const pct = ((moe / 118) * 100).toFixed(1);
+      const totalOk = total >= cfg.totalPass;
+      const eleOk = ele >= cfg.elePass;
       const out = document.getElementById('calc-output');
-      out.innerHTML = `
-        <span>總及格學分：<strong>${total} / 150</strong>（${totalOk ? '達標' : '未達標'}）</span>
-        <span>部定必修：<strong>${moe} / 100</strong>（${pct}% ${moeOk ? '達標' : '未達標'}）</span>
-        <span>校訂必修：<strong>${sch} / 4</strong>（${schOk ? '達標' : '未達標'}）</span>
-        <span>選修學分：<strong>${ele} / 40</strong>（${eleOk ? '達標' : '未達標'}）</span>
-        <span class="${allOk ? 'status-pass' : 'status-warn'}">${allOk ? '恭喜！符合花蓮女中畢業學分門檻' : '尚有指標未達畢業門檻，請諮詢課諮師'}</span>
-      `;
+
+      if (cfg.mode === 'combined_req') {
+        const reqTotal = moe + sch;
+        const reqMax = cfg.moeMax + cfg.schMax;
+        const reqOk = reqTotal >= cfg.reqCombinedPass;
+        const allOk = totalOk && reqOk && eleOk;
+        out.innerHTML = `
+          <span>總及格學分：<strong>${total} / ${cfg.totalPass}</strong>（${totalOk ? '達標' : '差 ' + (cfg.totalPass - total) + ' 學分'}）</span>
+          <span>必修合計（部定+校訂）：<strong>${reqTotal} / ${cfg.reqCombinedPass}</strong>（應修 ${reqMax}，${reqOk ? '達標' : '差 ' + (cfg.reqCombinedPass - reqTotal) + ' 學分'}）</span>
+          <span>選修學分：<strong>${ele} / ${cfg.elePass}</strong>（應修 ${cfg.eleMax}，${eleOk ? '達標' : '差 ' + (cfg.elePass - ele) + ' 學分'}）</span>
+          <span class="${allOk ? 'status-pass' : 'status-warn'}">${allOk ? '恭喜！符合【' + cfg.name + '】畢業學分門檻' : '尚有指標未達【' + cfg.name + '】畢業門檻，請對照上方門檻或諮詢課諮師'}</span>
+        `;
+      } else {
+        const moeOk = moe >= cfg.moePass;
+        const schOk = sch >= cfg.schPass;
+        const allOk = totalOk && moeOk && schOk && eleOk;
+        const moePct = ((moe / cfg.moeMax) * 100).toFixed(1);
+        const schPct = ((sch / cfg.schMax) * 100).toFixed(1);
+        const elePct = ((ele / cfg.eleMax) * 100).toFixed(1);
+        out.innerHTML = `
+          <span>總及格：<strong>${total} / ${cfg.totalPass}</strong>（${totalOk ? '達標' : '未達標'}）</span>
+          <span>部定一般(≥80%)：<strong>${moe} / ${cfg.moePass}</strong>（${moePct}% ${moeOk ? '達標' : '未達標'}）</span>
+          <span>校訂特需(≥85%)：<strong>${sch} / ${cfg.schPass}</strong>（${schPct}% ${schOk ? '達標' : '未達標'}）</span>
+          <span>選修(≥70%)：<strong>${ele} / ${cfg.elePass}</strong>（${elePct}% ${eleOk ? '達標' : '未達標'}）</span>
+          <span class="${allOk ? 'status-pass' : 'status-warn'}">${allOk ? '恭喜！符合【' + cfg.name + '】畢業學分門檻' : '尚有指標未達【' + cfg.name + '】畢業門檻，請諮詢課諮師'}</span>
+        `;
+      }
     }
 
     (function init() {

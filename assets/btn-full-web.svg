@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 42" width="270" height="39">
+  <defs>
+    <linearGradient id="g_full_web" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F4C81"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="286" height="38" rx="10" fill="url(#g_full_web)" stroke="#0F4C81" stroke-width="1.5"/>
+  <circle cx="24" cy="21" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+  <line x1="16" y1="21" x2="32" y2="21" stroke="#FFFFFF" stroke-width="1.4"/>
+  <ellipse cx="24" cy="21" rx="4" ry="8" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+  <text x="158" y="26" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', sans-serif" font-size="13.5" font-weight="800" fill="#FFFFFF">開啟【完整詳盡互動網頁】index.html</text>
+</svg>

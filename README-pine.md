@@ -1,3 +1,4 @@
+<a id="top"></a>
 <div align="center">
 
 <!-- 動態深淺色自適應 SVG 主題橫幅 (100% 本地創作純向量 SVG，零外部圖源、零 Emoji) -->
@@ -10,7 +11,9 @@
 <br/>
 
 <p align="center">
-  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine"><img src="assets/btn-interactive-web.svg" alt="開啟互動網頁版（響應式導覽＋下拉風格選單）" height="40" /></a>
+  <a href="README-lite.md"><img src="assets/btn-lite-edition.svg" alt="切換至【文青簡要版 README】3分鐘速讀" height="38" /></a>
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine"><img src="assets/btn-lite-web.svg" alt="開啟【文青簡要互動網頁】lite.html" height="38" /></a>
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine"><img src="assets/btn-full-web.svg" alt="開啟【完整詳盡互動網頁】index.html" height="38" /></a>
 </p>
 
 </div>
@@ -160,6 +163,9 @@
   <img src="assets/card-g1-115-pine.svg" alt="高一專區 115入學新生速查卡" width="100%" />
 </div>
 
+<!-- radar-xref-g1 -->
+> **高一重點跳轉**：[→ 畢業條件 150 學分 (`#ch2-2`)](#ch2-2) ‧ [→ 四班群完整科目表 (`#ch2-3`)](#ch2-3) ‧ [→ 自然A/社會B與數A/B分流 (`#ch3-1`)](#ch3-1) ‧ [→ 高一 30 門多元選修 (`#ch3-2`)](#ch3-2) ‧ [→ 彈性學習與一週課表 (`#ch3-3`)](#ch3-3) ‧ [→ 34 個社團 (`#ch3-4`)](#ch3-4) ‧ [→ 學習歷程檔案 (`#ch5-1`)](#ch5-1) ‧ [→ 選課選組期程 (`#ch6-4`)](#ch6-4)
+
 <a id="g2-radar"></a>
 ### 【高二專區】114 學年度入學高二（Class of 114）
 
@@ -167,12 +173,18 @@
   <img src="assets/card-g2-114-pine.svg" alt="高二專區 114入學高二速查卡" width="100%" />
 </div>
 
+<!-- radar-xref-g2 -->
+> **高二重點跳轉**：[→ 校訂必修洄瀾之欣/職探對開 (`#ch1-3`)](#ch1-3) ‧ [→ 自然組A/社會組B六學期課表 (`#ch2-4`)](#ch2-4) ‧ [→ 轉組學分差異（家政/對開科） (`#ch2-5`)](#ch2-5) ‧ [→ 數A vs 數B深度解析 (`#ch3-1`)](#ch3-1) ‧ [→ 學習歷程每學期3件認證 (`#ch5-1`)](#ch5-1) ‧ [→ 寒暑假轉組期程 (`#ch6-5`)](#ch6-5)
+
 <a id="g3-radar"></a>
 ### 【高三專區】113 學年度入學高三（Class of 113）
 
 <div align="center">
   <img src="assets/card-g3-113-pine.svg" alt="高三專區 113入學高三速查卡" width="100%" />
 </div>
+
+<!-- radar-xref-g3 -->
+> **高三重點跳轉**：[→ 畢業 150 學分檢核表 (`#ch2-6`)](#ch2-6) ‧ [→ 線上學分即時試算器 (`index.html#calc-output`)](https://group01-hlgs.github.io/course-selection-guide/#calc-output) ‧ [→ 高三 25 門多元選修 (`#ch3-2`)](#ch3-2) ‧ [→ 學測X/分科Y範圍與四大升學管道 (`#ch5-2`)](#ch5-2) ‧ [→ 學長姐 Q&A 23問 (`#ch7`)](#ch7)
 
 <a id="cross-cohort-diff"></a>
 ### 跨屆關鍵變動總表（113 入學高三 vs 114 入學高二 vs 115 入學高一）
@@ -192,6 +204,16 @@
 <p align="center">
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
+
+
+<!-- portal-radar -->
+<p align="right"><sub>
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-00">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-00">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-radar">[↗ 完整互動網頁版（含學分試算）]</a> ‧
+  <a href="#ch1">[下一章：壹、關於花女 →]</a>
+</sub></p>
 
 <a id="ch1"></a>
 <div align="center">
@@ -265,9 +287,16 @@
 - **《職業探究與報導》（2 學分）**：
   結合生涯探索、人物訪談、媒體識讀與紀實寫作，引導高二學生針對感興趣的學群與職人進行田野訪談與專題報導撰寫，產出極具個人特色的「課程學習成果」作品。
 
-|圖 1-1：《洄瀾之欣》學生五力雷達圖與課程架構 |圖 1-2：《洄瀾之欣》110-2 票選得獎作品展實況 |
+> **跨章節快速串聯**：《洄瀾之欣》與《職業探究與報導》於高二上下學期對開，詳細排課請對照 [**第貳章：普通班三年課程表 (`#ch2-3`)**](#ch2-3)、[**六學期學分數表 (`#ch2-4`)**](#ch2-4) 與 [**卷首：高二對開修課提醒 (`#g2-radar`)**](#g2-radar)。
+
+<div align="center">
+  <img src="assets/handbook-media/image30.png?v=8" alt="《洄瀾之欣》課程架構與學生五力雷達圖" width="84%" />
+  <br/><sub>▲ 校訂必修《洄瀾之欣》課程架構與學生五力雷達圖（超越力、思考力、心美力、溝通力、實踐力）</sub>
+</div>
+
+|圖 1-1：《洄瀾之欣》110-2 票選得獎作品—手繪地圖 |圖 1-2：《洄瀾之欣》110-2 票選得獎作品—地景報導 |
 |:---: |:---: |
-|<img src="assets/handbook-media/image30.jpeg" alt="圖1-1 洄瀾之欣作品展" width="92%" /> |<img src="assets/handbook-media/image31.jpeg" alt="圖1-2 洄瀾之欣作品展" width="92%" /> |
+|<img src="assets/handbook-media/image31a.jpg?v=8" alt="圖1-1 洄瀾之欣110-2得獎作品展手繪地圖" width="92%" /> |<img src="assets/handbook-media/image31b.jpg?v=8" alt="圖1-2 洄瀾之欣110-2得獎作品展地景報導" width="92%" /> |
 #### 2. 語文資優班、數理資優班、美術資優班之校訂必修（特殊需求領域／專長領域）
 
 |班別 |校訂必修總學分 |高一上 |高一下 |高二上 |高二下 |高三上 |高三下 |跨屆重點說明 |
@@ -280,6 +309,17 @@
 <p align="center">
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
+
+
+<!-- portal-ch1 -->
+<p align="right"><sub>
+  <a href="#radar">[← 上一區：選課雷達]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-01">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-01">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch1">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch2">[下一章：貳、課程地圖 →]</a>
+</sub></p>
 
 <a id="ch2"></a>
 <div align="center">
@@ -488,6 +528,7 @@
 
 ---
 
+<a id="calc-output"></a>
 <a id="ch2-6"></a>
 ### 六、畢業條件與修課學分檢核表（普通班 ‧ 語資班 ‧ 數資班 ‧ 美術班）
 
@@ -499,11 +540,22 @@
 |**語文資優班**|182 學分 |**≥ 150 學分**|**一般科目至少 80% 及格**<br/>應修 112  **至少 90 學分及格**|**特殊需求領域至少 85% 及格**<br/>應修 30  **至少 26 學分及格**<br/>*(註：舊表印32/28，依實開30學分計為26)* |**選修至少 70% 及格**<br/>應修 40  **至少 28 學分及格**|90 + 26 + 28 = 144 學分，總及格學分仍須達 **150 學分**！ |
 |**數理資優班**|182 學分 |**≥ 150 學分**|**一般科目至少 80% 及格**<br/>應修 108  **至少 87 學分及格**|**特殊需求領域至少 85% 及格**<br/>應修 24  **至少 21 學分及格**|**選修至少 70% 及格**<br/>應修 50  **至少 35 學分及格**|87 + 21 + 35 = 143 學分，總及格學分仍須達 **150 學分**！ |
 |**美術資優班**|182 學分 |**≥ 150 學分**|**部定必修（含一般 86 + 藝才專長 60）＋ 校訂特需（8）合計至少 128 學分及格***(應修 154 學分)* |*(併入左欄部定+校訂合計 ≥ 128 學分)* |**選修至少 14 學分及格**<br/>*(應修 28 學分，50% 以上)* |128 + 14 = 142 學分，總及格學分仍須達 **150 學分**！ |
->  **想一鍵試算自己的及格學分是否達標？**> 請開啟本倉庫隨附的 **[`index.html` 互動式網頁版手冊](index.html)**，內建「**畢業學分互動檢核計算機**」，輸入目前學分即可即時顯示進度條與差額提醒！
+>  **想一鍵試算自己的及格學分是否達標？**> 請開啟 [**互動網頁版畢業學分即時試算器 (`#calc-output`)**](https://group01-hlgs.github.io/course-selection-guide/#calc-output) 或 [**文青簡要版試算器 (`lite.html#calc-output`)**](https://group01-hlgs.github.io/course-selection-guide/lite.html#calc-output)！亦可對照 [**113/114/115 跨屆差異總表 (`#cross-cohort-diff`)**](#cross-cohort-diff) 與 [**第柒章 Q&A：學分與轉組常見問題 (`#ch7`)**](#ch7)。
 
 <p align="center">
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
+
+
+<!-- portal-ch2 -->
+<p align="right"><sub>
+  <a href="#ch1">[← 上一章：壹、關於花女]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-02">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-02">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch2">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch3">[下一章：參、選組與選課 →]</a>
+</sub></p>
 
 <a id="ch3"></a>
 <div align="center">
@@ -517,6 +569,9 @@
 > 4. **彈性學習時間（每週五第 3、4 節）**：規劃**自主學習主題**（畢業前至少滿 18 節）、參加微課程或選手培訓。
 > 5. **團體活動－社團時間（每週三第 6、7 節）**：從 34 個多元社團中選擇熱愛的領域投入！
 
+
+<!-- ch3-xref -->
+> **選課與升學跨章節串聯**：選組與數學分流請同步對照 [**第肆章：生涯興趣六碼與十八學群對照 (`#ch4`)**](#ch4)、[**第伍章：大學申請入學與分科測驗參採 (`#ch5-2`)**](#ch5-2) 以及 [**第柒章：Q&A 選組／轉組／自主學習解答 (`#ch7`)**](#ch7)。
 
 <a id="ch3-1"></a>
 ### 一、自然組／社會組之不同課程 ＆ 高二數學 A vs 數學 B 深度解析
@@ -643,6 +698,17 @@
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
 
+
+<!-- portal-ch3 -->
+<p align="right"><sub>
+  <a href="#ch2">[← 上一章：貳、課程地圖]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-03">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-03">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch3">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch4">[下一章：肆、生涯規劃 →]</a>
+</sub></p>
+
 <a id="ch4"></a>
 <div align="center">
   <img src="assets/sec-ch4-pine.svg" alt="肆、對於未來的想像－生涯規劃" width="100%" />
@@ -712,6 +778,9 @@
 
 ---
 
+<!-- ch4-xref -->
+> **學群對接校內選課**：確認目標學群後，請回頭對照 [**第貳章：各班群加深加廣課表 (`#ch2-4`)**](#ch2-4)、[**第參章：高一30門與高三25門多元選修 (`#ch3-2`)**](#ch3-2)，或預約 [**第陸章：課程諮詢金三角 (`#ch6-1`)**](#ch6-1) 討論！
+
 <a id="ch4-3"></a>
 ### 三、認識學群、學類與科系（大學十八學群完整總表 ＆ 高中班群對應）
 
@@ -762,6 +831,17 @@
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
 
+
+<!-- portal-ch4 -->
+<p align="right"><sub>
+  <a href="#ch3">[← 上一章：參、選組與選課]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-04">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-04">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch4">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch5">[下一章：伍、學習歷程 →]</a>
+</sub></p>
+
 <a id="ch5"></a>
 <div align="center">
   <img src="assets/sec-ch5-pine.svg" alt="伍、築夢踏實－學習歷程與升學管道" width="100%" />
@@ -811,6 +891,9 @@
 -  **[四技日間部申請入學聯合招生學習準備建議方向查詢](https://www.jctv.ntut.edu.tw/caac/)**（短網址：`https://reurl.cc/4aOXkR`）
 
 ---
+
+<!-- ch5-xref -->
+> **學習歷程與選課對接**：修課紀錄與課程成果對應請見 [**第參章：多元選修與自主學習 (`#ch3-2`)**](#ch3-2) 及 [**第陸章：課程諮詢金三角 (`#ch6-1`)**](#ch6-1)。
 
 <a id="ch5-2"></a>
 ### 二、了解升學管道（大考時程 ‧ 學測 X 與分科 Y 範圍 ‧ 多元入學與特殊管道）
@@ -886,6 +969,17 @@
 <p align="center">
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
+
+
+<!-- portal-ch5 -->
+<p align="right"><sub>
+  <a href="#ch4">[← 上一章：肆、生涯規劃]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-05">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-05">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch5">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch6">[下一章：陸、課程諮詢 →]</a>
+</sub></p>
 
 <a id="ch6"></a>
 <div align="center">
@@ -969,6 +1063,17 @@
 <p align="center">
   <img src="assets/divider-pine.svg" alt="divider" width="100%" />
 </p>
+
+
+<!-- portal-ch6 -->
+<p align="right"><sub>
+  <a href="#ch5">[← 上一章：伍、學習歷程]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-06">[⇄ 切換至「文青簡要版」本章速讀]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-06">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch6">[↗ 完整互動網頁版]</a> ‧
+  <a href="#ch7">[下一章：柒、Q&A 二十三問 →]</a>
+</sub></p>
 
 <a id="ch7"></a>
 <div align="center">
@@ -1102,3 +1207,13 @@
 <div align="center">
   <sub> <b>國立花蓮女子高級中學 教務處教學組 ‧ 課程諮詢教師團隊 敬編</b> ｜ 點擊頂部按鈕可隨時切換 <b> 洄瀾太平洋 /  經典圖鑑風(古籍典藏) /  Y2K 丹寧銀灰 /  文青獨立雜誌 /  縱谷松針森系 /  極簡黑白</b> 六大現代風格！</sub>
 </div>
+
+
+<!-- portal-ch7 -->
+<p align="right"><sub>
+  <a href="#ch6">[← 上一章：陸、課程諮詢]</a> ‧
+  <a href="#top">[↑ 回到頂部章節導覽]</a> ‧
+  <a href="README-lite.md#spread-06">[⇄ 切換至「文青簡要版」Q&amp;A 速答]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/lite.html?theme=pine#spread-06">[↗ 簡要互動網頁版]</a> ‧
+  <a href="https://group01-hlgs.github.io/course-selection-guide/?theme=pine#card-sec-ch7">[↗ 完整互動網頁版]</a>
+</sub></p>
